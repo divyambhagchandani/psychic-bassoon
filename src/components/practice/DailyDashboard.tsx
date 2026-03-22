@@ -1,5 +1,6 @@
 "use client";
 
+import { useMemo } from "react";
 import Link from "next/link";
 import { useSRStore } from "@/stores/srStore";
 import { useStreakStore } from "@/stores/streakStore";
@@ -10,7 +11,9 @@ interface DailyDashboardProps {
 }
 
 export default function DailyDashboard({ onStartSession }: DailyDashboardProps) {
-  const dueCards = useSRStore((s) => s.getDueCards());
+  const cards = useSRStore((s) => s.cards);
+  const getDueCards = useSRStore((s) => s.getDueCards);
+  const dueCards = useMemo(() => getDueCards(), [cards, getDueCards]);
   const currentStreak = useStreakStore((s) => s.currentStreak);
 
   const schwachCount = dueCards.filter((c) => c.isSchwach).length;
@@ -20,14 +23,14 @@ export default function DailyDashboard({ onStartSession }: DailyDashboardProps) 
   if (dueCards.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-20 space-y-4">
-        <p className="text-4xl">✅</p>
-        <h2 className="text-xl font-bold">{FEEDBACK.noCardsDue}</h2>
+        <span className="material-symbols-outlined text-5xl text-primary">check_circle</span>
+        <h2 className="text-xl font-headline font-bold">{FEEDBACK.noCardsDue}</h2>
         <p className="text-muted text-sm">
           Spiel ein Kapitel, um neue Karten zu bekommen
         </p>
         <Link
           href="/story"
-          className="rounded-xl bg-primary px-6 py-2.5 font-medium text-white hover:bg-primary-hover transition-colors"
+          className="rounded-xl bg-primary px-6 py-2.5 font-headline font-bold text-white hover:bg-primary-hover active:scale-95 transition-all"
         >
           Zur Geschichte →
         </Link>
@@ -38,7 +41,7 @@ export default function DailyDashboard({ onStartSession }: DailyDashboardProps) 
   return (
     <div className="max-w-lg mx-auto space-y-6">
       <div>
-        <h1 className="text-2xl font-bold">Tägliche Übung</h1>
+        <h1 className="text-2xl font-headline font-bold">Tägliche Übung</h1>
         <p className="text-muted mt-1">
           {dueCards.length} Karten fällig · 🔥 {currentStreak} Tage Streak
         </p>
@@ -46,23 +49,26 @@ export default function DailyDashboard({ onStartSession }: DailyDashboardProps) 
 
       {/* Card breakdown */}
       <div className="grid grid-cols-3 gap-3">
-        <div className="rounded-xl border border-danger/30 bg-danger/5 p-4 text-center">
-          <p className="text-2xl font-bold text-danger">{schwachCount}</p>
+        <div className="rounded-[2rem] border border-outline-variant/20 bg-surface p-4 text-center shadow-sm">
+          <span className="material-symbols-outlined text-error">warning</span>
+          <p className="text-2xl font-headline font-bold text-danger">{schwachCount}</p>
           <p className="text-xs text-muted mt-1">Schwach</p>
         </div>
-        <div className="rounded-xl border border-warning/30 bg-warning/5 p-4 text-center">
-          <p className="text-2xl font-bold text-warning">{normalCount}</p>
+        <div className="rounded-[2rem] border border-outline-variant/20 bg-surface p-4 text-center shadow-sm">
+          <span className="material-symbols-outlined text-secondary">schedule</span>
+          <p className="text-2xl font-headline font-bold text-warning">{normalCount}</p>
           <p className="text-xs text-muted mt-1">Fällig</p>
         </div>
-        <div className="rounded-xl border border-success/30 bg-success/5 p-4 text-center">
-          <p className="text-2xl font-bold text-success">{starkCount}</p>
+        <div className="rounded-[2rem] border border-outline-variant/20 bg-surface p-4 text-center shadow-sm">
+          <span className="material-symbols-outlined text-primary">check_circle</span>
+          <p className="text-2xl font-headline font-bold text-success">{starkCount}</p>
           <p className="text-xs text-muted mt-1">Stark</p>
         </div>
       </div>
 
       <button
         onClick={onStartSession}
-        className="w-full rounded-xl bg-primary py-4 text-lg font-semibold text-white hover:bg-primary-hover transition-colors"
+        className="w-full rounded-xl bg-primary py-4 text-lg font-headline font-bold text-white hover:bg-primary-hover active:scale-95 transition-all"
       >
         Übung starten ({dueCards.length} Karten)
       </button>

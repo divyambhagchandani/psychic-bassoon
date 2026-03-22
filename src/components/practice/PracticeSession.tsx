@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useSRStore, mapAnswerToQuality } from "@/stores/srStore";
 import { useStreakStore } from "@/stores/streakStore";
 import { XP_VALUES } from "@/lib/xp";
@@ -15,7 +15,9 @@ interface PracticeSessionProps {
 }
 
 export default function PracticeSession({ onComplete }: PracticeSessionProps) {
-  const dueCards = useSRStore((s) => s.getDueCards());
+  const srCards = useSRStore((s) => s.cards);
+  const getDueCards = useSRStore((s) => s.getDueCards);
+  const dueCards = useMemo(() => getDueCards(), [srCards, getDueCards]);
   const reviewCard = useSRStore((s) => s.reviewCard);
   const addXp = useStreakStore((s) => s.addXp);
 
@@ -73,19 +75,19 @@ export default function PracticeSession({ onComplete }: PracticeSessionProps) {
       </div>
 
       {/* Card */}
-      <div className="rounded-xl border border-border bg-card p-6 text-center space-y-4">
+      <div className="rounded-[2rem] border border-outline-variant/20 bg-surface p-6 text-center space-y-4 shadow-sm">
         {currentCard.isSchwach && (
           <span className="inline-block rounded-full bg-danger/10 px-2.5 py-0.5 text-xs text-danger">
             Schwach
           </span>
         )}
 
-        <p className="text-lg font-semibold">{currentCard.front}</p>
+        <p className="text-lg font-headline font-semibold">{currentCard.front}</p>
 
         {showAnswer ? (
           <>
             <div className="border-t border-border pt-4">
-              <p className="text-muted">{currentCard.back}</p>
+              <p className="text-muted font-headline">{currentCard.back}</p>
             </div>
             <div className="flex gap-3">
               <button
@@ -105,7 +107,7 @@ export default function PracticeSession({ onComplete }: PracticeSessionProps) {
         ) : (
           <button
             onClick={() => setShowAnswer(true)}
-            className="w-full rounded-xl bg-primary py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+            className="w-full rounded-xl bg-primary py-3 font-headline font-bold text-white hover:bg-primary-hover transition-colors"
           >
             Antwort zeigen
           </button>
