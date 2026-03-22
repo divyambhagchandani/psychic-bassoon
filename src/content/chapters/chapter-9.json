@@ -1,0 +1,230 @@
+{
+  "id": "chapter-9",
+  "number": 9,
+  "title": "WG-Abend: Europa und die Welt",
+  "titleEnglish": "Flatshare Evening: Europe and the World",
+  "description": "Jan, Yuki und Lena kochen zusammen und sprechen über die EU, Schengen und das Grundgesetz.",
+  "characters": ["jan", "yuki", "lena"],
+  "story": "Es ist Freitagabend in der WG in Prenzlauer Berg. Jan steht in der Küche und schneidet Gemüse. Yuki sitzt am Tisch und zeichnet etwas in ihr Notizbuch. Lena kommt mit einer Flasche Wein und frischem Brot herein.\n\n\"Heute kochen wir zusammen!\", sagt Lena fröhlich. \"Ich mache meine berühmte Kartoffelsuppe.\" Jan lacht: \"Perfekt. Ich habe polnische Gewürze mitgebracht. In Polen kochen wir auch viel mit Kartoffeln.\" Er öffnet eine kleine Tüte und es riecht wunderbar nach Paprika und Kümmel.\n\nYuki schaut auf und fragt: \"Jan, du bist aus Polen. Brauchtest du ein Visum für Deutschland?\" Jan schüttelt den Kopf. \"Nein. Polen ist in der Europäischen Union. Ich kann in jedem EU-Land leben und arbeiten. Das ist die Freizügigkeit. Für mich war der Umzug nach Berlin ganz einfach.\"\n\n\"Wie viele Länder sind in der EU?\", fragt Yuki. Lena antwortet: \"Siebenundzwanzig. Früher waren es achtundzwanzig, aber Großbritannien ist 2020 ausgetreten. Das war der Brexit.\" Yuki ist überrascht: \"Siebenundzwanzig! Das sind viele Länder.\"\n\nJan rührt die Suppe um. \"Und es gibt auch den Schengen-Raum. Da gibt es keine Grenzkontrollen. Ich kann von Berlin nach Warschau fahren ohne Passkontrolle. Aber Schengen und die EU sind nicht genau das Gleiche. Die Schweiz ist zum Beispiel im Schengen-Raum, aber nicht in der EU.\"\n\nYuki nickt nachdenklich. \"Für mich als Japanerin war das anders. Ich brauchte ein Visum. Der Prozess hat lange gedauert.\" Lena legt eine Hand auf Yukis Schulter. \"Aber deine Rechte sind trotzdem geschützt. Das Grundgesetz gilt für alle Menschen in Deutschland, nicht nur für Deutsche.\"\n\n\"Wann wurde das Grundgesetz eigentlich geschrieben?\", fragt Jan. Lena lächelt — Geschichte ist ihr Thema. \"Am 23. Mai 1949. Nach dem Zweiten Weltkrieg. Es sollte eigentlich nur vorläufig sein, deshalb heißt es Grundgesetz und nicht Verfassung. Deutschland war damals geteilt, und man dachte, eine richtige Verfassung kommt später. Aber das Grundgesetz hat sich bewährt.\"\n\nSie nimmt einen Schluck Wein und erzählt weiter: \"Es gibt die Ewigkeitsklausel in Artikel 79. Artikel 1 und Artikel 20 kann man nie ändern. Niemals. Das Parlament kann diese Artikel nicht abschaffen.\"\n\n\"Artikel 1 kenne ich\", sagt Jan. \"Die Würde des Menschen ist unantastbar.\" Lena nickt: \"Genau. Und Artikel 20 sagt: Deutschland ist ein demokratischer und sozialer Bundesstaat. Diese zwei Artikel sind das Fundament unserer Demokratie.\"\n\nYuki hebt ihr Glas. \"Auf Europa, auf das Grundgesetz, und auf diese wunderbare Suppe!\" Alle lachen und stoßen an.",
+  "vocab": [
+    {
+      "german": "Europäische Union",
+      "english": "European Union",
+      "article": "die",
+      "exampleSentence": "Die Europäische Union hat 27 Mitgliedstaaten.",
+      "exampleTranslation": "The European Union has 27 member states."
+    },
+    {
+      "german": "Mitgliedstaat",
+      "english": "member state",
+      "article": "der",
+      "plural": "Mitgliedstaaten",
+      "exampleSentence": "Polen ist ein Mitgliedstaat der EU.",
+      "exampleTranslation": "Poland is a member state of the EU."
+    },
+    {
+      "german": "Freizügigkeit",
+      "english": "freedom of movement",
+      "article": "die",
+      "exampleSentence": "Die Freizügigkeit erlaubt EU-Bürger in jedem EU-Land zu leben.",
+      "exampleTranslation": "Freedom of movement allows EU citizens to live in any EU country."
+    },
+    {
+      "german": "Schengen-Raum",
+      "english": "Schengen Area",
+      "article": "der",
+      "exampleSentence": "Im Schengen-Raum gibt es keine Grenzkontrollen.",
+      "exampleTranslation": "In the Schengen Area there are no border controls."
+    },
+    {
+      "german": "Grenzkontrolle",
+      "english": "border control",
+      "article": "die",
+      "plural": "Grenzkontrollen",
+      "exampleSentence": "An der Grenze zu Polen gibt es keine Grenzkontrolle.",
+      "exampleTranslation": "At the border to Poland there is no border control."
+    },
+    {
+      "german": "Ewigkeitsklausel",
+      "english": "eternity clause",
+      "article": "die",
+      "exampleSentence": "Die Ewigkeitsklausel schützt Artikel 1 und Artikel 20.",
+      "exampleTranslation": "The eternity clause protects Article 1 and Article 20."
+    },
+    {
+      "german": "vorläufig",
+      "english": "provisional / temporary",
+      "exampleSentence": "Das Grundgesetz war eigentlich nur vorläufig gedacht.",
+      "exampleTranslation": "The Basic Law was actually only intended to be provisional."
+    },
+    {
+      "german": "Verfassung",
+      "english": "constitution",
+      "article": "die",
+      "exampleSentence": "Das Grundgesetz ist die Verfassung von Deutschland.",
+      "exampleTranslation": "The Basic Law is the constitution of Germany."
+    },
+    {
+      "german": "Bundesstaat",
+      "english": "federal state",
+      "article": "der",
+      "exampleSentence": "Deutschland ist ein demokratischer Bundesstaat.",
+      "exampleTranslation": "Germany is a democratic federal state."
+    },
+    {
+      "german": "austreten",
+      "english": "to leave / to withdraw",
+      "exampleSentence": "Großbritannien ist aus der EU ausgetreten.",
+      "exampleTranslation": "Great Britain left the EU."
+    },
+    {
+      "german": "Visum",
+      "english": "visa",
+      "article": "das",
+      "plural": "Visa",
+      "exampleSentence": "Yuki brauchte ein Visum für Deutschland.",
+      "exampleTranslation": "Yuki needed a visa for Germany."
+    },
+    {
+      "german": "Gewürz",
+      "english": "spice",
+      "article": "das",
+      "plural": "Gewürze",
+      "exampleSentence": "Jan hat polnische Gewürze mitgebracht.",
+      "exampleTranslation": "Jan brought Polish spices."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch9-ex1",
+      "type": "mcq",
+      "question": "Wie viele Mitgliedstaaten hat die Europäische Union?",
+      "options": ["25", "27", "28", "30"],
+      "correctIndex": 1,
+      "tags": ["eu", "lid"],
+      "explanation": "Die EU hat 27 Mitgliedstaaten. Nach dem Brexit (Austritt von Großbritannien im Jahr 2020) sind es nicht mehr 28.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-ex2",
+      "type": "mcq",
+      "question": "Was bedeutet der Schengen-Raum?",
+      "options": ["Alle Länder haben den Euro", "Es gibt keine Grenzkontrollen zwischen den Ländern", "Alle Länder sprechen die gleiche Sprache", "Alle Länder haben die gleichen Gesetze"],
+      "correctIndex": 1,
+      "tags": ["schengen", "lid"],
+      "explanation": "Im Schengen-Raum gibt es keine Grenzkontrollen. Man kann frei zwischen den Schengen-Ländern reisen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-ex3",
+      "type": "fill-blank",
+      "sentence": "Die ___ schützt Artikel 1 und Artikel 20 des Grundgesetzes.",
+      "answer": "Ewigkeitsklausel",
+      "acceptAlternatives": ["ewigkeitsklausel"],
+      "hint": "Diese Klausel steht in Artikel 79 Absatz 3.",
+      "tags": ["grundgesetz", "ewigkeitsklausel", "lid"],
+      "explanation": "Die Ewigkeitsklausel (Art. 79 Abs. 3 GG) bedeutet, dass Artikel 1 (Menschenwürde) und Artikel 20 (Demokratie, Bundesstaat, Sozialstaat) niemals geändert werden können.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch9-ex4",
+      "type": "mcq",
+      "question": "Wann wurde das Grundgesetz verkündet?",
+      "options": ["8. Mai 1945", "23. Mai 1949", "3. Oktober 1990", "1. Januar 1957"],
+      "correctIndex": 1,
+      "tags": ["grundgesetz", "geschichte", "lid"],
+      "explanation": "Das Grundgesetz wurde am 23. Mai 1949 verkündet. Es war nach dem Zweiten Weltkrieg als vorläufige Verfassung gedacht.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-ex5",
+      "type": "fill-blank",
+      "sentence": "Großbritannien ist 2020 aus der EU ___.",
+      "answer": "ausgetreten",
+      "acceptAlternatives": ["Ausgetreten"],
+      "hint": "Das Verb ist 'austreten' im Perfekt.",
+      "tags": ["eu", "brexit", "lid"],
+      "explanation": "Großbritannien ist am 31. Januar 2020 aus der EU ausgetreten. Dieses Ereignis heißt 'Brexit'.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch9-ex6",
+      "type": "mcq",
+      "question": "Welches Land ist im Schengen-Raum, aber NICHT in der EU?",
+      "options": ["Polen", "Frankreich", "Die Schweiz", "Spanien"],
+      "correctIndex": 2,
+      "tags": ["schengen", "eu", "lid"],
+      "explanation": "Die Schweiz ist im Schengen-Raum (keine Grenzkontrollen), aber kein Mitglied der Europäischen Union.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-ex7",
+      "type": "fill-blank",
+      "sentence": "Deutschland ist ein demokratischer und sozialer ___.",
+      "answer": "Bundesstaat",
+      "acceptAlternatives": ["bundesstaat"],
+      "hint": "Das steht in Artikel 20 des Grundgesetzes.",
+      "tags": ["grundgesetz", "artikel20", "lid"],
+      "explanation": "Artikel 20 GG sagt: 'Die Bundesrepublik Deutschland ist ein demokratischer und sozialer Bundesstaat.' Dieser Artikel ist durch die Ewigkeitsklausel geschützt.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch9-blitz1",
+      "type": "blitz",
+      "question": "Wie viele Mitgliedstaaten hat die EU?",
+      "options": ["25", "27", "28", "30"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["eu", "lid"],
+      "explanation": "Die EU hat 27 Mitgliedstaaten.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-blitz2",
+      "type": "blitz",
+      "question": "Wann wurde das Grundgesetz verkündet?",
+      "options": ["1945", "1949", "1957", "1990"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["grundgesetz", "lid"],
+      "explanation": "Das Grundgesetz wurde am 23. Mai 1949 verkündet.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-blitz3",
+      "type": "blitz",
+      "question": "Was schützt die Ewigkeitsklausel?",
+      "options": ["Artikel 1 und 20", "Artikel 3 und 5", "Artikel 10 und 15", "Artikel 2 und 4"],
+      "correctIndex": 0,
+      "timeLimitSeconds": 10,
+      "tags": ["grundgesetz", "ewigkeitsklausel", "lid"],
+      "explanation": "Die Ewigkeitsklausel (Art. 79 Abs. 3) schützt Artikel 1 (Menschenwürde) und Artikel 20 (Demokratie/Bundesstaat).",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-blitz4",
+      "type": "blitz",
+      "question": "Was bedeutet Freizügigkeit in der EU?",
+      "options": ["Freies Internet", "Freies Reisen und Arbeiten", "Kostenlose Züge", "Freie Wahlen"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["eu", "freizügigkeit", "lid"],
+      "explanation": "Freizügigkeit bedeutet, dass EU-Bürger in jedem EU-Land leben und arbeiten dürfen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch9-blitz5",
+      "type": "blitz",
+      "question": "Welches Land ist aus der EU ausgetreten?",
+      "options": ["Schweiz", "Norwegen", "Großbritannien", "Island"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["eu", "brexit", "lid"],
+      "explanation": "Großbritannien ist 2020 aus der EU ausgetreten (Brexit).",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-20"]
+}
