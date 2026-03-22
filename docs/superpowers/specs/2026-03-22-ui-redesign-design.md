@@ -13,15 +13,18 @@ Full visual redesign of Berlin Leben, adopting the CivicPulse aesthetic: light t
 
 ## Color Palette
 
+### New tokens (M3-inspired)
+
 | Token | Value | Usage |
 |---|---|---|
 | `--primary` | `#1b6565` | Main interactive, logo, active states |
+| `--primary-hover` | `#166262` | Hover state for primary buttons |
 | `--primary-container` | `#a5e9e8` | Light teal backgrounds, XP badge |
-| `--on-primary` | `#bbfffe` | Text on primary surfaces |
 | `--on-primary-container` | `#025858` | Text on primary-container |
 | `--secondary` | `#ffd709` | Gold accents, due cards badge, chapter tags |
 | `--on-secondary` | `#5b4b00` | Text on secondary surfaces |
 | `--tertiary` | `#00e3fd` | Cyan accents, practice CTA |
+| `--tertiary-container` | `#b3f5ff` | Light cyan backgrounds for practice CTA card |
 | `--on-tertiary` | `#004d57` | Text on tertiary surfaces |
 | `--background` | `#f7f7f3` | Page background |
 | `--surface` | `#ffffff` | Card/container background |
@@ -32,18 +35,57 @@ Full visual redesign of Berlin Leben, adopting the CivicPulse aesthetic: light t
 | `--outline` | `#767774` | Borders, dividers |
 | `--outline-variant` | `#adadaa` | Subtle borders |
 | `--error` | `#b31b25` | Error states, wrong answers |
-| `--error-container` | `#fb5151` | Error backgrounds |
-| `--success` | `#22c55e` | Correct answers (keep existing) |
+| `--error-container` | `#ffdad6` | Light error backgrounds |
+| `--success` | `#22c55e` | Correct answers |
+
+### Migration: old token aliases
+
+The existing codebase uses simpler token names. To enable incremental migration, `globals.css` will define **both** old and new token names. The old names become aliases pointing to new values:
+
+| Old Token | Maps To | New Value |
+|---|---|---|
+| `--foreground` | `--on-surface` | `#2d2f2d` |
+| `--card` | `--surface` | `#ffffff` |
+| `--card-hover` | `--surface-high` | `#e8e9e4` |
+| `--border` | `--outline-variant` | `#adadaa` |
+| `--primary` | (same name) | `#1b6565` |
+| `--primary-hover` | (same name) | `#166262` |
+| `--muted` | `--on-surface-variant` | `#5a5c59` |
+| `--accent` | `--primary-container` | `#a5e9e8` |
+| `--danger` | `--error` | `#b31b25` |
+| `--warning` | `--secondary` | `#ffd709` |
+| `--success` | (same name) | `#22c55e` |
+
+This means all existing utility classes (`bg-card`, `text-muted`, `border-border`, `text-danger`, etc.) continue to work with the new color values. New components can use the M3-style names. A follow-up cleanup PR can migrate old names to new if desired.
 
 ## Typography
 
 - **Headlines**: `Space Grotesk` — weights 700-900, letter-spacing -0.03em, used for page titles, stat values, card headers
 - **Body/Labels**: `Manrope` — weights 400-700, used for body text, descriptions, nav links, labels
 - Load via `next/font/google` replacing Geist Sans/Mono
+- Register as `--font-headline` and `--font-body` CSS vars
 
 ## Icons
 
-Replace all emoji icons with Material Symbols Outlined. Load via Google Fonts link in layout.tsx `<head>`.
+Replace all emoji icons with Material Symbols Outlined. Load via `<link>` in the root layout's `<head>` section using Next.js metadata or direct `<link>` tag:
+
+```
+https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap
+```
+
+Helper component pattern:
+```tsx
+function Icon({ name, fill, className }: { name: string; fill?: boolean; className?: string }) {
+  return (
+    <span
+      className={`material-symbols-outlined ${className ?? ""}`}
+      style={fill ? { fontVariationSettings: "'FILL' 1" } : undefined}
+    >
+      {name}
+    </span>
+  );
+}
+```
 
 | Current | New |
 |---|---|
@@ -67,78 +109,114 @@ Replace all emoji icons with Material Symbols Outlined. Load via Google Fonts li
 - Height: `h-20` (80px), full-width with `px-8`
 - Left: "Berlin Leben" in primary, black weight, headline font
 - Center: Nav links in headline font, bold, active state = underline border-b-2
-- Right: Colored pills — streak (gray bg), due cards (gold bg), XP (mint bg)
+- Right: Colored pills — streak (surface-high bg), due cards (secondary bg), XP (primary-container bg)
 - Glass effect: semi-transparent bg + backdrop-blur
+- Buttons/text on primary use `text-white` (not on-primary) for maximum contrast
 
 ## Dashboard (Bento Grid)
 
 ### Hero Section
-```
-<header>
-  <h1 class="font-headline text-6xl font-black tracking-tighter">
-    Hallo, <span class="text-primary">Divyam.</span>
+```html
+<header class="relative mb-12">
+  <div class="absolute -top-10 -left-10 w-64 h-64 bg-primary-container/20 rounded-full blur-3xl -z-10"></div>
+  <h1 class="font-headline text-6xl font-black text-on-surface tracking-tighter mb-4">
+    Willkommen zurück!
   </h1>
-  <p class="text-on-surface-variant text-xl">
-    Deine Vorbereitung läuft hervorragend...
+  <p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">
+    Level {level} · {totalXp} XP gesamt · {todayXp} XP heute
   </p>
 </header>
 ```
-Decorative blur blob behind the heading.
+Uses generic greeting (not personalized — app has no user name).
 
 ### Stats Bento Grid (3-column, 12-col grid)
 
 | Cell | Span | Style |
 |---|---|---|
-| **LiD Gauge** | col-span-4 | White card, SVG circular progress ring, percentage center, "Readiness" label |
-| **Streak** | col-span-4 | Primary bg, white text, huge number (text-8xl), motivational subtitle |
-| **Daily Practice CTA** | col-span-4 | Tertiary-container bg, due card count, "Jetzt starten" button |
+| **LiD Gauge** | col-span-4 | White card (`bg-surface`), SVG circular progress ring (stroke-width 12, radius 88, colors: track=`surface-high`, fill=`primary`), percentage in center (font-headline text-5xl font-black), "Readiness" label below |
+| **Streak** | col-span-4 | `bg-primary` card, `text-white`, huge number (font-headline text-8xl font-black), motivational subtitle |
+| **Daily Practice CTA** | col-span-4 | `bg-tertiary-container` card, `text-on-tertiary`, due card count, button with `bg-on-tertiary text-tertiary-container` |
 
 ### Story Banner (full-width)
-- Spans full grid width
-- Gradient background (dark to primary)
-- Chapter progress tag (gold pill)
-- "Story Mode Starten" headline + description
-- Arrow CTA button
+- Spans full grid width (col-span-12)
+- Gradient: `bg-gradient-to-r from-[#1b3535] via-[#1b5555] to-[#1b6565]`
+- Chapter progress tag: gold pill (`bg-secondary text-on-secondary`)
+- "Story fortsetzen" headline in white + description
+- Arrow CTA button: `bg-tertiary text-white`
 
 ### Tutor CTA
 - Separate card below the grid linking to /tutor
+- `bg-surface` with primary border accent
 
 ## Other Pages
 
-Apply the new theme globally. Page-specific changes:
+Apply the new theme globally. Since old token aliases are preserved, all pages get the light theme automatically when `globals.css` changes. Page-specific polish:
 
 ### Story (/story)
-- ChapterMap: Cards with `rounded-[2rem]`, primary-container backgrounds for unlocked, `surface-high` for locked with lock icon (Material Symbol)
-- ChapterFlow/StoryReader: Warm surface backgrounds, headline font for chapter titles, primary-colored vocab highlights
+- ChapterMap: Cards with `rounded-[2rem]`, `bg-surface` for unlocked, `bg-surface-high` + grayscale + lock icon for locked
+- ChapterFlow/StoryReader: `bg-surface` backgrounds, headline font for chapter titles, primary-colored vocab highlights
 
 ### Practice (/practice)
 - DailyDashboard: Cards with colored category badges (Schwach = error, Fällig = secondary, Stark = primary)
-- PracticeSession: Flashcards with `rounded-[2rem]`, primary bg for "show answer" button
+- PracticeSession: Flashcards with `rounded-[2rem]`, `bg-primary text-white` for "show answer" button
 - SessionComplete: Big stat numbers in headline font, streak celebration
 
 ### Tutor (/tutor)
-- Full-page chat restyled with surface containers, primary-colored user messages, rounded message bubbles
+- Full-page chat restyled with `bg-surface-container`, `bg-primary text-white` for user messages, rounded message bubbles
 
 ### Settings (/settings)
-- Surface-container cards with `rounded-[2rem]`, primary toggle switches
+- `bg-surface-container` cards with `rounded-[2rem]`, `bg-primary` toggle switches
+
+## Layout
+
+- `ClientProviders.tsx`: Change `max-w-5xl` to `max-w-7xl` for wider bento grid, keep centered layout with `mx-auto`
+- Navbar: full-width (not constrained)
+- Individual pages that need narrow layouts (tutor chat, settings) apply their own `max-w-` constraints
 
 ## Files Modified
 
-1. `src/app/globals.css` — New color palette, font vars, scrollbar styling for light theme
-2. `src/app/layout.tsx` — Space Grotesk + Manrope fonts, Material Symbols link
-3. `src/components/layout/Navbar.tsx` — Complete restyle
-4. `src/components/layout/ClientProviders.tsx` — Remove max-w-5xl constraint, widen layout
-5. `src/app/page.tsx` — Full bento grid dashboard rewrite
-6. `src/components/practice/DailyDashboard.tsx` — Restyle cards
-7. `src/components/practice/PracticeSession.tsx` — Restyle flashcards
-8. `src/components/practice/SessionComplete.tsx` — Restyle stats
-9. `src/components/story/ChapterMap.tsx` — Restyle chapter cards
-10. `src/components/story/ChapterFlow.tsx` — Minor style updates
-11. `src/components/story/StoryReader.tsx` — Restyle prose, vocab highlights
-12. `src/components/chat/TutorChat.tsx` — Restyle chat bubbles
-13. `src/app/tutor/page.tsx` — Restyle full-page chat
-14. `src/app/settings/page.tsx` — Restyle settings cards
-15. Exercise components — Update button/card styles to new palette
+### Foundation (Phase 1)
+1. `src/app/globals.css` — New color palette (both new M3 tokens and old aliases), font vars, light scrollbar styling
+2. `src/app/layout.tsx` — Space Grotesk + Manrope via next/font/google, Material Symbols `<link>`
+3. `src/components/layout/Navbar.tsx` — Complete restyle: taller, glassmorphism, colored pills, headline font
+4. `src/components/layout/ClientProviders.tsx` — Change max-w-5xl to max-w-7xl
+
+### Dashboard (Phase 2)
+5. `src/app/page.tsx` — Full bento grid dashboard rewrite with hero, gauge, streak, CTAs
+
+### Practice Pages (Phase 3)
+6. `src/app/practice/page.tsx` — Page wrapper styling
+7. `src/components/practice/DailyDashboard.tsx` — Restyle cards
+8. `src/components/practice/PracticeSession.tsx` — Restyle flashcards
+9. `src/components/practice/SessionComplete.tsx` — Restyle stats
+
+### Story Pages (Phase 4)
+10. `src/app/story/page.tsx` — Page wrapper styling
+11. `src/app/story/[chapterId]/page.tsx` — Dynamic route styling
+12. `src/components/story/ChapterMap.tsx` — Restyle chapter cards
+13. `src/components/story/ChapterFlow.tsx` — Minor style updates
+14. `src/components/story/StoryReader.tsx` — Restyle prose, vocab highlights
+15. `src/components/story/ChapterResults.tsx` — Restyle score display
+16. `src/components/story/VocabPreview.tsx` — Restyle vocab cards
+
+### Exercise Components (Phase 5)
+17. `src/components/exercises/ExercisePlayer.tsx` — Progress bar, button styles
+18. `src/components/exercises/ExerciseResult.tsx` — Feedback card styles
+19. `src/components/exercises/McqExercise.tsx` — Option buttons
+20. `src/components/exercises/FillBlankExercise.tsx` — Input, feedback styles
+21. `src/components/exercises/SentenceBuildExercise.tsx` — Word tile styles
+22. `src/components/exercises/MatchingExercise.tsx` — Pair card styles
+23. `src/components/exercises/ReadingExercise.tsx` — Passage, MCQ styles
+24. `src/components/exercises/BlitzExercise.tsx` — Timer, option styles
+
+### Chat & German Components (Phase 6)
+25. `src/components/chat/TutorChat.tsx` — Restyle chat bubbles
+26. `src/app/tutor/page.tsx` — Restyle full-page chat
+27. `src/components/german/VocabHighlight.tsx` — Tooltip styles
+28. `src/components/german/BilingualLabel.tsx` — Text color
+
+### Settings (Phase 7)
+29. `src/app/settings/page.tsx` — Restyle settings cards
 
 ## Out of Scope
 
@@ -147,3 +225,4 @@ Apply the new theme globally. Page-specific changes:
 - Sidebar navigation
 - Character avatar images
 - New functionality — this is purely visual
+- Migrating old token names to new M3 names (can be a follow-up)
