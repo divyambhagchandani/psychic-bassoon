@@ -56,14 +56,14 @@ export default function BlitzExercise({
     <div className="space-y-4">
       {/* Timer */}
       <div className="flex items-center justify-between">
-        <h3 className="text-lg font-semibold">{exercise.question}</h3>
-        <span className={`text-2xl font-bold ${timerColor}`}>
+        <h3 className="text-lg font-headline font-bold">{exercise.question}</h3>
+        <span className={`text-2xl font-headline font-bold ${timerColor}`}>
           {timeLeft}s
         </span>
       </div>
 
       {/* Timer bar */}
-      <div className="h-1.5 rounded-full bg-card overflow-hidden">
+      <div className="h-1.5 rounded-full bg-surface-high overflow-hidden">
         <div
           className={`h-full rounded-full transition-all duration-1000 ease-linear ${
             timeLeft <= 3 ? "bg-danger" : timeLeft <= 5 ? "bg-warning" : "bg-primary"
@@ -77,7 +77,7 @@ export default function BlitzExercise({
       {/* Options */}
       <div className="grid gap-2 sm:grid-cols-2">
         {exercise.options.map((option, i) => {
-          let style = "border-border bg-card hover:bg-card-hover";
+          let style = "border-outline-variant/20 bg-surface hover:bg-surface-high";
           if (answered) {
             if (i === exercise.correctIndex) {
               style = "border-success bg-success/10";
@@ -91,7 +91,7 @@ export default function BlitzExercise({
               key={i}
               onClick={() => handleSelect(i)}
               disabled={answered}
-              className={`rounded-xl border p-4 text-left text-sm transition-colors ${style}`}
+              className={`rounded-xl border p-4 text-left text-sm font-headline font-bold active:scale-95 transition-all ${style}`}
             >
               {option}
             </button>

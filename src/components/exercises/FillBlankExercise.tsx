@@ -74,7 +74,7 @@ export default function FillBlankExercise({
         <button
           onClick={handleSubmit}
           disabled={!input.trim()}
-          className="rounded-xl bg-primary px-6 py-2.5 font-medium text-white hover:bg-primary-hover disabled:opacity-50 transition-colors"
+          className="rounded-xl bg-primary px-6 py-2.5 font-headline font-bold text-white hover:bg-primary-hover disabled:opacity-50 active:scale-95 transition-all"
         >
           Prüfen
         </button>

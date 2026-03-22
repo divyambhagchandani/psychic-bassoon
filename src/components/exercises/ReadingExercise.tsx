@@ -47,8 +47,8 @@ export default function ReadingExercise({
   return (
     <div className="space-y-4">
       {/* Passage */}
-      <div className="rounded-xl border border-border bg-card p-4">
-        <p className="text-sm leading-relaxed whitespace-pre-line">
+      <div className="rounded-[2rem] bg-surface shadow-sm p-4">
+        <p className="font-body text-lg leading-relaxed whitespace-pre-line">
           {exercise.passage}
         </p>
       </div>
@@ -68,7 +68,7 @@ export default function ReadingExercise({
                     : "bg-danger/20 text-danger"
                   : answers[i] !== null
                     ? "bg-accent/20 text-accent"
-                    : "bg-card text-muted"
+                    : "bg-surface-high text-muted"
             }`}
           >
             {i + 1}
@@ -80,7 +80,7 @@ export default function ReadingExercise({
       <div className="space-y-2">
         <p className="font-medium">{question.question}</p>
         {question.options.map((opt, i) => {
-          let style = "border-border bg-card hover:bg-card-hover";
+          let style = "border-outline-variant/20 bg-surface hover:bg-surface-high";
           if (submitted) {
             if (i === question.correctIndex) {
               style = "border-success bg-success/10";
@@ -107,7 +107,7 @@ export default function ReadingExercise({
       {!submitted && allAnswered && (
         <button
           onClick={handleSubmit}
-          className="w-full rounded-xl bg-primary py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+          className="w-full rounded-xl bg-primary py-3 font-headline font-bold text-white hover:bg-primary-hover active:scale-95 transition-all"
         >
           Antworten prüfen
         </button>

@@ -63,12 +63,12 @@ export default function SentenceBuildExercise({
 
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-semibold">
+      <h3 className="text-lg font-headline font-bold">
         Bilde den Satz: <span className="text-muted font-normal">{exercise.prompt}</span>
       </h3>
 
       {/* Selected words (reorderable) */}
-      <div className="min-h-[56px] rounded-xl border border-border bg-card p-3">
+      <div className="min-h-[56px] rounded-[2rem] border border-outline-variant bg-surface shadow-sm p-3">
         {selected.length === 0 ? (
           <p className="text-muted text-sm">Tippe auf die Wörter unten...</p>
         ) : (
@@ -105,7 +105,7 @@ export default function SentenceBuildExercise({
             key={`${word}-${i}`}
             onClick={() => addWord(word)}
             disabled={answered}
-            className="rounded-lg border border-border bg-card px-3 py-1.5 text-sm hover:bg-card-hover transition-colors disabled:opacity-50"
+            className="rounded-xl border border-outline-variant/20 bg-surface shadow-sm px-3 py-1.5 text-sm hover:bg-surface-high transition-colors disabled:opacity-50"
           >
             {word}
           </button>
@@ -121,7 +121,7 @@ export default function SentenceBuildExercise({
       {!answered && selected.length > 0 && (
         <button
           onClick={handleCheck}
-          className="rounded-xl bg-primary px-6 py-2.5 font-medium text-white hover:bg-primary-hover transition-colors"
+          className="rounded-xl bg-primary px-6 py-2.5 font-headline font-bold text-white hover:bg-primary-hover active:scale-95 transition-all"
         >
           Prüfen
         </button>

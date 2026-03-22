@@ -62,7 +62,7 @@ export default function MatchingExercise({
 
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-semibold">Verbinde die Paare</h3>
+      <h3 className="text-lg font-headline font-bold">Verbinde die Paare</h3>
 
       <div className="grid grid-cols-2 gap-4">
         {/* Left column */}
@@ -77,12 +77,12 @@ export default function MatchingExercise({
                     ? shuffledRight[matches.get(i)!] === pair.right
                       ? "border-success bg-success/10"
                       : "border-danger bg-danger/10"
-                    : "border-border bg-card"
+                    : "border-outline-variant/20 bg-surface"
                   : selectedLeft === i
                     ? "border-primary bg-primary/10"
                     : isLeftMatched(i)
                       ? "border-accent bg-accent/10"
-                      : "border-border bg-card hover:bg-card-hover"
+                      : "border-outline-variant/20 bg-surface hover:bg-surface-high"
               }`}
             >
               {pair.left}
@@ -100,7 +100,7 @@ export default function MatchingExercise({
               className={`w-full rounded-lg border p-3 text-left text-sm transition-colors ${
                 isRightMatched(i)
                   ? "border-accent bg-accent/10"
-                  : "border-border bg-card hover:bg-card-hover"
+                  : "border-outline-variant/20 bg-surface hover:bg-surface-high"
               } disabled:cursor-default`}
             >
               {right}

@@ -26,11 +26,11 @@ export default function McqExercise({ exercise, onAnswer }: McqExerciseProps) {
 
   return (
     <div className="space-y-4">
-      <h3 className="text-lg font-semibold">{exercise.question}</h3>
+      <h3 className="text-lg font-headline font-bold">{exercise.question}</h3>
 
       <div className="grid gap-2">
         {exercise.options.map((option, i) => {
-          let style = "border-border bg-card hover:bg-card-hover";
+          let style = "border-outline-variant/20 bg-surface hover:bg-surface-high";
           if (answered) {
             if (i === exercise.correctIndex) {
               style = "border-success bg-success/10";
@@ -44,7 +44,7 @@ export default function McqExercise({ exercise, onAnswer }: McqExerciseProps) {
               key={i}
               onClick={() => handleSelect(i)}
               disabled={answered}
-              className={`rounded-xl border p-4 text-left text-sm transition-colors ${style}`}
+              className={`rounded-xl border p-4 text-left text-sm font-headline font-bold active:scale-95 transition-all ${style}`}
             >
               <span className="mr-2 text-muted">
                 {String.fromCharCode(65 + i)}.

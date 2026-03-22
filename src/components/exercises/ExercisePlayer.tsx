@@ -58,7 +58,7 @@ export default function ExercisePlayer({
     <div className="space-y-6">
       {/* Progress bar */}
       <div className="flex items-center gap-3">
-        <div className="flex-1 h-2 rounded-full bg-card overflow-hidden">
+        <div className="flex-1 h-2 rounded-full bg-surface-high overflow-hidden">
           <div
             className="h-full bg-primary rounded-full transition-all duration-300"
             style={{
@@ -80,7 +80,7 @@ export default function ExercisePlayer({
       {showNext && (
         <button
           onClick={handleNext}
-          className="w-full rounded-xl bg-primary py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+          className="w-full rounded-xl bg-primary py-3 font-headline font-bold text-white hover:bg-primary-hover active:scale-95 transition-all"
         >
           {isLast ? "Ergebnisse ansehen →" : "Nächste Übung →"}
         </button>

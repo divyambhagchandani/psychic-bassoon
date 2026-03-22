@@ -47,22 +47,29 @@ export default function ExerciseResult({
 
   return (
     <div
-      className={`rounded-xl border p-4 ${
+      className={`rounded-[2rem] border p-4 shadow-sm ${
         correct
           ? "border-success/30 bg-success/5"
           : "border-danger/30 bg-danger/5"
       }`}
     >
-      <p className="font-semibold">
-        {getRandomFeedback(correct)}
-      </p>
+      <div className="flex items-center gap-2">
+        {correct ? (
+          <span className="material-symbols-outlined text-success" style={{fontVariationSettings: "'FILL' 1"}}>check_circle</span>
+        ) : (
+          <span className="material-symbols-outlined text-danger" style={{fontVariationSettings: "'FILL' 1"}}>cancel</span>
+        )}
+        <p className="font-headline font-bold">
+          {getRandomFeedback(correct)}
+        </p>
+      </div>
 
       {!correct && (
         <button
           onClick={handleWarum}
-          className="mt-2 text-sm text-primary hover:text-primary-hover underline"
+          className="mt-2 text-sm text-primary hover:text-primary-hover underline font-headline font-bold"
         >
-          Warum? 🤔
+          Warum?
         </button>
       )}
 
