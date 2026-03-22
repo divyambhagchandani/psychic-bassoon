@@ -10,7 +10,7 @@ export default function ClientProviders({ children }: { children: ReactNode }) {
   return (
     <>
       <Navbar />
-      <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-6">
+      <main className="mx-auto w-full max-w-7xl flex-1 px-8 py-8">
         {children}
       </main>
       <TutorChat open={chatOpen} onToggle={() => setChatOpen((o) => !o)} />
