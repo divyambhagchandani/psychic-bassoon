@@ -1,0 +1,89 @@
+<h2>Dashboard Layout</h2>
+<p class="subtitle">How should the main dashboard look? Our current one is minimal — the inspiration is bold and visual.</p>
+
+<div class="cards">
+  <div class="card" data-choice="bento" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 1.5rem; background: #f7f7f3;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto; gap: 0.75rem; height: 220px;">
+        <!-- LiD Gauge -->
+        <div style="background: white; border-radius: 16px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+          <div style="width: 60px; height: 60px; border: 6px solid #a5e9e8; border-top-color: #1b6565; border-radius: 50; position: relative; display: flex; align-items: center; justify-content: center; border-radius: 50%;">
+            <span style="font-weight: 900; font-size: 14px; color: #2d2f2d;">88%</span>
+          </div>
+          <span style="font-size: 9px; color: #767774; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px;">LiD Ready</span>
+        </div>
+        <!-- Streak -->
+        <div style="background: #1b6565; border-radius: 16px; color: white; display: flex; flex-direction: column; justify-content: center; padding: 0.75rem;">
+          <span style="font-size: 9px; text-transform: uppercase; letter-spacing: 1px; opacity: 0.7;">Streak</span>
+          <span style="font-size: 32px; font-weight: 900; line-height: 1;">14</span>
+          <span style="font-size: 10px; opacity: 0.8;">Tage in Folge</span>
+        </div>
+        <!-- Daily Practice CTA -->
+        <div style="background: #00e3fd; border-radius: 16px; color: #004d57; display: flex; flex-direction: column; justify-content: space-between; padding: 0.75rem;">
+          <span style="font-size: 11px; font-weight: 700;">Tagliche Ubung</span>
+          <span style="font-size: 9px;">5 Karten fallig</span>
+          <div style="background: #004d57; color: #00e3fd; padding: 4px 8px; border-radius: 8px; font-size: 9px; font-weight: 700; text-align: center;">Starten</div>
+        </div>
+        <!-- Story Banner -->
+        <div style="grid-column: span 3; background: linear-gradient(135deg, #2d2f2d 0%, #1b6565 100%); border-radius: 16px; color: white; display: flex; align-items: center; justify-content: space-between; padding: 0.75rem 1rem;">
+          <div>
+            <span style="font-size: 9px; background: #ffd709; color: #5b4b00; padding: 2px 6px; border-radius: 8px; font-weight: 700;">AKT 2</span>
+            <div style="font-weight: 900; font-size: 16px; margin-top: 4px;">Story fortsetzen</div>
+            <div style="font-size: 10px; opacity: 0.8;">Kapitel 3 von 10</div>
+          </div>
+          <div style="font-size: 24px; opacity: 0.3;">&#8594;</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. Full Bento Grid</h3>
+      <p>Circular LiD gauge, bold streak card, colorful CTAs, full-width story banner. Matches the CivicPulse dashboard closely.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="enhanced" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding: 1.5rem; background: #f7f7f3;">
+      <div style="height: 220px;">
+        <!-- Hero greeting -->
+        <div style="margin-bottom: 0.75rem;">
+          <div style="font-weight: 900; font-size: 24px; color: #2d2f2d;">Hallo, <span style="color: #1b6565;">Divyam.</span></div>
+          <div style="font-size: 10px; color: #767774;">Level 12 &middot; 2,450 XP &middot; 45 XP heute</div>
+        </div>
+        <!-- Stats row -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0.5rem; margin-bottom: 0.75rem;">
+          <div style="background: white; border-radius: 12px; padding: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
+            <div style="font-size: 9px; color: #767774; text-transform: uppercase;">Streak</div>
+            <div style="font-weight: 900; font-size: 18px; color: #1b6565;">14</div>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
+            <div style="font-size: 9px; color: #767774; text-transform: uppercase;">Fallig</div>
+            <div style="font-weight: 900; font-size: 18px; color: #b31b25;">5</div>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
+            <div style="font-size: 9px; color: #767774; text-transform: uppercase;">LiD</div>
+            <div style="font-weight: 900; font-size: 18px; color: #1b6565;">88%</div>
+          </div>
+          <div style="background: white; border-radius: 12px; padding: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05); text-align: center;">
+            <div style="font-size: 9px; color: #767774; text-transform: uppercase;">Kapitel</div>
+            <div style="font-weight: 900; font-size: 18px; color: #2d2f2d;">3/10</div>
+          </div>
+        </div>
+        <!-- Action cards -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem;">
+          <div style="background: #a5e9e8; border-radius: 12px; padding: 0.6rem; color: #025858;">
+            <div style="font-weight: 700; font-size: 11px;">Tagliche Ubung</div>
+            <div style="font-size: 9px;">5 Karten warten</div>
+          </div>
+          <div style="background: #e8e9e4; border-radius: 12px; padding: 0.6rem; color: #2d2f2d;">
+            <div style="font-weight: 700; font-size: 11px;">Story fortsetzen</div>
+            <div style="font-size: 9px;">Kapitel 3 von 10</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. Enhanced Current Layout</h3>
+      <p>Same structure as now (greeting, stats row, action cards) but restyled with the new light theme, colors, and typography. Less dramatic change.</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+<h2>UI Redesign Scope</h2>
+<p class="subtitle">The CivicPulse inspiration has a lot of design ideas. How much do you want to adopt?</p>
+
+<div class="section">
+  <h3>Key differences from our current UI</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 1.5rem 0;">
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+      <p class="label">Current (Berlin Leben)</p>
+      <ul style="font-size: 0.85rem; color: #999; line-height: 1.8;">
+        <li>Dark theme (#0f0f13)</li>
+        <li>Geist Sans / Mono fonts</li>
+        <li>Indigo primary (#6366f1)</li>
+        <li>Simple cards, rounded-xl</li>
+        <li>Emoji icons</li>
+        <li>Compact navbar, max-w-5xl</li>
+        <li>Minimal stat cards</li>
+      </ul>
+    </div>
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+      <p class="label">Inspiration (CivicPulse)</p>
+      <ul style="font-size: 0.85rem; color: #999; line-height: 1.8;">
+        <li>Light theme (#f7f7f3)</li>
+        <li>Space Grotesk + Manrope fonts</li>
+        <li>Teal primary (#1b6565), gold + cyan accents</li>
+        <li>Bento grid, rounded-[2rem]</li>
+        <li>Material Symbols icons</li>
+        <li>Sidebar nav + bigger layout</li>
+        <li>Circular gauges, bold stat cards</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="options">
+  <div class="option" data-choice="full" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Full Redesign</h3>
+      <p>Switch to light theme, new color palette, new fonts, bento grid dashboard, sidebar nav, Material Symbols, larger border radii, glass effects. Basically adopt the CivicPulse aesthetic wholesale.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="selective" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Selective Adoption</h3>
+      <p>Keep dark theme but upgrade specific elements: bolder typography, bento grid dashboard, circular LiD gauge, better stat cards, Material Symbols icons, larger card radii. Cherry-pick the best ideas.</p>
+    </div>
+  </div>
+  <div class="option" data-choice="dashboard-only" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Dashboard Focus</h3>
+      <p>Only redesign the dashboard/home page with inspiration from the bento grid layout, stat cards, and visual hierarchy. Leave other pages and the overall theme untouched.</p>
+    </div>
+  </div>
+</div>

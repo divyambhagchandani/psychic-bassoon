@@ -3,6 +3,7 @@
 import { ReactNode, useState } from "react";
 import Navbar from "./Navbar";
 import TutorChat from "@/components/chat/TutorChat";
+import TranslateToast from "@/components/translate/TranslateToast";
 
 export default function ClientProviders({ children }: { children: ReactNode }) {
   const [chatOpen, setChatOpen] = useState(false);
@@ -14,6 +15,7 @@ export default function ClientProviders({ children }: { children: ReactNode }) {
         {children}
       </main>
       <TutorChat open={chatOpen} onToggle={() => setChatOpen((o) => !o)} />
+      <TranslateToast />
     </>
   );
 }

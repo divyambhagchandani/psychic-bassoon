@@ -1,0 +1,102 @@
+<h2>TranslateToast — Detailed Design</h2>
+<p class="subtitle">Here's how the toast bar will look in different states</p>
+
+<div class="section">
+  <h3>Loading State</h3>
+  <div class="mockup">
+    <div class="mockup-header">Toast — while waiting for Claude</div>
+    <div class="mockup-body" style="background: #1a1a1a; padding: 0; position: relative; min-height: 100px;">
+      <!-- Simulated page content behind -->
+      <div style="padding: 20px; color: #aaa; font-size: 14px; line-height: 1.8;">
+        Ich muss morgen zum Bürgeramt gehen, um <span style="background: rgba(165, 233, 232, 0.25); border-radius: 3px; padding: 2px 4px; color: #ddd;">meinen Aufenthaltstitel zu verlängern</span>. Das Amt ist in der Nähe vom Alexanderplatz.
+      </div>
+      <!-- Toast bar -->
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; background: #1b6565; color: white; border-radius: 16px 16px 0 0; padding: 16px 20px; display: flex; align-items: center; gap: 14px; box-shadow: 0 -4px 20px rgba(0,0,0,0.25);">
+        <span style="font-size: 22px; opacity: 0.8;">translate</span>
+        <div style="flex: 1;">
+          <div style="font-size: 12px; opacity: 0.6; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px;">Translating…</div>
+          <div style="display: flex; gap: 4px; align-items: center;">
+            <div style="width: 120px; height: 14px; background: rgba(255,255,255,0.15); border-radius: 7px; animation: pulse 1.5s ease-in-out infinite;"></div>
+            <div style="width: 80px; height: 14px; background: rgba(255,255,255,0.1); border-radius: 7px; animation: pulse 1.5s ease-in-out infinite; animation-delay: 0.2s;"></div>
+          </div>
+        </div>
+        <span style="opacity: 0.5; cursor: pointer; font-size: 20px;">✕</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Result State — Translation + Grammar Note</h3>
+  <div class="mockup">
+    <div class="mockup-header">Toast — translation loaded</div>
+    <div class="mockup-body" style="background: #1a1a1a; padding: 0; position: relative; min-height: 130px;">
+      <div style="padding: 20px; color: #aaa; font-size: 14px; line-height: 1.8;">
+        Ich muss morgen zum Bürgeramt gehen, um <span style="background: rgba(165, 233, 232, 0.25); border-radius: 3px; padding: 2px 4px; color: #ddd;">meinen Aufenthaltstitel zu verlängern</span>. Das Amt ist in der Nähe vom Alexanderplatz.
+      </div>
+      <!-- Toast bar with result -->
+      <div style="position: absolute; bottom: 0; left: 0; right: 0; background: #1b6565; color: white; border-radius: 16px 16px 0 0; padding: 16px 20px; display: flex; align-items: flex-start; gap: 14px; box-shadow: 0 -4px 20px rgba(0,0,0,0.25);">
+        <span style="font-size: 22px; opacity: 0.8; margin-top: 2px;">translate</span>
+        <div style="flex: 1;">
+          <div style="font-size: 15px; line-height: 1.5; margin-bottom: 6px;">…to extend my residence permit.</div>
+          <div style="font-size: 12px; opacity: 0.65; line-height: 1.4; display: flex; align-items: center; gap: 6px;">
+            <span style="font-size: 14px;">school</span>
+            Aufenthaltstitel = compound: Aufenthalt (stay) + Titel (title); verlängern uses "um…zu" infinitive clause
+          </div>
+        </div>
+        <span style="opacity: 0.5; cursor: pointer; font-size: 20px; margin-top: 2px;">✕</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Behavior Details</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+    <div style="background: var(--bg-secondary); border-radius: 12px; padding: 16px;">
+      <h4 style="margin: 0 0 8px;">Trigger</h4>
+      <ul style="margin: 0; padding-left: 18px; font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+        <li>Fires on <code>selectionchange</code> (300ms debounce)</li>
+        <li>Only for selections ≥ 15 characters</li>
+        <li>Skips input fields & textareas</li>
+      </ul>
+    </div>
+    <div style="background: var(--bg-secondary); border-radius: 12px; padding: 16px;">
+      <h4 style="margin: 0 0 8px;">Animation</h4>
+      <ul style="margin: 0; padding-left: 18px; font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+        <li>Slides up from bottom (Framer Motion)</li>
+        <li>Slides down on dismiss</li>
+        <li>Content crossfades on new selection</li>
+      </ul>
+    </div>
+    <div style="background: var(--bg-secondary); border-radius: 12px; padding: 16px;">
+      <h4 style="margin: 0 0 8px;">Dismissal</h4>
+      <ul style="margin: 0; padding-left: 18px; font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+        <li>✕ button click</li>
+        <li>Click elsewhere (deselect text)</li>
+        <li>New selection replaces content</li>
+      </ul>
+    </div>
+    <div style="background: var(--bg-secondary); border-radius: 12px; padding: 16px;">
+      <h4 style="margin: 0 0 8px;">Performance</h4>
+      <ul style="margin: 0; padding-left: 18px; font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+        <li>In-memory cache (useRef Map)</li>
+        <li>AbortController for rapid re-selections</li>
+        <li>Non-streaming (~50 tokens, fast)</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+  @keyframes pulse {
+    0%, 100% { opacity: 0.4; }
+    50% { opacity: 0.8; }
+  }
+  code {
+    background: var(--bg-secondary);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+  }
+</style>

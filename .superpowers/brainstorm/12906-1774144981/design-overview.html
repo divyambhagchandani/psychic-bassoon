@@ -1,0 +1,96 @@
+<h2>Berlin Leben — Design Overview</h2>
+<p class="subtitle">A gamified German + Leben in Deutschland learning app</p>
+
+<div class="section">
+  <h3>App Structure — Two Modes</h3>
+  <div class="split">
+    <div class="mockup">
+      <div class="mockup-header">📖 Story Mode — "Dein erstes Monat in Berlin"</div>
+      <div class="mockup-body">
+        <div style="padding: 1rem;">
+          <p style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 0.5rem;">KAPITEL 3 — Die Wohnung</p>
+          <p style="font-size: 1.1rem; line-height: 1.6; margin-bottom: 1rem;">Du hast endlich eine Wohnung in Kreuzberg gefunden! Aber bevor du einziehen kannst, musst du den <strong style="color: #60a5fa; cursor: help;" title="rental contract">Mietvertrag</strong> verstehen...</p>
+          <div style="background: rgba(96,165,250,0.1); border-radius: 8px; padding: 0.8rem; margin-bottom: 1rem;">
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-bottom: 0.3rem;">💡 Wortschatz</p>
+            <p style="margin: 0;"><strong>der Mietvertrag</strong> — rental contract<br/>
+            <strong>die Kaution</strong> — security deposit<br/>
+            <strong>die Nebenkosten</strong> — utilities</p>
+          </div>
+          <div style="background: rgba(250,204,21,0.1); border: 1px solid rgba(250,204,21,0.2); border-radius: 8px; padding: 0.8rem;">
+            <p style="font-size: 0.85rem; margin-bottom: 0.5rem;">📝 Frage 1 von 5</p>
+            <p style="margin-bottom: 0.8rem;">Was muss man bezahlen, bevor man in eine Wohnung einzieht?</p>
+            <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+              <div style="padding: 0.5rem 0.8rem; border: 1px solid #334155; border-radius: 6px; cursor: pointer;">A) Die Nebenkosten</div>
+              <div style="padding: 0.5rem 0.8rem; border: 1px solid #60a5fa; border-radius: 6px; background: rgba(96,165,250,0.1); cursor: pointer;">B) Die Kaution ✓</div>
+              <div style="padding: 0.5rem 0.8rem; border: 1px solid #334155; border-radius: 6px; cursor: pointer;">C) Die Mieterverein</div>
+              <div style="padding: 0.5rem 0.8rem; border: 1px solid #334155; border-radius: 6px; cursor: pointer;">D) Das Grundgesetz</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mockup">
+      <div class="mockup-header">🔄 Tägliche Übung — Daily Practice</div>
+      <div class="mockup-body">
+        <div style="padding: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+            <div>
+              <p style="margin: 0; font-size: 1.2rem; font-weight: 600;">Tag 12 🔥</p>
+              <p style="margin: 0; color: #94a3b8; font-size: 0.85rem;">12-Tage-Serie!</p>
+            </div>
+            <div style="text-align: right;">
+              <p style="margin: 0; color: #60a5fa; font-size: 0.85rem;">Heute: 8 Übungen</p>
+              <p style="margin: 0; color: #94a3b8; font-size: 0.75rem;">~10 Min</p>
+            </div>
+          </div>
+          <div style="background: #1e293b; border-radius: 8px; padding: 0.8rem; margin-bottom: 0.6rem; border-left: 3px solid #ef4444;">
+            <p style="margin: 0; font-size: 0.75rem; color: #ef4444;">SCHWACH — Review fällig</p>
+            <p style="margin: 0.3rem 0 0 0;">Dativ Präpositionen</p>
+          </div>
+          <div style="background: #1e293b; border-radius: 8px; padding: 0.8rem; margin-bottom: 0.6rem; border-left: 3px solid #f59e0b;">
+            <p style="margin: 0; font-size: 0.75rem; color: #f59e0b;">FÄLLIG — Wiederholung</p>
+            <p style="margin: 0.3rem 0 0 0;">Kapitel 2: Bürgeramt Vokabeln</p>
+          </div>
+          <div style="background: #1e293b; border-radius: 8px; padding: 0.8rem; margin-bottom: 0.6rem; border-left: 3px solid #22c55e;">
+            <p style="margin: 0; font-size: 0.75rem; color: #22c55e;">STARK — Festigen</p>
+            <p style="margin: 0.3rem 0 0 0;">Grundgesetz Artikel 1-5</p>
+          </div>
+          <div style="margin-top: 1rem; padding: 0.8rem; border: 1px dashed #334155; border-radius: 8px; text-align: center;">
+            <p style="margin: 0; color: #94a3b8;">🤖 Frag Claude</p>
+            <p style="margin: 0.3rem 0 0 0; font-size: 0.85rem; color: #64748b;">Stell eine Frage auf Deutsch...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="margin-top: 2rem;">
+  <h3>How the Two Modes Work Together</h3>
+  <div style="display: flex; gap: 1rem; align-items: stretch;">
+    <div style="flex:1; background: #1e293b; border-radius: 8px; padding: 1rem; text-align: center;">
+      <p style="font-size: 2rem; margin: 0;">📖</p>
+      <p style="font-weight: 600; margin: 0.5rem 0 0.3rem;">Story Mode</p>
+      <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">New content<br/>Narrative progression<br/>~20-40 min sessions</p>
+    </div>
+    <div style="display:flex; align-items:center; font-size: 1.5rem; color: #60a5fa;">→<br/>←</div>
+    <div style="flex:1; background: #1e293b; border-radius: 8px; padding: 1rem; text-align: center;">
+      <p style="font-size: 2rem; margin: 0;">🧠</p>
+      <p style="font-weight: 600; margin: 0.5rem 0 0.3rem;">Spaced Repetition</p>
+      <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Wrong answers feed<br/>into review queue<br/>with SM-2 scheduling</p>
+    </div>
+    <div style="display:flex; align-items:center; font-size: 1.5rem; color: #60a5fa;">→<br/>←</div>
+    <div style="flex:1; background: #1e293b; border-radius: 8px; padding: 1rem; text-align: center;">
+      <p style="font-size: 2rem; margin: 0;">🔄</p>
+      <p style="font-weight: 600; margin: 0.5rem 0 0.3rem;">Tägliche Übung</p>
+      <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Daily review drills<br/>Streak tracking<br/>~10-15 min sessions</p>
+    </div>
+    <div style="display:flex; align-items:center; font-size: 1.5rem; color: #60a5fa;">→<br/>←</div>
+    <div style="flex:1; background: #1e293b; border-radius: 8px; padding: 1rem; text-align: center;">
+      <p style="font-size: 2rem; margin: 0;">🤖</p>
+      <p style="font-weight: 600; margin: 0.5rem 0 0.3rem;">Claude Tutor</p>
+      <p style="font-size: 0.85rem; color: #94a3b8; margin: 0;">Chat in German<br/>Explain wrong answers<br/>Generate new content</p>
+    </div>
+  </div>
+</div>

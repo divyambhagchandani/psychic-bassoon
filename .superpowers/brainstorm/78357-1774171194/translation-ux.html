@@ -1,0 +1,61 @@
+<h2>How should the translation appear?</h2>
+<p class="subtitle">After you highlight a sentence, where does the English translation show up?</p>
+
+<div class="cards">
+  <!-- Option A: Floating tooltip/popover -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f8faf8; padding: 24px; font-family: system-ui;">
+      <div style="line-height: 1.8; color: #2d2f2d; font-size: 15px;">
+        Ich muss morgen zum Bürgeramt gehen, um
+        <span style="background: #a5e9e840; border-radius: 3px; padding: 2px 0;">meinen Aufenthaltstitel zu verlängern.</span>
+      </div>
+      <div style="margin-top: 12px; background: white; border: 1px solid #1b6565; border-radius: 12px; padding: 14px 16px; box-shadow: 0 4px 16px rgba(0,0,0,0.12); max-width: 320px; position: relative;">
+        <div style="position: absolute; top: -6px; left: 40px; width: 12px; height: 12px; background: white; border-left: 1px solid #1b6565; border-top: 1px solid #1b6565; transform: rotate(45deg);"></div>
+        <div style="font-size: 13px; color: #5a5c59; margin-bottom: 4px;">Translation</div>
+        <div style="font-size: 14px; color: #2d2f2d;">…to extend my residence permit.</div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. Floating Popover</h3>
+      <p>A tooltip-like bubble appears right below the selected text. Disappears when you click elsewhere. Minimal, contextual, non-intrusive.</p>
+    </div>
+  </div>
+
+  <!-- Option B: Bottom bar / toast -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f8faf8; padding: 24px; font-family: system-ui; min-height: 160px; display: flex; flex-direction: column; justify-content: space-between;">
+      <div style="line-height: 1.8; color: #2d2f2d; font-size: 15px;">
+        Ich muss morgen zum Bürgeramt gehen, um
+        <span style="background: #a5e9e840; border-radius: 3px; padding: 2px 0;">meinen Aufenthaltstitel zu verlängern.</span>
+      </div>
+      <div style="background: #1b6565; color: white; border-radius: 12px; padding: 14px 18px; display: flex; align-items: center; gap: 12px; margin-top: 20px;">
+        <span style="font-size: 18px;">translate</span>
+        <div style="flex: 1;">
+          <div style="font-size: 12px; opacity: 0.7; margin-bottom: 2px;">Translation</div>
+          <div style="font-size: 14px;">…to extend my residence permit.</div>
+        </div>
+        <span style="opacity: 0.6; cursor: pointer; font-size: 18px;">✕</span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. Bottom Toast Bar</h3>
+      <p>A sleek bar slides up from the bottom of the viewport with the translation. Stays visible until dismissed. Doesn't interfere with reading position.</p>
+    </div>
+  </div>
+
+  <!-- Option C: Inline replacement -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image" style="background: #f8faf8; padding: 24px; font-family: system-ui;">
+      <div style="line-height: 1.8; color: #2d2f2d; font-size: 15px;">
+        Ich muss morgen zum Bürgeramt gehen, um
+        <span style="background: #a5e9e840; border-radius: 3px; padding: 2px 0; position: relative;">meinen Aufenthaltstitel zu verlängern.
+          <span style="display: block; font-size: 12px; color: #1b6565; font-style: italic; margin-top: 2px;">↳ …to extend my residence permit.</span>
+        </span>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C. Inline Annotation</h3>
+      <p>The English translation appears directly below the highlighted text inline, like a subtitle. Click to dismiss. Keeps everything in reading flow.</p>
+    </div>
+  </div>
+</div>
