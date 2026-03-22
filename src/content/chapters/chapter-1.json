@@ -1,0 +1,225 @@
+{
+  "id": "chapter-1",
+  "number": 1,
+  "title": "Willkommen in Berlin",
+  "titleEnglish": "Welcome to Berlin",
+  "description": "Du kommst in Berlin an und triffst Elif in ihrem Café in Kreuzberg.",
+  "characters": ["elif"],
+  "story": "Du stehst am Flughafen BER mit deinem Koffer. Berlin! Deine neue Stadt. Es ist kalt, aber du bist aufgeregt. Du nimmst die S-Bahn nach Kreuzberg.\n\nIn der Oranienstraße findest du ein kleines Café. Es heißt \"Elif's Ecke\". Drinnen ist es warm und es riecht nach Kaffee. Eine Frau mit freundlichen Augen kommt zu deinem Tisch.\n\n\"Merhaba! Ich bin Elif. Du bist neu hier, oder?\" Sie lächelt. \"Willkommen in Kreuzberg! Das ist der beste Kiez in Berlin. Möchtest du einen Kaffee?\"\n\nDu bestellst einen Kaffee und erzählst Elif, dass du neu in Berlin bist. \"Ah, dann musst du zuerst zum Bürgeramt\", sagt sie. \"Die Anmeldung ist sehr wichtig. Ohne Anmeldung kannst du kein Bankkonto eröffnen und keinen Handyvertrag machen.\"\n\nElif erklärt dir: \"In Deutschland hat jeder Mensch Rechte. Das steht im Grundgesetz. Artikel 1 sagt: Die Würde des Menschen ist unantastbar. Das bedeutet: Jeder Mensch ist wertvoll — egal woher du kommst.\" Sie zeigt auf die bunte Straße draußen. \"Siehst du? In Kreuzberg leben Menschen aus der ganzen Welt zusammen. Das ist Berlin.\"",
+  "vocab": [
+    {
+      "german": "Anmeldung",
+      "english": "registration",
+      "article": "die",
+      "exampleSentence": "Die Anmeldung beim Bürgeramt ist Pflicht.",
+      "exampleTranslation": "Registration at the citizens' office is mandatory."
+    },
+    {
+      "german": "Bürgeramt",
+      "english": "citizens' office",
+      "article": "das",
+      "exampleSentence": "Ich muss zum Bürgeramt gehen.",
+      "exampleTranslation": "I have to go to the citizens' office."
+    },
+    {
+      "german": "Grundgesetz",
+      "english": "constitution / Basic Law",
+      "article": "das",
+      "exampleSentence": "Das Grundgesetz schützt unsere Rechte.",
+      "exampleTranslation": "The Basic Law protects our rights."
+    },
+    {
+      "german": "Würde",
+      "english": "dignity",
+      "article": "die",
+      "exampleSentence": "Die Würde des Menschen ist unantastbar.",
+      "exampleTranslation": "Human dignity is inviolable."
+    },
+    {
+      "german": "Rechte",
+      "english": "rights",
+      "article": "die",
+      "plural": "Rechte",
+      "exampleSentence": "Alle Menschen haben die gleichen Rechte.",
+      "exampleTranslation": "All people have the same rights."
+    },
+    {
+      "german": "Bankkonto",
+      "english": "bank account",
+      "article": "das",
+      "exampleSentence": "Ich möchte ein Bankkonto eröffnen.",
+      "exampleTranslation": "I would like to open a bank account."
+    },
+    {
+      "german": "Kiez",
+      "english": "neighborhood (Berlin slang)",
+      "article": "der",
+      "exampleSentence": "Kreuzberg ist ein toller Kiez.",
+      "exampleTranslation": "Kreuzberg is a great neighborhood."
+    },
+    {
+      "german": "Handyvertrag",
+      "english": "phone contract",
+      "article": "der",
+      "exampleSentence": "Für einen Handyvertrag brauchst du die Anmeldung.",
+      "exampleTranslation": "For a phone contract you need the registration."
+    },
+    {
+      "german": "aufgeregt",
+      "english": "excited",
+      "exampleSentence": "Ich bin sehr aufgeregt wegen der neuen Stadt.",
+      "exampleTranslation": "I am very excited about the new city."
+    },
+    {
+      "german": "eröffnen",
+      "english": "to open (an account)",
+      "exampleSentence": "Du kannst ein Konto bei der Sparkasse eröffnen.",
+      "exampleTranslation": "You can open an account at the Sparkasse."
+    },
+    {
+      "german": "unantastbar",
+      "english": "inviolable",
+      "exampleSentence": "Die Würde des Menschen ist unantastbar.",
+      "exampleTranslation": "Human dignity is inviolable."
+    },
+    {
+      "german": "Bezirk",
+      "english": "district",
+      "article": "der",
+      "plural": "Bezirke",
+      "exampleSentence": "Berlin hat zwölf Bezirke.",
+      "exampleTranslation": "Berlin has twelve districts."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch1-ex1",
+      "type": "mcq",
+      "question": "Was ist das erste, was du in Berlin machen musst?",
+      "options": ["Einen Kaffee trinken", "Die Anmeldung beim Bürgeramt", "Ein Auto kaufen", "Eine Wohnung mieten"],
+      "correctIndex": 1,
+      "tags": ["anmeldung", "bürokratie"],
+      "explanation": "Die Anmeldung beim Bürgeramt ist der erste wichtige Schritt, wenn man nach Berlin zieht. Ohne Anmeldung kann man kein Bankkonto eröffnen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-ex2",
+      "type": "fill-blank",
+      "sentence": "Die ___ des Menschen ist unantastbar.",
+      "answer": "Würde",
+      "acceptAlternatives": ["würde"],
+      "hint": "Artikel 1 des Grundgesetzes",
+      "tags": ["grundgesetz", "grundrechte"],
+      "explanation": "Artikel 1 des Grundgesetzes sagt: 'Die Würde des Menschen ist unantastbar.' Das ist das wichtigste Grundrecht in Deutschland.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch1-ex3",
+      "type": "mcq",
+      "question": "Was steht in Artikel 1 des Grundgesetzes?",
+      "options": ["Jeder muss Steuern zahlen", "Die Würde des Menschen ist unantastbar", "Deutschland ist eine Monarchie", "Alle müssen Deutsch sprechen"],
+      "correctIndex": 1,
+      "tags": ["grundgesetz", "grundrechte", "lid"],
+      "explanation": "Artikel 1 GG: 'Die Würde des Menschen ist unantastbar.' Dies ist das Fundament aller Grundrechte in Deutschland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-ex4",
+      "type": "fill-blank",
+      "sentence": "Ohne ___ kannst du kein Bankkonto eröffnen.",
+      "answer": "Anmeldung",
+      "acceptAlternatives": ["anmeldung", "die Anmeldung"],
+      "tags": ["anmeldung", "bürokratie"],
+      "explanation": "Die Anmeldung (Meldebescheinigung) ist ein wichtiges Dokument. Man braucht sie für viele offizielle Dinge in Deutschland.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch1-ex5",
+      "type": "mcq",
+      "question": "Wie viele Bezirke hat Berlin?",
+      "options": ["8", "10", "12", "16"],
+      "correctIndex": 2,
+      "tags": ["berlin", "bezirke", "lid"],
+      "explanation": "Berlin hat 12 Bezirke, zum Beispiel Kreuzberg-Friedrichshain, Mitte, Neukölln und Charlottenburg-Wilmersdorf.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-ex6",
+      "type": "mcq",
+      "question": "Was bedeutet 'Gleichberechtigung'?",
+      "options": ["Alle sprechen gleich", "Männer und Frauen haben die gleichen Rechte", "Alle verdienen gleich viel Geld", "Alle wohnen gleich"],
+      "correctIndex": 1,
+      "tags": ["grundrechte", "gleichberechtigung", "lid"],
+      "explanation": "Gleichberechtigung bedeutet, dass Männer und Frauen die gleichen Rechte haben. Das steht in Artikel 3 des Grundgesetzes.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-ex7",
+      "type": "fill-blank",
+      "sentence": "Berlin hat zwölf ___.",
+      "answer": "Bezirke",
+      "acceptAlternatives": ["bezirke"],
+      "tags": ["berlin", "bezirke", "lid"],
+      "explanation": "Berlin ist in 12 Bezirke unterteilt. Jeder Bezirk hat ein eigenes Bezirksamt.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch1-blitz1",
+      "type": "blitz",
+      "question": "Wo machst du die Anmeldung?",
+      "options": ["Polizei", "Bürgeramt", "Krankenhaus", "Schule"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["anmeldung"],
+      "explanation": "Die Anmeldung macht man beim Bürgeramt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-blitz2",
+      "type": "blitz",
+      "question": "Was schützt das Grundgesetz?",
+      "options": ["Das Wetter", "Die Grundrechte", "Die Autobahn", "Die Banken"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["grundgesetz"],
+      "explanation": "Das Grundgesetz schützt die Grundrechte aller Menschen in Deutschland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-blitz3",
+      "type": "blitz",
+      "question": "In welchem Berliner Kiez ist Elifs Café?",
+      "options": ["Mitte", "Kreuzberg", "Charlottenburg", "Spandau"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["berlin", "geschichte"],
+      "explanation": "Elifs Café ist in Kreuzberg, in der Oranienstraße.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-blitz4",
+      "type": "blitz",
+      "question": "Was brauchst du für einen Handyvertrag?",
+      "options": ["Einen Reisepass", "Die Anmeldung", "Einen Führerschein", "Ein Foto"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["anmeldung", "bürokratie"],
+      "explanation": "Für einen Handyvertrag in Deutschland braucht man die Anmeldung (Meldebescheinigung).",
+      "xpValue": 10
+    },
+    {
+      "id": "ch1-blitz5",
+      "type": "blitz",
+      "question": "Wie viele Bezirke hat Berlin?",
+      "options": ["10", "12", "14", "16"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["berlin", "lid"],
+      "explanation": "Berlin hat 12 Bezirke.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-1", "lid-4", "lid-15"]
+}
