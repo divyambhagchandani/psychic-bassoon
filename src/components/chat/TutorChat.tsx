@@ -83,7 +83,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
         ...prev,
         {
           role: "assistant",
-          content: "Entschuldigung, es gab einen Fehler. Versuch es nochmal!",
+          content: "Sorry, something went wrong. Please try again!",
         },
       ]);
     } finally {
@@ -97,7 +97,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
       <button
         onClick={onToggle}
         className="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:bg-primary-hover transition-colors"
-        aria-label="Tutor öffnen"
+        aria-label="Open Tutor"
       >
         <span className="material-symbols-outlined">forum</span>
       </button>
@@ -120,7 +120,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
           <div className="flex-1 overflow-y-auto px-4 py-4 space-y-3">
             {messages.length === 0 && (
               <p className="text-center text-muted text-sm">
-                Schreib etwas auf Deutsch... 🇩🇪
+                Ask me anything about German...
               </p>
             )}
             {messages.map((msg, i) => (
@@ -151,7 +151,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-                placeholder="Schreib auf Deutsch..."
+                placeholder="Ask me anything..."
                 className="flex-1 rounded-lg border border-outline-variant bg-surface px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
                 disabled={loading}
               />

@@ -136,10 +136,10 @@ export default function Dashboard() {
           </div>
           <div>
             <h3 className="font-headline text-xl font-bold text-on-surface">
-              Mit dem Tutor sprechen
+              Chat with Tutor
             </h3>
             <p className="font-body text-on-surface-variant">
-              Frag auf Deutsch — dein KI-Tutor hilft dir weiter.
+              Your AI tutor for German and the LiD test.
             </p>
           </div>
           <span className="material-symbols-outlined text-outline ml-auto group-hover:text-primary transition-colors">

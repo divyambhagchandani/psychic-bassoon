@@ -77,7 +77,7 @@ export default function TutorPage() {
         ...prev,
         {
           role: "assistant",
-          content: "Entschuldigung, es gab einen Fehler. Versuch es nochmal!",
+          content: "Sorry, something went wrong. Please try again!",
         },
       ]);
     } finally {
@@ -90,7 +90,7 @@ export default function TutorPage() {
       <div>
         <h1 className="text-2xl font-headline font-bold">Tutor</h1>
         <p className="text-muted text-sm mt-1">
-          Schreib auf Deutsch — dein KI-Tutor hilft dir
+          Your AI tutor for German and the LiD test
         </p>
       </div>
 
@@ -100,13 +100,13 @@ export default function TutorPage() {
           <div className="text-center py-20 space-y-3">
             <p className="text-4xl">🤖</p>
             <p className="text-muted">
-              Stell eine Frage auf Deutsch oder bitte um Hilfe
+              Ask a question about German or the LiD test
             </p>
             <div className="flex flex-wrap gap-2 justify-center">
               {[
-                "Was ist der Bundestag?",
-                "Erkläre mir den Dativ",
-                "Wie melde ich mich in Berlin an?",
+                "What is the Bundestag?",
+                "Explain the dative case to me",
+                "How do I register in Berlin?",
               ].map((q) => (
                 <button
                   key={q}
@@ -147,7 +147,7 @@ export default function TutorPage() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-            placeholder="Schreib auf Deutsch..."
+            placeholder="Ask me anything..."
             className="flex-1 rounded-xl border border-outline-variant bg-surface px-4 py-3 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
             disabled={loading}
           />
@@ -156,7 +156,7 @@ export default function TutorPage() {
             disabled={loading || !input.trim()}
             className="rounded-xl bg-primary px-6 py-3 font-medium text-white hover:bg-primary-hover disabled:opacity-50 transition-colors"
           >
-            {loading ? "..." : "Senden"}
+            {loading ? "..." : "Send"}
           </button>
         </div>
       </div>
