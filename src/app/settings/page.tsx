@@ -14,7 +14,7 @@ export default function SettingsPage() {
 
   return (
     <div className="max-w-lg mx-auto space-y-6">
-      <h1 className="text-2xl font-bold">Einstellungen</h1>
+      <h1 className="text-2xl font-headline font-bold">Einstellungen</h1>
 
       <div className="space-y-4">
         <ToggleSetting
@@ -31,7 +31,7 @@ export default function SettingsPage() {
           onChange={setShowEnglishNav}
         />
 
-        <div className="rounded-xl border border-border bg-card p-4">
+        <div className="rounded-[2rem] bg-surface shadow-sm p-4">
           <p className="font-medium">Tutor-Sprache</p>
           <p className="text-sm text-muted mb-3">Tutor language</p>
           <div className="flex gap-2">
@@ -48,7 +48,7 @@ export default function SettingsPage() {
                 className={`flex-1 rounded-lg py-2 text-sm font-medium transition-colors ${
                   tutorLanguage === opt.value
                     ? "bg-primary text-white"
-                    : "bg-background border border-border hover:bg-card-hover"
+                    : "bg-background border border-border hover:bg-surface-high"
                 }`}
               >
                 {opt.label}
@@ -73,7 +73,7 @@ function ToggleSetting({
   onChange: (v: boolean) => void;
 }) {
   return (
-    <div className="flex items-center justify-between rounded-xl border border-border bg-card p-4">
+    <div className="flex items-center justify-between rounded-[2rem] bg-surface shadow-sm p-4">
       <div>
         <p className="font-medium">{label}</p>
         <p className="text-sm text-muted">{labelEn}</p>

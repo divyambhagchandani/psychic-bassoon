@@ -99,14 +99,14 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
         className="fixed bottom-6 right-6 z-50 flex h-12 w-12 items-center justify-center rounded-full bg-primary text-white shadow-lg hover:bg-primary-hover transition-colors"
         aria-label="Tutor öffnen"
       >
-        💬
+        <span className="material-symbols-outlined">forum</span>
       </button>
 
       {/* Slide-out panel */}
       {open && (
-        <div className="fixed inset-y-0 right-0 z-40 flex w-full max-w-md flex-col border-l border-border bg-background shadow-2xl">
+        <div className="fixed inset-y-0 right-0 z-40 flex w-full max-w-md flex-col border-l border-outline-variant/20 bg-surface shadow-2xl rounded-[2rem]">
           {/* Header */}
-          <div className="flex items-center justify-between border-b border-border px-4 py-3">
+          <div className="flex items-center justify-between border-b border-outline-variant/20 px-4 py-3">
             <h2 className="font-semibold">Tutor Chat</h2>
             <button
               onClick={onToggle}
@@ -134,7 +134,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
                   className={`max-w-[80%] rounded-2xl px-4 py-2 text-sm ${
                     msg.role === "user"
                       ? "bg-primary text-white"
-                      : "bg-card text-foreground"
+                      : "bg-surface-high text-foreground"
                   }`}
                 >
                   {msg.content}
@@ -145,20 +145,20 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
           </div>
 
           {/* Input */}
-          <div className="border-t border-border p-4">
+          <div className="border-t border-outline-variant/20 p-4">
             <div className="flex gap-2">
               <input
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && sendMessage()}
                 placeholder="Schreib auf Deutsch..."
-                className="flex-1 rounded-lg border border-border bg-card px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
+                className="flex-1 rounded-lg border border-outline-variant bg-surface px-3 py-2 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
                 disabled={loading}
               />
               <button
                 onClick={sendMessage}
                 disabled={loading || !input.trim()}
-                className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary-hover disabled:opacity-50 transition-colors"
+                className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-white hover:bg-primary-hover disabled:opacity-50 transition-all active:scale-95"
               >
                 {loading ? "..." : "→"}
               </button>

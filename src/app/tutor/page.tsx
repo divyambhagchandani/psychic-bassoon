@@ -88,7 +88,7 @@ export default function TutorPage() {
   return (
     <div className="flex flex-col h-[calc(100vh-8rem)]">
       <div>
-        <h1 className="text-2xl font-bold">Tutor</h1>
+        <h1 className="text-2xl font-headline font-bold">Tutor</h1>
         <p className="text-muted text-sm mt-1">
           Schreib auf Deutsch — dein KI-Tutor hilft dir
         </p>
@@ -130,7 +130,7 @@ export default function TutorPage() {
               className={`max-w-[75%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed ${
                 msg.role === "user"
                   ? "bg-primary text-white"
-                  : "bg-card text-foreground"
+                  : "bg-surface-high text-foreground"
               }`}
             >
               {msg.content}
@@ -141,14 +141,14 @@ export default function TutorPage() {
       </div>
 
       {/* Input */}
-      <div className="border-t border-border pt-4">
+      <div className="border-t border-outline-variant/20 pt-4">
         <div className="flex gap-2">
           <input
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && sendMessage()}
             placeholder="Schreib auf Deutsch..."
-            className="flex-1 rounded-xl border border-border bg-card px-4 py-3 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
+            className="flex-1 rounded-xl border border-outline-variant bg-surface px-4 py-3 text-sm text-foreground placeholder:text-muted focus:border-primary focus:outline-none"
             disabled={loading}
           />
           <button
