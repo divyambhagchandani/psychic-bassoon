@@ -1,18 +1,20 @@
-import Anthropic from "@anthropic-ai/sdk";
+import OpenAI from "openai";
 
-let client: Anthropic | null = null;
+let client: OpenAI | null = null;
 
-export function getAnthropicClient(): Anthropic {
+export function getClient(): OpenAI {
   if (!client) {
-    client = new Anthropic({
-      apiKey: process.env.ANTHROPIC_API_KEY,
+    client = new OpenAI({
+      baseURL: process.env.CLAUDE_PROXY_URL || "http://localhost:8317/v1",
+      apiKey: process.env.CLAUDE_PROXY_KEY || "not-needed",
     });
   }
   return client;
 }
 
 export const MODELS = {
-  tutor: "claude-sonnet-4-5-20250514" as const,
-  explainer: "claude-haiku-4-5-20251001" as const,
-  generator: "claude-sonnet-4-5-20250514" as const,
+  tutor: "claude-sonnet-4-5-20250514",
+  explainer: "claude-sonnet-4-5-20250514",
+  generator: "claude-sonnet-4-5-20250514",
+  translator: "claude-sonnet-4-5-20250514",
 };

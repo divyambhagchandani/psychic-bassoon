@@ -1,31 +1,32 @@
-import { getAnthropicClient, MODELS } from "@/lib/claude";
+import { getClient, MODELS } from "@/lib/claude";
 import { TUTOR_SYSTEM_PROMPT } from "@/lib/prompts";
 
 export async function POST(req: Request) {
   try {
     const { messages } = await req.json();
-    const client = getAnthropicClient();
+    const client = getClient();
 
-    const stream = await client.messages.stream({
+    const stream = await client.chat.completions.create({
       model: MODELS.tutor,
       max_tokens: 1024,
-      system: TUTOR_SYSTEM_PROMPT,
-      messages: messages.map((m: { role: string; content: string }) => ({
-        role: m.role as "user" | "assistant",
-        content: m.content,
-      })),
+      stream: true,
+      messages: [
+        { role: "system", content: TUTOR_SYSTEM_PROMPT },
+        ...messages.map((m: { role: string; content: string }) => ({
+          role: m.role as "user" | "assistant",
+          content: m.content,
+        })),
+      ],
     });
 
     const encoder = new TextEncoder();
     const readable = new ReadableStream({
       async start(controller) {
         try {
-          for await (const event of stream) {
-            if (
-              event.type === "content_block_delta" &&
-              event.delta.type === "text_delta"
-            ) {
-              const data = JSON.stringify({ text: event.delta.text });
+          for await (const chunk of stream) {
+            const text = chunk.choices[0]?.delta?.content;
+            if (text) {
+              const data = JSON.stringify({ text });
               controller.enqueue(encoder.encode(`data: ${data}\n\n`));
             }
           }

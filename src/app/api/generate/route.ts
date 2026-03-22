@@ -1,17 +1,16 @@
-import { getAnthropicClient, MODELS } from "@/lib/claude";
+import { getClient, MODELS } from "@/lib/claude";
 import { GENERATOR_SYSTEM_PROMPT } from "@/lib/prompts";
 
 export async function POST(req: Request) {
   try {
     const { weakTopics, count = 5 } = await req.json();
+    const client = getClient();
 
-    const client = getAnthropicClient();
-
-    const response = await client.messages.create({
+    const response = await client.chat.completions.create({
       model: MODELS.generator,
       max_tokens: 2048,
-      system: GENERATOR_SYSTEM_PROMPT,
       messages: [
+        { role: "system", content: GENERATOR_SYSTEM_PROMPT },
         {
           role: "user",
           content: `Generiere ${count} Übungen zu diesen schwachen Themen: ${weakTopics.join(", ")}.
@@ -20,10 +19,8 @@ Antworte NUR mit einem JSON-Array. Keine andere Erklärung.`,
       ],
     });
 
-    const text =
-      response.content[0].type === "text" ? response.content[0].text : "[]";
+    const text = response.choices[0]?.message?.content || "[]";
 
-    // Extract JSON array from response
     const jsonMatch = text.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
       return Response.json({ exercises: [] });
