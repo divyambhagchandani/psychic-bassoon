@@ -41,7 +41,7 @@ export default function ChapterMap() {
               {unlocked ? (
                 <Link
                   href={`/story/${ch.id}`}
-                  className="block rounded-xl border border-border bg-card p-5 hover:bg-card-hover transition-colors"
+                  className="block rounded-[2rem] bg-surface shadow-sm p-5 hover:shadow-md transition-shadow"
                 >
                   <div className="flex items-center justify-between">
                     <div>
@@ -52,7 +52,7 @@ export default function ChapterMap() {
                     </div>
                     {score ? (
                       <span
-                        className={`text-sm font-bold ${
+                        className={`text-sm font-headline font-bold ${
                           score.score >= 70 ? "text-success" : "text-warning"
                         }`}
                       >
@@ -64,12 +64,15 @@ export default function ChapterMap() {
                   </div>
                 </Link>
               ) : (
-                <div className="rounded-xl border border-border/50 bg-card/50 p-5 opacity-50">
+                <div className="rounded-[2rem] bg-surface-high opacity-60 p-5">
                   <p className="text-xs text-muted uppercase">
                     Kapitel {ch.number}
                   </p>
                   <p className="mt-1 font-semibold">{ch.title}</p>
-                  <p className="text-xs text-muted mt-1">🔒 Gesperrt</p>
+                  <p className="text-xs text-muted mt-1 flex items-center gap-1">
+                    <span className="material-symbols-outlined text-outline" style={{ fontSize: "1rem" }}>lock</span>
+                    Gesperrt
+                  </p>
                 </div>
               )}
             </div>

@@ -80,7 +80,7 @@ export default function ChapterResults({
       {/* Score circle */}
       <div className="flex flex-col items-center">
         <div
-          className={`flex h-28 w-28 items-center justify-center rounded-full border-4 text-3xl font-bold ${
+          className={`flex h-28 w-28 items-center justify-center rounded-full border-4 text-5xl font-headline font-black ${
             passed
               ? "border-success text-success"
               : "border-danger text-danger"
@@ -96,17 +96,17 @@ export default function ChapterResults({
               : "Weiter üben!"}
         </p>
         <p className="text-muted text-sm">
-          {correctCount}/{totalExercises} richtig · +{totalXp} XP
+          {correctCount}/{totalExercises} richtig · <span className="font-headline font-bold text-primary">+{totalXp} XP</span>
         </p>
       </div>
 
       {/* Details */}
       <div className="grid grid-cols-2 gap-3">
-        <div className="rounded-xl border border-border bg-card p-3">
+        <div className="rounded-[2rem] bg-surface shadow-sm p-3">
           <p className="text-xs text-muted">Übungs-XP</p>
           <p className="text-lg font-bold">+{exerciseXp}</p>
         </div>
-        <div className="rounded-xl border border-border bg-card p-3">
+        <div className="rounded-[2rem] bg-surface shadow-sm p-3">
           <p className="text-xs text-muted">Kapitel-Bonus</p>
           <p className="text-lg font-bold">+{chapterXp}</p>
         </div>
@@ -128,9 +128,10 @@ export default function ChapterResults({
       {/* Blitz button */}
       <button
         onClick={onStartBlitz}
-        className="w-full rounded-xl bg-accent py-3 font-semibold text-white hover:opacity-90 transition-opacity"
+        className="w-full rounded-xl bg-accent py-3 font-headline font-bold text-white hover:opacity-90 transition-all active:scale-95"
       >
-        Blitz-Runde starten ⚡
+        Blitz-Runde starten
+        <span className="material-symbols-outlined align-middle ml-1" style={{ fontSize: "1.1rem" }}>bolt</span>
       </button>
     </div>
   );

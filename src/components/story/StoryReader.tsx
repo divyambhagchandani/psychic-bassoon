@@ -19,7 +19,7 @@ export default function StoryReader({ story, vocab }: StoryReaderProps) {
   return (
     <div className="space-y-4">
       {paragraphs.map((paragraph, pIdx) => (
-        <p key={pIdx} className="text-base leading-relaxed">
+        <p key={pIdx} className="font-body text-lg leading-relaxed text-on-surface-variant">
           {highlightWords(paragraph, vocabMap)}
         </p>
       ))}

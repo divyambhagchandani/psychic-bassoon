@@ -61,7 +61,7 @@ export default function ChapterFlow({ chapter }: ChapterFlowProps) {
           <StoryReader story={chapter.story} vocab={chapter.vocab} />
           <button
             onClick={() => setPhase("vocab")}
-            className="w-full rounded-xl bg-primary py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+            className="w-full rounded-xl bg-primary py-3 font-headline font-bold text-white hover:bg-primary-hover transition-all active:scale-95"
           >
             Neue Vokabeln lernen →
           </button>
@@ -115,7 +115,7 @@ export default function ChapterFlow({ chapter }: ChapterFlowProps) {
           </p>
           <Link
             href="/story"
-            className="inline-block rounded-xl bg-primary px-8 py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+            className="inline-block rounded-xl bg-primary px-8 py-3 font-headline font-bold text-white hover:bg-primary-hover transition-all active:scale-95"
           >
             Zurück zur Übersicht
           </Link>

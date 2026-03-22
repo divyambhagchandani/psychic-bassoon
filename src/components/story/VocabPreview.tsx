@@ -21,11 +21,11 @@ export default function VocabPreview({ vocab, onContinue }: VocabPreviewProps) {
         {vocab.map((word, i) => (
           <div
             key={i}
-            className="rounded-lg border border-border bg-card p-4 hover:bg-card-hover transition-colors"
+            className="rounded-[2rem] bg-surface shadow-sm p-4"
           >
             <div className="flex items-start justify-between">
               <div>
-                <p className="font-semibold text-foreground">
+                <p className="font-headline font-bold text-lg text-foreground">
                   {word.article ? `${word.article} ${word.german}` : word.german}
                 </p>
                 <p className="text-muted text-sm">{word.english}</p>
@@ -52,7 +52,7 @@ export default function VocabPreview({ vocab, onContinue }: VocabPreviewProps) {
 
       <button
         onClick={onContinue}
-        className="w-full rounded-xl bg-primary py-3 font-semibold text-white hover:bg-primary-hover transition-colors"
+        className="w-full rounded-xl bg-primary py-3 font-headline font-bold text-white hover:bg-primary-hover transition-all active:scale-95"
       >
         Weiter zu den Übungen →
       </button>
