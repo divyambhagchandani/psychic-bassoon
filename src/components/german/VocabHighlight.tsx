@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import SpeakButton from "@/components/german/SpeakButton";
 import type { VocabWord } from "@/types/content";
 
 interface VocabHighlightProps {
@@ -35,8 +36,9 @@ export default function VocabHighlight({ word, vocab }: VocabHighlightProps) {
       </span>
       {showTooltip && (
         <span className="absolute bottom-full left-1/2 z-50 mb-2 -translate-x-1/2 whitespace-nowrap rounded-lg bg-surface border border-outline-variant/20 px-3 py-2 text-sm shadow-lg">
-          <span className="block font-medium text-foreground">
-            {vocab.article ? `${vocab.article} ${vocab.german}` : vocab.german}
+          <span className="flex items-center gap-1 font-medium text-foreground">
+            <span>{vocab.article ? `${vocab.article} ${vocab.german}` : vocab.german}</span>
+            <SpeakButton text={vocab.german} alwaysVisible />
           </span>
           <span className="block text-muted">{vocab.english}</span>
           {vocab.exampleSentence && (

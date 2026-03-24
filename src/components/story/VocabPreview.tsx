@@ -1,5 +1,6 @@
 "use client";
 
+import SpeakButton from "@/components/german/SpeakButton";
 import type { VocabWord } from "@/types/content";
 
 interface VocabPreviewProps {
@@ -21,12 +22,13 @@ export default function VocabPreview({ vocab, onContinue }: VocabPreviewProps) {
         {vocab.map((word, i) => (
           <div
             key={i}
-            className="rounded-[2rem] bg-surface shadow-sm p-4"
+            className="group rounded-[2rem] bg-surface shadow-sm p-4"
           >
             <div className="flex items-start justify-between">
               <div>
-                <p className="font-headline font-bold text-lg text-foreground">
-                  {word.article ? `${word.article} ${word.german}` : word.german}
+                <p className="flex items-center gap-1 font-headline font-bold text-lg text-foreground">
+                  <span>{word.article ? `${word.article} ${word.german}` : word.german}</span>
+                  <SpeakButton text={word.german} />
                 </p>
                 <p className="text-muted text-sm">{word.english}</p>
               </div>
@@ -37,14 +39,17 @@ export default function VocabPreview({ vocab, onContinue }: VocabPreviewProps) {
               )}
             </div>
             {word.exampleSentence && (
-              <p className="mt-2 text-sm text-muted italic border-t border-border pt-2">
-                {word.exampleSentence}
+              <div className="mt-2 text-sm text-muted italic border-t border-border pt-2">
+                <div className="flex items-start gap-1">
+                  <span className="flex-1">{word.exampleSentence}</span>
+                  <SpeakButton text={word.exampleSentence} className="shrink-0 mt-0.5" />
+                </div>
                 {word.exampleTranslation && (
-                  <span className="block text-xs not-italic">
+                  <span className="block text-xs not-italic mt-0.5">
                     {word.exampleTranslation}
                   </span>
                 )}
-              </p>
+              </div>
             )}
           </div>
         ))}

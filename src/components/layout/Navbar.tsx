@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo } from "react";
+import { useMemo, useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useStreakStore } from "@/stores/streakStore";
@@ -20,6 +20,10 @@ export default function Navbar() {
   const cards = useSRStore((s) => s.cards);
   const getDueCards = useSRStore((s) => s.getDueCards);
   const dueCount = useMemo(() => getDueCards().length, [cards, getDueCards]);
+
+  // Defer store-dependent conditional rendering until after hydration
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
 
   return (
     <nav className="sticky top-0 z-50 flex items-center justify-between px-8 h-20 bg-[#f7f7f3]/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(27,101,101,0.06)]">
@@ -59,7 +63,7 @@ export default function Navbar() {
           </span>
         </div>
 
-        {dueCount > 0 && (
+        {hydrated && dueCount > 0 && (
           <Link
             href="/practice"
             className="flex items-center gap-1 bg-secondary rounded-full px-4 py-2"

@@ -6,3 +6,4 @@
 {"source":"user-event","type":"click","text":"Ich muss morgen zum Bürgeramt gehen, um\n        meinen Aufenthaltstitel zu verlängern.\n      \n      \n        translate\n        \n          Translation\n          …to extend my residence permit.\n        \n        ✕\n      \n    \n    \n      B. Bottom Toast Bar\n      A sleek bar slides up from the bottom of the viewport with the translation. Stays visible until dismissed. Doesn't interfere with reading position.","choice":"b","id":null,"timestamp":1774171329813}
 {"type":"screen-added","file":"/Users/divyam/conductor/workspaces/myPR/singapore/.superpowers/brainstorm/78357-1774171194/waiting.html"}
 {"type":"screen-added","file":"/Users/divyam/conductor/workspaces/myPR/singapore/.superpowers/brainstorm/78357-1774171194/toast-design.html"}
+{"type":"server-stopped","reason":"owner process exited"}

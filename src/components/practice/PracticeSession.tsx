@@ -4,6 +4,7 @@ import { useState, useMemo } from "react";
 import { useSRStore, mapAnswerToQuality } from "@/stores/srStore";
 import { useStreakStore } from "@/stores/streakStore";
 import { XP_VALUES } from "@/lib/xp";
+import SpeakButton from "@/components/german/SpeakButton";
 import type { SRCard } from "@/types/sr";
 
 interface PracticeSessionProps {
@@ -75,14 +76,17 @@ export default function PracticeSession({ onComplete }: PracticeSessionProps) {
       </div>
 
       {/* Card */}
-      <div className="rounded-[2rem] border border-outline-variant/20 bg-surface p-6 text-center space-y-4 shadow-sm">
+      <div className="group rounded-[2rem] border border-outline-variant/20 bg-surface p-6 text-center space-y-4 shadow-sm">
         {currentCard.isSchwach && (
           <span className="inline-block rounded-full bg-danger/10 px-2.5 py-0.5 text-xs text-danger">
             Schwach
           </span>
         )}
 
-        <p className="text-lg font-headline font-semibold">{currentCard.front}</p>
+        <div className="flex items-center justify-center gap-1">
+          <p className="text-lg font-headline font-semibold">{currentCard.front}</p>
+          <SpeakButton text={currentCard.front} />
+        </div>
 
         {showAnswer ? (
           <>

@@ -5,7 +5,6 @@ import { motion, AnimatePresence } from "framer-motion";
 
 interface TranslateResult {
   translation: string;
-  grammarNote: string;
 }
 
 export default function TranslateToast() {
@@ -141,18 +140,8 @@ export default function TranslateToast() {
                 </div>
               </div>
             ) : result ? (
-              <div>
-                <div className="text-[15px] leading-snug">
-                  {result.translation}
-                </div>
-                {result.grammarNote && (
-                  <div className="flex items-start gap-1.5 mt-1.5 text-xs opacity-65 leading-snug">
-                    <span className="material-symbols-outlined text-sm mt-px shrink-0">
-                      school
-                    </span>
-                    {result.grammarNote}
-                  </div>
-                )}
+              <div className="text-[15px] leading-snug">
+                {result.translation}
               </div>
             ) : null}
           </div>

@@ -1,0 +1,56 @@
+<h2>Tab Bar Design in TutorChat</h2>
+<p class="subtitle">Here's how the tab bar will look inside the slide-out chat panel</p>
+
+<div class="mockup" style="max-width: 400px; margin: 0 auto;">
+  <div class="mockup-header">TutorChat Panel</div>
+  <div class="mockup-body" style="padding: 0; font-family: 'Manrope', system-ui; background: #fff; border-radius: 0 0 8px 8px;">
+
+    <!-- Header -->
+    <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; border-bottom: 1px solid #e0e0e0;">
+      <span style="font-family: 'Space Grotesk', system-ui; font-weight: 700; font-size: 16px;">Tutor Chat</span>
+      <div style="width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #999; cursor: pointer;">✕</div>
+    </div>
+
+    <!-- Tab Bar -->
+    <div style="display: flex; align-items: center; gap: 0; padding: 0 12px; border-bottom: 1px solid #e0e0e0; overflow-x: auto; background: #fafaf7;">
+      <div style="display: flex; align-items: center; gap: 4px; padding: 8px 12px; font-size: 12px; font-weight: 600; color: #1b6565; border-bottom: 2px solid #1b6565; white-space: nowrap; cursor: pointer;">
+        <span>Grammar help</span>
+        <span style="font-size: 14px; color: #999; margin-left: 2px; line-height: 1;">×</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 4px; padding: 8px 12px; font-size: 12px; color: #666; border-bottom: 2px solid transparent; white-space: nowrap; cursor: pointer;">
+        <span>Ich bin in Berlin...</span>
+        <span style="font-size: 14px; color: #ccc; margin-left: 2px; line-height: 1;">×</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 4px; padding: 8px 12px; font-size: 12px; color: #666; border-bottom: 2px solid transparent; white-space: nowrap; cursor: pointer;">
+        <span>LiD Test prep</span>
+        <span style="font-size: 14px; color: #ccc; margin-left: 2px; line-height: 1;">×</span>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; color: #999; cursor: pointer; font-size: 18px; margin-left: 4px; flex-shrink: 0;">+</div>
+    </div>
+
+    <!-- Chat Messages -->
+    <div style="padding: 16px; min-height: 250px;">
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 10px;">
+        <div style="background: #1b6565; color: white; padding: 8px 14px; border-radius: 16px; font-size: 13px; max-width: 75%;">Can you explain Dativ to me?</div>
+      </div>
+      <div style="display: flex; justify-content: flex-start; margin-bottom: 10px;">
+        <div style="background: #f0f0ec; padding: 8px 14px; border-radius: 16px; font-size: 13px; max-width: 75%; line-height: 1.5;">
+          Sure! The <strong>Dativ</strong> case is used for the indirect object...
+        </div>
+      </div>
+    </div>
+
+    <!-- Input -->
+    <div style="padding: 12px 16px; border-top: 1px solid #e0e0e0;">
+      <div style="display: flex; gap: 8px;">
+        <div style="flex: 1; border: 1px solid #ddd; border-radius: 12px; padding: 10px 14px; font-size: 13px; color: #aaa;">Ask me anything...</div>
+        <div style="background: #1b6565; border-radius: 12px; padding: 10px 14px; color: white; font-size: 14px; cursor: pointer;">➤</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 24px; font-size: 14px; color: #666; text-align: center;">
+  <p><strong>Tab labels</strong> auto-generate from the first user message (truncated to ~20 chars)</p>
+  <p>The <strong>"Ich bin in Berlin..."</strong> tab was created via "Ask Tutor" in the story reader</p>
+</div>

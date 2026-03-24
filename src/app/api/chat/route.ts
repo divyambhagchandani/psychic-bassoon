@@ -3,15 +3,19 @@ import { TUTOR_SYSTEM_PROMPT } from "@/lib/prompts";
 
 export async function POST(req: Request) {
   try {
-    const { messages } = await req.json();
+    const { messages, systemPrompt } = await req.json();
     const client = getClient();
+
+    const system = typeof systemPrompt === "string" && systemPrompt
+      ? systemPrompt
+      : TUTOR_SYSTEM_PROMPT;
 
     const stream = await client.chat.completions.create({
       model: MODELS.tutor,
-      max_tokens: 1024,
+      max_tokens: systemPrompt ? 2048 : 1024,
       stream: true,
       messages: [
-        { role: "system", content: TUTOR_SYSTEM_PROMPT },
+        { role: "system", content: system },
         ...messages.map((m: { role: string; content: string }) => ({
           role: m.role as "user" | "assistant",
           content: m.content,
@@ -49,7 +53,7 @@ export async function POST(req: Request) {
     console.error("Chat API error:", error);
     return Response.json(
       { error: "Failed to process chat request" },
-      { status: 500 }
+      { status: 500 },
     );
   }
 }

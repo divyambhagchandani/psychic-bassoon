@@ -51,6 +51,36 @@ export interface StreakActions {
   getLevel: () => number;
 }
 
+// ── Chat Store ──
+export interface ChatMessage {
+  role: "user" | "assistant";
+  content: string;
+}
+
+export interface ChatTab {
+  id: string;
+  label: string;
+  messages: ChatMessage[];
+  mode: "chat" | "explain";
+  createdAt: string;
+}
+
+export interface ChatState {
+  tabs: ChatTab[];
+  activeTabId: string | null;
+  chatOpen: boolean;
+}
+
+export interface ChatActions {
+  createTab: (label?: string, mode?: ChatTab["mode"]) => string;
+  closeTab: (tabId: string) => void;
+  setActiveTab: (tabId: string) => void;
+  addMessage: (tabId: string, message: ChatMessage) => void;
+  updateLastMessage: (tabId: string, content: string) => void;
+  setChatOpen: (open: boolean) => void;
+  openWithPrompt: (userPrompt: string, mode?: ChatTab["mode"]) => void;
+}
+
 // ── Settings Store ──
 export interface SettingsState {
   showEnglishHints: boolean;
