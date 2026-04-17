@@ -10,6 +10,7 @@ const navItems = [
   { href: "/", label: "Startseite", icon: "grid_view" },
   { href: "/story", label: "Geschichte", icon: "auto_stories" },
   { href: "/practice", label: "Üben", icon: "fitness_center" },
+  { href: "/quiz", label: "Quiz", icon: "quiz" },
   { href: "/tutor", label: "Tutor", icon: "forum" },
 ];
 

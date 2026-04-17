@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useStreakStore } from "@/stores/streakStore";
 import { useSRStore } from "@/stores/srStore";
 import { useProgressStore } from "@/stores/progressStore";
-import { useEffect, useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export default function Dashboard() {
   const { currentStreak, longestStreak, totalXp, todayXp, checkStreakStatus } =
@@ -16,7 +16,10 @@ export default function Dashboard() {
   const chapterScores = useProgressStore((s) => s.chapterScores);
   const unlockedChapters = useProgressStore((s) => s.unlockedChapters);
 
+  const [hydrated, setHydrated] = useState(false);
+
   useEffect(() => {
+    setHydrated(true);
     checkStreakStatus();
   }, [checkStreakStatus]);
 
@@ -24,6 +27,10 @@ export default function Dashboard() {
   const lidReadiness = useMemo(() => getLidReadiness(), [cards, getLidReadiness]);
   const completedChapters = Object.keys(chapterScores).length;
   const level = getLevel();
+
+  if (!hydrated) {
+    return null;
+  }
 
   return (
     <div className="space-y-12">
@@ -101,6 +108,54 @@ export default function Dashboard() {
           )}
         </div>
 
+        {/* Quiz CTA */}
+        <Link
+          href="/quiz"
+          className="col-span-6 bg-surface p-8 rounded-[2rem] shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow overflow-hidden relative"
+        >
+          <div className="absolute -top-6 -right-6 w-32 h-32 bg-secondary/10 rounded-full blur-2xl" />
+          <div>
+            <div className="h-12 w-12 bg-secondary/20 rounded-xl flex items-center justify-center mb-5">
+              <span className="material-symbols-outlined text-secondary text-xl">
+                quiz
+              </span>
+            </div>
+            <h3 className="font-headline text-2xl font-black text-on-surface leading-tight mb-1">
+              LiD Quiz
+            </h3>
+            <p className="font-body text-sm text-on-surface-variant">
+              310 offizielle Prüfungsfragen
+            </p>
+          </div>
+          <span className="material-symbols-outlined text-outline mt-4 group-hover:text-primary transition-colors">
+            arrow_forward
+          </span>
+        </Link>
+
+        {/* Tutor Quick CTA */}
+        <Link
+          href="/tutor"
+          className="col-span-6 bg-surface p-8 rounded-[2rem] shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow overflow-hidden relative"
+        >
+          <div className="absolute -top-6 -right-6 w-32 h-32 bg-primary-container/30 rounded-full blur-2xl" />
+          <div>
+            <div className="h-12 w-12 bg-primary-container rounded-xl flex items-center justify-center mb-5">
+              <span className="material-symbols-outlined text-primary text-xl">
+                forum
+              </span>
+            </div>
+            <h3 className="font-headline text-2xl font-black text-on-surface leading-tight mb-1">
+              KI-Tutor
+            </h3>
+            <p className="font-body text-sm text-on-surface-variant">
+              Dein Tutor für Deutsch und den LiD Test.
+            </p>
+          </div>
+          <span className="material-symbols-outlined text-outline mt-4 group-hover:text-primary transition-colors">
+            arrow_forward
+          </span>
+        </Link>
+
         {/* Story Banner */}
         <Link
           href="/story"
@@ -124,28 +179,6 @@ export default function Dashboard() {
           </div>
         </Link>
 
-        {/* Tutor CTA */}
-        <Link
-          href="/tutor"
-          className="col-span-12 bg-surface p-8 rounded-[2rem] shadow-sm flex items-center gap-6 group hover:shadow-md transition-shadow"
-        >
-          <div className="h-14 w-14 bg-primary-container rounded-2xl flex items-center justify-center">
-            <span className="material-symbols-outlined text-primary text-2xl">
-              forum
-            </span>
-          </div>
-          <div>
-            <h3 className="font-headline text-xl font-bold text-on-surface">
-              Chat with Tutor
-            </h3>
-            <p className="font-body text-on-surface-variant">
-              Your AI tutor for German and the LiD test.
-            </p>
-          </div>
-          <span className="material-symbols-outlined text-outline ml-auto group-hover:text-primary transition-colors">
-            chevron_right
-          </span>
-        </Link>
       </section>
     </div>
   );
@@ -158,7 +191,7 @@ function LidGauge({ percentage }: { percentage: number }) {
 
   return (
     <div className="relative w-48 h-48 flex items-center justify-center">
-      <svg className="w-full h-full -rotate-90">
+      <svg className="w-full h-full -rotate-90" viewBox="0 0 192 192">
         <circle
           cx="96"
           cy="96"

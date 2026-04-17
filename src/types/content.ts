@@ -106,3 +106,10 @@ export interface LidTopic {
   topicEnglish: string;
   berlinSpecific: boolean;
 }
+
+// ── LiD Quiz Questions ──
+export interface LidQuestion extends McqExercise {
+  category: string; // "Grundrechte" | "Demokratie" | "Geschichte" | "Gesellschaft" | "Berlin"
+  lidTopicId: string; // cross-ref to lid-topics.json
+  questionNumber: number; // official number 1-310
+}

@@ -81,6 +81,30 @@ export interface ChatActions {
   openWithPrompt: (userPrompt: string, mode?: ChatTab["mode"]) => void;
 }
 
+// ── Quiz Store ──
+export interface QuizSRCard {
+  questionId: string;
+  interval: number;
+  ease: number;
+  correctStreak: number;
+  nextReview: string;
+  isSchwach: boolean;
+  lastReviewed?: string;
+  totalAttempts: number;
+  totalCorrect: number;
+}
+
+export interface QuizState {
+  cards: Record<string, QuizSRCard>;
+}
+
+export interface QuizActions {
+  answerQuestion: (questionId: string, correct: boolean, timeTakenMs: number) => void;
+  getNextQuestions: (allQuestions: import("./content").LidQuestion[], count?: number) => import("./content").LidQuestion[];
+  getStats: (totalQuestions: number) => { total: number; attempted: number; mastered: number; weak: number; accuracy: number };
+  getDueCount: () => number;
+}
+
 // ── Settings Store ──
 export interface SettingsState {
   showEnglishHints: boolean;
