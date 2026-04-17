@@ -5,6 +5,7 @@ import { useStreakStore } from "@/stores/streakStore";
 import { useEffect, useRef } from "react";
 import { FEEDBACK } from "@/lib/feedback";
 
+
 interface SessionCompleteProps {
   reviewed: number;
   correct: number;
@@ -19,7 +20,6 @@ export default function SessionComplete({
   onBackToDashboard,
 }: SessionCompleteProps) {
   const completeDailyPractice = useStreakStore((s) => s.completeDailyPractice);
-  const addXp = useStreakStore((s) => s.addXp);
   const currentStreak = useStreakStore((s) => s.currentStreak);
   const processedRef = useRef(false);
 
@@ -27,8 +27,8 @@ export default function SessionComplete({
     if (processedRef.current) return;
     processedRef.current = true;
     completeDailyPractice();
-    addXp(xpEarned);
-  }, [completeDailyPractice, addXp, xpEarned]);
+    // XP is already awarded per-card in PracticeSession — only mark daily practice complete here
+  }, [completeDailyPractice]);
 
   const accuracy = reviewed > 0 ? Math.round((correct / reviewed) * 100) : 0;
   const streakMsg =

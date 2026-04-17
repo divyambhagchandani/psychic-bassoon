@@ -46,12 +46,12 @@ export default function PracticeSession({ onComplete }: PracticeSessionProps) {
 
     if (isLast) {
       const allResults = [...results, { correct, xp }];
+      const cardXp = allResults.reduce((sum, r) => sum + r.xp, 0);
+      addXp(XP_VALUES.dailyPractice); // daily bonus awarded once at session end
       onComplete({
         reviewed: allResults.length,
         correct: allResults.filter((r) => r.correct).length,
-        xpEarned:
-          allResults.reduce((sum, r) => sum + r.xp, 0) +
-          XP_VALUES.dailyPractice,
+        xpEarned: cardXp + XP_VALUES.dailyPractice,
       });
     } else {
       setCurrentIndex((i) => i + 1);

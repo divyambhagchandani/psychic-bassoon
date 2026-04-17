@@ -5,6 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { useProgressStore } from "@/stores/progressStore";
 import ChapterFlow from "@/components/story/ChapterFlow";
+import { loadChapter } from "@/lib/content";
 import type { Chapter } from "@/types/content";
 
 export default function ChapterPage() {
@@ -23,9 +24,9 @@ export default function ChapterPage() {
       return;
     }
 
-    import(`@/content/chapters/${chapterId}.json`)
-      .then((mod) => {
-        setChapter(mod.default as Chapter);
+    loadChapter(chapterId)
+      .then((ch) => {
+        setChapter(ch);
         setLoading(false);
       })
       .catch(() => {

@@ -7,9 +7,9 @@ export async function POST(req: Request) {
     }
 
     const trimmed = text.trim();
-    if (trimmed.length < 15) {
+    if (trimmed.length < 2) {
       return Response.json(
-        { error: "Text must be at least 15 characters" },
+        { error: "Text must be at least 2 characters" },
         { status: 400 }
       );
     }

@@ -29,8 +29,6 @@ export default function VocabHighlight({ word, vocab }: VocabHighlightProps) {
       <span
         className="cursor-pointer border-b border-dotted border-primary text-primary hover:border-primary-hover hover:text-primary-hover transition-colors"
         onClick={() => setShowTooltip((v) => !v)}
-        onMouseEnter={() => setShowTooltip(true)}
-        onMouseLeave={() => setShowTooltip(false)}
       >
         {word}
       </span>

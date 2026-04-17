@@ -6,57 +6,65 @@ import type { SentenceBuildExercise as SentenceBuildType } from "@/types/content
 import ExerciseResult from "./ExerciseResult";
 import { getElapsed, markStart } from "@/lib/timing";
 
+interface TaggedWord {
+  id: number;
+  word: string;
+}
+
 interface SentenceBuildExerciseProps {
   exercise: SentenceBuildType;
   onAnswer: (correct: boolean, timeTakenMs: number) => void;
+}
+
+let nextId = 0;
+function tagWords(words: string[]): TaggedWord[] {
+  return words.map((word) => ({ id: nextId++, word }));
 }
 
 export default function SentenceBuildExercise({
   exercise,
   onAnswer,
 }: SentenceBuildExerciseProps) {
-  const allWords = shuffle([
-    ...exercise.correctOrder,
-    ...(exercise.distractors || []),
-  ]);
-  const [available, setAvailable] = useState<string[]>(allWords);
-  const [selected, setSelected] = useState<string[]>([]);
+  const [available, setAvailable] = useState<TaggedWord[]>(() =>
+    tagWords(shuffle([...exercise.correctOrder, ...(exercise.distractors || [])]))
+  );
+  const [selected, setSelected] = useState<TaggedWord[]>([]);
   const [answered, setAnswered] = useState(false);
   const [correct, setCorrect] = useState(false);
   const startTimeRef = useRef(0);
   useEffect(() => { markStart(startTimeRef); }, []);
 
-  const addWord = (word: string) => {
+  const addWord = (tw: TaggedWord) => {
     if (answered) return;
-    setSelected((prev) => [...prev, word]);
-    setAvailable((prev) => {
-      const idx = prev.indexOf(word);
-      return [...prev.slice(0, idx), ...prev.slice(idx + 1)];
-    });
+    setSelected((prev) => [...prev, tw]);
+    setAvailable((prev) => prev.filter((w) => w.id !== tw.id));
   };
 
-  const removeWord = (word: string) => {
+  const removeWord = (tw: TaggedWord) => {
     if (answered) return;
-    setAvailable((prev) => [...prev, word]);
-    setSelected((prev) => {
-      const idx = prev.indexOf(word);
-      return [...prev.slice(0, idx), ...prev.slice(idx + 1)];
-    });
+    setAvailable((prev) => [...prev, tw]);
+    setSelected((prev) => prev.filter((w) => w.id !== tw.id));
   };
 
   const handleCheck = () => {
     if (answered || selected.length === 0) return;
     const isCorrect =
       selected.length === exercise.correctOrder.length &&
-      selected.every((w, i) => w === exercise.correctOrder[i]);
+      selected.every((tw, i) => tw.word === exercise.correctOrder[i]);
     setCorrect(isCorrect);
     setAnswered(true);
     onAnswer(isCorrect, getElapsed(startTimeRef));
   };
 
+  const selectedIds = selected.map((tw) => tw.id);
   const handleReorder = useCallback(
-    (newOrder: string[]) => {
-      if (!answered) setSelected(newOrder);
+    (newOrder: number[]) => {
+      if (!answered) {
+        setSelected((prev) => {
+          const map = new Map(prev.map((tw) => [tw.id, tw]));
+          return newOrder.map((id) => map.get(id)!);
+        });
+      }
     },
     [answered]
   );
@@ -74,14 +82,14 @@ export default function SentenceBuildExercise({
         ) : (
           <Reorder.Group
             axis="x"
-            values={selected}
+            values={selectedIds}
             onReorder={handleReorder}
             className="flex flex-wrap gap-2"
           >
-            {selected.map((word) => (
+            {selected.map((tw) => (
               <Reorder.Item
-                key={word}
-                value={word}
+                key={tw.id}
+                value={tw.id}
                 className={`cursor-grab rounded-lg px-3 py-1.5 text-sm font-medium ${
                   answered
                     ? correct
@@ -89,9 +97,9 @@ export default function SentenceBuildExercise({
                       : "bg-danger/20 text-danger"
                     : "bg-primary/20 text-primary"
                 }`}
-                onClick={() => removeWord(word)}
+                onClick={() => removeWord(tw)}
               >
-                {word}
+                {tw.word}
               </Reorder.Item>
             ))}
           </Reorder.Group>
@@ -100,14 +108,14 @@ export default function SentenceBuildExercise({
 
       {/* Available words */}
       <div className="flex flex-wrap gap-2">
-        {available.map((word, i) => (
+        {available.map((tw) => (
           <button
-            key={`${word}-${i}`}
-            onClick={() => addWord(word)}
+            key={tw.id}
+            onClick={() => addWord(tw)}
             disabled={answered}
             className="rounded-xl border border-outline-variant/20 bg-surface shadow-sm px-3 py-1.5 text-sm hover:bg-surface-high transition-colors disabled:opacity-50"
           >
-            {word}
+            {tw.word}
           </button>
         ))}
       </div>

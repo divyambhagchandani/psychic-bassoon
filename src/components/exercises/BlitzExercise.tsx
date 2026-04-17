@@ -17,15 +17,18 @@ export default function BlitzExercise({
   const [answered, setAnswered] = useState(false);
   const startTimeRef = useRef(Date.now());
   const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const answeredRef = useRef(false);
+  const onAnswerRef = useRef(onAnswer);
+  onAnswerRef.current = onAnswer;
 
   useEffect(() => {
     intervalRef.current = setInterval(() => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
-          // Time's up
-          if (!answered) {
+          if (!answeredRef.current) {
+            answeredRef.current = true;
             setAnswered(true);
-            onAnswer(false, exercise.timeLimitSeconds * 1000);
+            onAnswerRef.current(false, exercise.timeLimitSeconds * 1000);
           }
           if (intervalRef.current) clearInterval(intervalRef.current);
           return 0;
@@ -37,11 +40,11 @@ export default function BlitzExercise({
     return () => {
       if (intervalRef.current) clearInterval(intervalRef.current);
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [exercise.timeLimitSeconds]);
 
   const handleSelect = (index: number) => {
-    if (answered) return;
+    if (answeredRef.current) return;
+    answeredRef.current = true;
     setSelected(index);
     setAnswered(true);
     if (intervalRef.current) clearInterval(intervalRef.current);

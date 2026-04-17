@@ -3,7 +3,16 @@ import { EXPLAINER_SYSTEM_PROMPT } from "@/lib/prompts";
 
 export async function POST(req: Request) {
   try {
-    const { exerciseId, explanation } = await req.json();
+    const body = await req.json();
+    const { exerciseId, explanation } = body;
+
+    if (typeof exerciseId !== "string" || typeof explanation !== "string") {
+      return Response.json({ error: "exerciseId and explanation must be strings" }, { status: 400 });
+    }
+    if (explanation.length > 500) {
+      return Response.json({ error: "explanation too long" }, { status: 400 });
+    }
+
     const client = getClient();
 
     const response = await client.chat.completions.create({

@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { useChatStore } from "@/stores/chatStore";
-import { TUTOR_EXPLAIN_SYSTEM_PROMPT } from "@/lib/prompts";
+
 import MarkdownMessage from "./MarkdownMessage";
 
 interface TutorChatProps {
@@ -71,7 +71,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
 
         // Use explain prompt for explain-mode tabs
         if (activeTab.mode === "explain") {
-          body.systemPrompt = TUTOR_EXPLAIN_SYSTEM_PROMPT;
+          body.promptKey = "explain";
         }
 
         const res = await fetch("/api/chat", {
@@ -209,7 +209,9 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
                     }`}
                   >
                     <span className="max-w-[120px] truncate">{tab.label}</span>
-                    <span
+                    <button
+                      type="button"
+                      aria-label={`Close ${tab.label}`}
                       onClick={(e) => {
                         e.stopPropagation();
                         closeTab(tab.id);
@@ -221,7 +223,7 @@ export default function TutorChat({ open, onToggle }: TutorChatProps) {
                       }`}
                     >
                       ×
-                    </span>
+                    </button>
                   </button>
                 ))}
                 <button

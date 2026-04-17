@@ -3,7 +3,14 @@ import { GENERATOR_SYSTEM_PROMPT } from "@/lib/prompts";
 
 export async function POST(req: Request) {
   try {
-    const { weakTopics, count = 5 } = await req.json();
+    const body = await req.json();
+    const { weakTopics, count = 5 } = body;
+
+    if (!Array.isArray(weakTopics) || !weakTopics.every((t: unknown) => typeof t === "string")) {
+      return Response.json({ error: "weakTopics must be an array of strings" }, { status: 400 });
+    }
+    const clampedCount = Math.min(Math.max(1, Number(count) || 5), 20);
+
     const client = getClient();
 
     const response = await client.chat.completions.create({
@@ -13,7 +20,7 @@ export async function POST(req: Request) {
         { role: "system", content: GENERATOR_SYSTEM_PROMPT },
         {
           role: "user",
-          content: `Generiere ${count} Übungen zu diesen schwachen Themen: ${weakTopics.join(", ")}.
+          content: `Generiere ${clampedCount} Übungen zu diesen schwachen Themen: ${weakTopics.join(", ")}.
 Antworte NUR mit einem JSON-Array. Keine andere Erklärung.`,
         },
       ],
@@ -26,7 +33,12 @@ Antworte NUR mit einem JSON-Array. Keine andere Erklärung.`,
       return Response.json({ exercises: [] });
     }
 
-    const exercises = JSON.parse(jsonMatch[0]);
+    let exercises;
+    try {
+      exercises = JSON.parse(jsonMatch[0]);
+    } catch {
+      return Response.json({ exercises: [] });
+    }
     return Response.json({ exercises });
   } catch (error) {
     console.error("Generate API error:", error);
