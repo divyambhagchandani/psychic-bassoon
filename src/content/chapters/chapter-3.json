@@ -1,0 +1,228 @@
+{
+  "id": "chapter-3",
+  "number": 3,
+  "title": "Krankenschein",
+  "titleEnglish": "Sick Note",
+  "description": "Du bist krank und lernst mit Amara und Elif, wie die Sozialversicherung in Deutschland funktioniert.",
+  "characters": ["amara", "elif"],
+  "story": "Du wachst morgens auf und fühlst dich schrecklich. Dein Kopf tut weh, du hast Fieber und dein Hals brennt. Du kannst kaum schlucken. Du schreibst Elif eine Nachricht: \"Ich bin krank. Was soll ich machen? Ich kann nicht zur Arbeit gehen.\"\n\nElif antwortet sofort: \"Canım, du musst zum Arzt! Bleib da, ich komme vorbei und bringe dich hin. Meine Freundin Amara arbeitet in einer Praxis in Wedding. Die kennt sich super aus. Ich bin in zwanzig Minuten bei dir.\"\n\nElif kommt mit einem Schal und einer Thermoskanne. \"Hier, zieh den Schal an. Und trink diesen Tee — meine Oma in Istanbul hat immer gesagt: Tee hilft gegen alles.\" Ihr nehmt die U-Bahn nach Wedding.\n\nIn der Praxis sitzt du im Wartezimmer. Es ist voll, aber Elif bleibt bei dir. Nach einer halben Stunde ruft Amara euch herein. Sie lächelt freundlich. \"Hallo! Elif hat mir schon geschrieben, dass es dir nicht gut geht. Das schauen wir uns mal an.\" Sie untersucht dich gründlich. \"Okay, du hast eine starke Erkältung mit Fieber. Ich schreibe dir einen Krankenschein. Den gibst du deinem Arbeitgeber. Du musst mindestens drei Tage zu Hause bleiben.\"\n\nDu fragst besorgt: \"Muss ich den Arztbesuch selbst bezahlen? Ich habe nicht viel Geld.\"\n\nAmara schüttelt den Kopf. \"Nein, keine Sorge! Du hast eine Krankenversicherung, oder? In Deutschland ist die Krankenversicherung Pflicht — jeder Mensch muss versichert sein. Das gehört zur Sozialversicherung.\" Sie setzt sich hin und erklärt: \"Stell dir die Sozialversicherung vor wie ein Haus mit fünf Säulen. Jede Säule schützt dich in einer anderen Situation: Krankenversicherung, wenn du krank bist. Pflegeversicherung, wenn du im Alter Pflege brauchst. Rentenversicherung für dein Geld im Alter. Arbeitslosenversicherung, wenn du deinen Job verlierst. Und Unfallversicherung bei Unfällen auf der Arbeit.\"\n\nElif nickt begeistert. \"Ja, das ist wie ein Sicherheitsnetz. Egal was passiert — du fällst nicht ins Nichts. Das finde ich toll an Deutschland.\"\n\n\"Genau\", sagt Amara. \"Und das Beste ist: Die Beiträge teilen sich Arbeitnehmer und Arbeitgeber. Du zahlst also nicht alles allein. Es gibt die gesetzliche Krankenversicherung — die GKV — und die private Krankenversicherung — die PKV. Die meisten Menschen in Deutschland sind in der GKV.\"\n\nElif grinst und klopft dir auf die Schulter. \"Siehst du? In Deutschland wirst du nicht allein gelassen, wenn du krank bist. Das System kümmert sich um dich. So, und jetzt ab nach Hause, Suppe essen und ausruhen! Doktorin Elif verordnet: drei Tage Netflix und Hühnersuppe.\"",
+  "vocab": [
+    {
+      "german": "Krankenversicherung",
+      "english": "health insurance",
+      "article": "die",
+      "exampleSentence": "Die Krankenversicherung ist in Deutschland Pflicht.",
+      "exampleTranslation": "Health insurance is mandatory in Germany."
+    },
+    {
+      "german": "Sozialversicherung",
+      "english": "social insurance",
+      "article": "die",
+      "exampleSentence": "Die Sozialversicherung hat fünf Säulen.",
+      "exampleTranslation": "Social insurance has five pillars."
+    },
+    {
+      "german": "Krankenschein",
+      "english": "sick note",
+      "article": "der",
+      "exampleSentence": "Der Arzt schreibt mir einen Krankenschein.",
+      "exampleTranslation": "The doctor writes me a sick note."
+    },
+    {
+      "german": "Beitrag",
+      "english": "contribution",
+      "article": "der",
+      "plural": "Beiträge",
+      "exampleSentence": "Arbeitnehmer und Arbeitgeber teilen sich die Beiträge.",
+      "exampleTranslation": "Employees and employers share the contributions."
+    },
+    {
+      "german": "Pflegeversicherung",
+      "english": "long-term care insurance",
+      "article": "die",
+      "exampleSentence": "Die Pflegeversicherung hilft bei Pflegebedürftigkeit.",
+      "exampleTranslation": "Long-term care insurance helps when care is needed."
+    },
+    {
+      "german": "Rentenversicherung",
+      "english": "pension insurance",
+      "article": "die",
+      "exampleSentence": "Die Rentenversicherung sichert dich im Alter ab.",
+      "exampleTranslation": "Pension insurance secures you in old age."
+    },
+    {
+      "german": "Arbeitslosenversicherung",
+      "english": "unemployment insurance",
+      "article": "die",
+      "exampleSentence": "Die Arbeitslosenversicherung hilft, wenn du deinen Job verlierst.",
+      "exampleTranslation": "Unemployment insurance helps when you lose your job."
+    },
+    {
+      "german": "Unfallversicherung",
+      "english": "accident insurance",
+      "article": "die",
+      "exampleSentence": "Die Unfallversicherung schützt dich bei Arbeitsunfällen.",
+      "exampleTranslation": "Accident insurance protects you in case of work accidents."
+    },
+    {
+      "german": "Arbeitgeber",
+      "english": "employer",
+      "article": "der",
+      "exampleSentence": "Der Arbeitgeber zahlt die Hälfte der Beiträge.",
+      "exampleTranslation": "The employer pays half of the contributions."
+    },
+    {
+      "german": "Arbeitnehmer",
+      "english": "employee",
+      "article": "der",
+      "exampleSentence": "Der Arbeitnehmer bekommt den Krankenschein vom Arzt.",
+      "exampleTranslation": "The employee gets the sick note from the doctor."
+    },
+    {
+      "german": "Pflicht",
+      "english": "obligation / mandatory",
+      "article": "die",
+      "exampleSentence": "Die Krankenversicherung ist Pflicht in Deutschland.",
+      "exampleTranslation": "Health insurance is mandatory in Germany."
+    },
+    {
+      "german": "Wartezimmer",
+      "english": "waiting room",
+      "article": "das",
+      "exampleSentence": "Wir sitzen im Wartezimmer beim Arzt.",
+      "exampleTranslation": "We are sitting in the waiting room at the doctor's."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch3-ex1",
+      "type": "mcq",
+      "question": "Wie viele Säulen hat die Sozialversicherung in Deutschland?",
+      "options": ["3", "4", "5", "6"],
+      "correctIndex": 2,
+      "tags": ["sozialversicherung", "lid-9"],
+      "explanation": "Die Sozialversicherung in Deutschland hat 5 Säulen: Krankenversicherung, Pflegeversicherung, Rentenversicherung, Arbeitslosenversicherung und Unfallversicherung.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-ex2",
+      "type": "mcq",
+      "question": "Wer teilt sich die Beiträge zur Sozialversicherung?",
+      "options": ["Nur der Arbeitnehmer", "Nur der Arbeitgeber", "Arbeitnehmer und Arbeitgeber", "Der Staat allein"],
+      "correctIndex": 2,
+      "tags": ["sozialversicherung", "beiträge", "lid-9"],
+      "explanation": "In Deutschland teilen sich Arbeitnehmer und Arbeitgeber die Beiträge zur Sozialversicherung. Beide zahlen ungefähr die Hälfte.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-ex3",
+      "type": "fill-blank",
+      "sentence": "Die Krankenversicherung ist in Deutschland ___.",
+      "answer": "Pflicht",
+      "acceptAlternatives": ["pflicht", "Pflichtversicherung"],
+      "hint": "Jeder Mensch in Deutschland muss sie haben.",
+      "tags": ["krankenversicherung", "lid-9"],
+      "explanation": "Die Krankenversicherung ist in Deutschland eine Pflichtversicherung. Jeder Mensch, der in Deutschland lebt, muss krankenversichert sein.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch3-ex4",
+      "type": "mcq",
+      "question": "Welche Versicherung gehört NICHT zu den 5 Säulen der Sozialversicherung?",
+      "options": ["Rentenversicherung", "Haftpflichtversicherung", "Pflegeversicherung", "Unfallversicherung"],
+      "correctIndex": 1,
+      "tags": ["sozialversicherung", "lid-9"],
+      "explanation": "Die Haftpflichtversicherung gehört nicht zu den 5 Säulen. Die 5 Säulen sind: Kranken-, Pflege-, Renten-, Arbeitslosen- und Unfallversicherung.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-ex5",
+      "type": "fill-blank",
+      "sentence": "Arbeitnehmer und ___ teilen sich die Beiträge zur Sozialversicherung.",
+      "answer": "Arbeitgeber",
+      "acceptAlternatives": ["arbeitgeber", "der Arbeitgeber"],
+      "tags": ["sozialversicherung", "beiträge", "lid-9"],
+      "explanation": "Die Beiträge zur Sozialversicherung werden zwischen Arbeitnehmer und Arbeitgeber aufgeteilt.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch3-ex6",
+      "type": "mcq",
+      "question": "Wofür steht die Abkürzung GKV?",
+      "options": ["Große Krankenverordnung", "Gesetzliche Krankenversicherung", "Gemeinsame Kassenversorgung", "Grundlegende Krankenvorsorge"],
+      "correctIndex": 1,
+      "tags": ["krankenversicherung", "lid-9"],
+      "explanation": "GKV steht für Gesetzliche Krankenversicherung. Die meisten Menschen in Deutschland sind in der GKV versichert.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-ex7",
+      "type": "fill-blank",
+      "sentence": "Die Sozialversicherung hat fünf ___.",
+      "answer": "Säulen",
+      "acceptAlternatives": ["säulen", "Saeulen"],
+      "hint": "Ein anderes Wort für Stützen oder Pfeiler.",
+      "tags": ["sozialversicherung", "lid-9"],
+      "explanation": "Die fünf Säulen der Sozialversicherung sind: Krankenversicherung, Pflegeversicherung, Rentenversicherung, Arbeitslosenversicherung und Unfallversicherung.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch3-blitz1",
+      "type": "blitz",
+      "question": "Wie viele Säulen hat die Sozialversicherung?",
+      "options": ["3", "4", "5", "7"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["sozialversicherung", "lid-9"],
+      "explanation": "Die Sozialversicherung hat 5 Säulen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-blitz2",
+      "type": "blitz",
+      "question": "Ist die Krankenversicherung in Deutschland freiwillig?",
+      "options": ["Ja, immer", "Nein, sie ist Pflicht", "Nur für Studenten", "Nur für Rentner"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["krankenversicherung", "lid-9"],
+      "explanation": "Die Krankenversicherung ist in Deutschland Pflicht für alle.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-blitz3",
+      "type": "blitz",
+      "question": "Wer zahlt die Beiträge zur Sozialversicherung?",
+      "options": ["Nur der Staat", "Nur der Arbeitnehmer", "Arbeitnehmer und Arbeitgeber", "Nur der Arbeitgeber"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 10,
+      "tags": ["sozialversicherung", "beiträge", "lid-9"],
+      "explanation": "Arbeitnehmer und Arbeitgeber teilen sich die Beiträge.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-blitz4",
+      "type": "blitz",
+      "question": "Was brauchst du vom Arzt für deinen Arbeitgeber, wenn du krank bist?",
+      "options": ["Ein Rezept", "Einen Krankenschein", "Einen Impfpass", "Eine Rechnung"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["krankenschein", "arbeit"],
+      "explanation": "Wenn du krank bist, brauchst du einen Krankenschein (Arbeitsunfähigkeitsbescheinigung) für deinen Arbeitgeber.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch3-blitz5",
+      "type": "blitz",
+      "question": "Wofür steht PKV?",
+      "options": ["Pflicht-Krankenversorgung", "Private Krankenversicherung", "Persönliche Kassenversicherung", "Pauschal-Krankenvorsorge"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["krankenversicherung", "lid-9"],
+      "explanation": "PKV steht für Private Krankenversicherung.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-9"]
+}

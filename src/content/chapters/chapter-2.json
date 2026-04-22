@@ -1,0 +1,227 @@
+{
+  "id": "chapter-2",
+  "number": 2,
+  "title": "Stolpersteine",
+  "titleEnglish": "Stumbling Stones",
+  "description": "Lena und Yuki gehen durch Friedrichshain und entdecken die Geschichte Berlins — von der NS-Zeit bis zur Wiedervereinigung.",
+  "characters": ["lena", "yuki"],
+  "story": "Es ist ein grauer Samstagnachmittag in Friedrichshain. Du triffst Lena und Yuki vor der Frankfurter Allee. Lena kennt diesen Kiez seit ihrer Kindheit. Die Straßen sind ruhig, ein paar Leute sitzen in einem Café an der Ecke.\n\n\"Ich bin hier aufgewachsen\", sagt Lena. \"Das war damals Ost-Berlin. Die Mauer stand dort drüben.\" Sie zeigt auf eine doppelte Pflastersteinreihe im Boden. \"Am 13. August 1961 haben sie die Mauer gebaut. Über Nacht. Die Leute konnten plötzlich nicht mehr zu ihren Familien. Nachbarn, Freunde — alles war getrennt.\"\n\n\"Das kann ich mir nicht vorstellen\", sagt Yuki leise. Sie macht ein Foto von der Linie im Boden.\n\nIhr geht weiter. Plötzlich bleibt Yuki stehen und schaut nach unten. \"Was sind diese kleinen goldenen Steine?\" fragt sie.\n\n\"Das sind Stolpersteine\", erklärt Lena. \"Ein Künstler, Gunter Demnig, hat sie gemacht. Jeder Stein erinnert an einen Menschen, der im Nationalsozialismus ermordet wurde. Hier steht ein Name, ein Geburtsdatum und wohin die Person deportiert wurde.\"\n\nYuki kniet sich hin und liest leise: \"Rosa Goldberg, geboren 1903, deportiert 1943, ermordet in Auschwitz.\" Sie schweigt einen Moment. \"Das ist so traurig. Rosa war vierzig Jahre alt. Sie hat vielleicht hier gewohnt, in diesem Haus. Wie konnte das passieren?\"\n\nLena nickt ernst. \"Die Nationalsozialisten waren von 1933 bis 1945 an der Macht. Millionen Menschen wurden ermordet — Juden, Roma, Sinti, politische Gegner, Homosexuelle und viele andere. Nach dem Krieg hat Deutschland gesagt: Nie wieder. Deshalb steht in Artikel 1 des Grundgesetzes: Die Würde des Menschen ist unantastbar.\"\n\nSie gehen weiter. An der Spree kommen sie zur East Side Gallery. Yuki fotografiert die bunten Bilder auf der alten Mauer. Ein Bild zeigt zwei Männer, die sich küssen. Ein anderes zeigt eine Taube mit einem Olivenzweig. \"Und wann ist die Mauer gefallen?\" fragt Yuki.\n\n\"Am 9. November 1989\", sagt Lena, und ihre Augen leuchten. \"Ich war zwölf Jahre alt. Meine Eltern haben geweint vor Freude. Tausende Menschen standen auf der Mauer und haben gefeiert. Und am 3. Oktober 1990 kam die Wiedervereinigung — der Tag der Deutschen Einheit. Ost und West waren endlich wieder ein Land.\"\n\nYuki legt ihre Hand auf einen Stolperstein. \"Diese Steine, diese Mauer — Berlin vergisst nicht.\"\n\n\"Nein\", sagt Lena. \"Wir erinnern uns, damit es nie wieder passiert.\"",
+  "vocab": [
+    {
+      "german": "Stolperstein",
+      "english": "stumbling stone (memorial plaque)",
+      "article": "der",
+      "plural": "Stolpersteine",
+      "exampleSentence": "Vor dem Haus liegt ein Stolperstein für eine jüdische Familie.",
+      "exampleTranslation": "In front of the house lies a stumbling stone for a Jewish family."
+    },
+    {
+      "german": "Mauer",
+      "english": "wall",
+      "article": "die",
+      "exampleSentence": "Die Berliner Mauer teilte die Stadt 28 Jahre lang.",
+      "exampleTranslation": "The Berlin Wall divided the city for 28 years."
+    },
+    {
+      "german": "Wiedervereinigung",
+      "english": "reunification",
+      "article": "die",
+      "exampleSentence": "Die Wiedervereinigung war am 3. Oktober 1990.",
+      "exampleTranslation": "The reunification was on October 3, 1990."
+    },
+    {
+      "german": "Nationalsozialismus",
+      "english": "National Socialism / Nazism",
+      "article": "der",
+      "exampleSentence": "Der Nationalsozialismus brachte großes Leid über Europa.",
+      "exampleTranslation": "National Socialism brought great suffering to Europe."
+    },
+    {
+      "german": "deportiert",
+      "english": "deported",
+      "exampleSentence": "Viele Menschen wurden in Konzentrationslager deportiert.",
+      "exampleTranslation": "Many people were deported to concentration camps."
+    },
+    {
+      "german": "ermordet",
+      "english": "murdered",
+      "exampleSentence": "Millionen Menschen wurden im Holocaust ermordet.",
+      "exampleTranslation": "Millions of people were murdered in the Holocaust."
+    },
+    {
+      "german": "Grundgesetz",
+      "english": "constitution / Basic Law",
+      "article": "das",
+      "exampleSentence": "Das Grundgesetz ist die Verfassung Deutschlands.",
+      "exampleTranslation": "The Basic Law is the constitution of Germany."
+    },
+    {
+      "german": "Künstler",
+      "english": "artist",
+      "article": "der",
+      "plural": "Künstler",
+      "exampleSentence": "Der Künstler Gunter Demnig hat die Stolpersteine gemacht.",
+      "exampleTranslation": "The artist Gunter Demnig created the stumbling stones."
+    },
+    {
+      "german": "erinnern",
+      "english": "to remember",
+      "exampleSentence": "Wir erinnern uns an die Opfer des Holocaust.",
+      "exampleTranslation": "We remember the victims of the Holocaust."
+    },
+    {
+      "german": "Einheit",
+      "english": "unity",
+      "article": "die",
+      "exampleSentence": "Der 3. Oktober ist der Tag der Deutschen Einheit.",
+      "exampleTranslation": "October 3rd is the Day of German Unity."
+    },
+    {
+      "german": "Opfer",
+      "english": "victim",
+      "article": "das",
+      "plural": "Opfer",
+      "exampleSentence": "Die Stolpersteine erinnern an die Opfer.",
+      "exampleTranslation": "The stumbling stones commemorate the victims."
+    },
+    {
+      "german": "gefallen",
+      "english": "fallen (past participle of 'fallen')",
+      "exampleSentence": "Die Mauer ist 1989 gefallen.",
+      "exampleTranslation": "The Wall fell in 1989."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch2-ex1",
+      "type": "mcq",
+      "question": "Wann wurde die Berliner Mauer gebaut?",
+      "options": ["3. Oktober 1961", "13. August 1961", "9. November 1961", "1. Januar 1961"],
+      "correctIndex": 1,
+      "tags": ["mauer", "lid-12"],
+      "explanation": "Die Berliner Mauer wurde am 13. August 1961 gebaut. Über Nacht wurde die Stadt geteilt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-ex2",
+      "type": "mcq",
+      "question": "Was sind Stolpersteine?",
+      "options": ["Große Steine auf der Straße", "Messingplatten, die an Holocaust-Opfer erinnern", "Steine aus der Berliner Mauer", "Kunstwerke in der East Side Gallery"],
+      "correctIndex": 1,
+      "tags": ["stolpersteine", "lid-13"],
+      "explanation": "Stolpersteine sind kleine Messingplatten im Boden, die an Menschen erinnern, die im Nationalsozialismus ermordet wurden. Der Künstler Gunter Demnig hat sie geschaffen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-ex3",
+      "type": "fill-blank",
+      "sentence": "Die Berliner Mauer ist am 9. November ___ gefallen.",
+      "answer": "1989",
+      "acceptAlternatives": [],
+      "hint": "Ein Jahr vor der Wiedervereinigung",
+      "tags": ["mauer", "lid-12"],
+      "explanation": "Die Berliner Mauer fiel am 9. November 1989. Ein Jahr später, am 3. Oktober 1990, kam die Wiedervereinigung.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch2-ex4",
+      "type": "mcq",
+      "question": "Wann ist der Tag der Deutschen Einheit?",
+      "options": ["9. November", "13. August", "3. Oktober", "1. Mai"],
+      "correctIndex": 2,
+      "tags": ["wiedervereinigung", "lid-11"],
+      "explanation": "Der Tag der Deutschen Einheit ist am 3. Oktober. An diesem Tag im Jahr 1990 wurde Deutschland wiedervereinigt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-ex5",
+      "type": "fill-blank",
+      "sentence": "Die ___ des Menschen ist unantastbar.",
+      "answer": "Würde",
+      "acceptAlternatives": ["würde"],
+      "hint": "Artikel 1 des Grundgesetzes",
+      "tags": ["grundgesetz", "lid-13"],
+      "explanation": "Artikel 1 des Grundgesetzes sagt: 'Die Würde des Menschen ist unantastbar.' Dieser Satz ist eine direkte Antwort auf die Verbrechen des Nationalsozialismus.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch2-ex6",
+      "type": "mcq",
+      "question": "Wer hat die Stolpersteine geschaffen?",
+      "options": ["Gunter Grass", "Gunter Demnig", "Gerhard Richter", "Joseph Beuys"],
+      "correctIndex": 1,
+      "tags": ["stolpersteine", "lid-13"],
+      "explanation": "Der Künstler Gunter Demnig hat die Stolpersteine geschaffen. Sie sind das größte dezentrale Mahnmal der Welt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-ex7",
+      "type": "fill-blank",
+      "sentence": "Die Wiedervereinigung Deutschlands war am 3. Oktober ___.",
+      "answer": "1990",
+      "acceptAlternatives": [],
+      "hint": "Ein Jahr nach dem Mauerfall",
+      "tags": ["wiedervereinigung", "lid-11"],
+      "explanation": "Die deutsche Wiedervereinigung fand am 3. Oktober 1990 statt. Dieser Tag ist seitdem der Nationalfeiertag Deutschlands.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch2-blitz1",
+      "type": "blitz",
+      "question": "Wann fiel die Berliner Mauer?",
+      "options": ["9. November 1989", "3. Oktober 1990", "13. August 1961", "1. Januar 1990"],
+      "correctIndex": 0,
+      "timeLimitSeconds": 8,
+      "tags": ["mauer", "lid-12"],
+      "explanation": "Die Berliner Mauer fiel am 9. November 1989.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-blitz2",
+      "type": "blitz",
+      "question": "Was erinnert an die Opfer des Nationalsozialismus im Boden?",
+      "options": ["Graffiti", "Stolpersteine", "Blumen", "Kreuze"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["stolpersteine", "lid-13"],
+      "explanation": "Stolpersteine sind Messingplatten im Boden, die an die Opfer des Nationalsozialismus erinnern.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-blitz3",
+      "type": "blitz",
+      "question": "Von wann bis wann waren die Nationalsozialisten an der Macht?",
+      "options": ["1929-1945", "1933-1945", "1933-1949", "1939-1945"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["nationalsozialismus", "lid-13"],
+      "explanation": "Die Nationalsozialisten waren von 1933 bis 1945 an der Macht in Deutschland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-blitz4",
+      "type": "blitz",
+      "question": "Wie heißt der Nationalfeiertag Deutschlands?",
+      "options": ["Tag der Arbeit", "Tag der Deutschen Einheit", "Mauerfalltag", "Verfassungstag"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["wiedervereinigung", "lid-11"],
+      "explanation": "Der Tag der Deutschen Einheit am 3. Oktober ist der Nationalfeiertag Deutschlands.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch2-blitz5",
+      "type": "blitz",
+      "question": "Wann wurde die Berliner Mauer gebaut?",
+      "options": ["1949", "1953", "1961", "1971"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["mauer", "lid-12"],
+      "explanation": "Die Berliner Mauer wurde am 13. August 1961 gebaut.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-11", "lid-12", "lid-13"]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "chapter-7",
+  "number": 7,
+  "title": "Ärger mit dem Vermieter",
+  "titleEnglish": "Trouble with the Landlord",
+  "description": "Marco hat Stress mit seinem Vermieter wegen einer Mieterhöhung und Elif hilft ihm, seine Rechte zu verstehen.",
+  "characters": ["marco", "elif"],
+  "story": "Marco stürmt in Elifs Café und knallt einen Brief auf den Tisch. \"Elif! Mamma mia! Mein Vermieter will die Miete um 200 Euro erhöhen! Das kann er doch nicht machen, oder?\"\n\nElif nimmt den Brief und liest ihn ruhig. \"Lass mal sehen... Okay, Marco, erstmal: Keine Panik. In Deutschland haben Mieter starke Rechte. Das Mietrecht schützt dich.\"\n\n\"Aber 200 Euro mehr! Ich bin Koch und Fahrradkurier — das ist so viel Geld!\" Marco läuft nervös durch das Café.\n\n\"Hör zu\", sagt Elif bestimmt. \"In Berlin gibt es die Mietpreisbremse. Dein Vermieter darf die Miete nicht einfach so erhöhen, wie er will. Steht das im Mietvertrag? Und wie hoch ist deine Kaution?\"\n\n\"Drei Monatsmieten\", antwortet Marco. \"Das Maximum, oder?\"\n\n\"Genau, die Kaution darf maximal drei Monatsmieten sein. Das steht im Gesetz.\" Elif macht ihm einen Tee. \"Du hast auch Kündigungsschutz. Er kann dich nicht einfach rauswerfen.\"\n\nMarco atmet tief durch. \"Danke, Elif. Du bist die Beste. Ach, übrigens — meine Schwester Giulia heiratet nächsten Monat! Hier in Berlin!\"\n\n\"Oh, wie schön! Maşallah!\" Elif strahlt. \"Im Standesamt?\"\n\n\"Ja, sie muss im Standesamt heiraten. In Deutschland ist nur die standesamtliche Trauung rechtlich gültig. Die kirchliche Hochzeit machen sie danach in Napoli.\"\n\nElif nickt. \"Wusstest du, dass seit Oktober 2017 auch gleichgeschlechtliche Paare in Deutschland heiraten dürfen? Ehe für alle — finde ich super.\"\n\n\"Sì, das ist gut so!\" Marco lächelt. \"Giulia und ihr Mann wollen auch bald Kinder. Sie hat gefragt: Gibt es Hilfe vom Staat?\"\n\n\"Natürlich! Es gibt Elterngeld, Kindergeld und Mutterschutz. Und Artikel 6 im Grundgesetz sagt: Ehe und Familie stehen unter dem besonderen Schutz des Staates.\" Elif tippt auf ihr Handy. \"Ich schicke dir auch die Nummer vom Mieterverein. Die helfen dir mit dem Brief vom Vermieter.\"\n\nMarco umarmt Elif. \"Was würde ich ohne dich machen, Elif? Grazie mille!\"\n\n\"Keine Sache, canim. Dafür sind Freunde da — und guter Tee.\" Sie lacht und stellt ihm eine zweite Tasse hin.",
+  "vocab": [
+    {
+      "german": "Mietvertrag",
+      "english": "rental contract / lease",
+      "article": "der",
+      "exampleSentence": "Lies deinen Mietvertrag genau durch.",
+      "exampleTranslation": "Read your rental contract carefully."
+    },
+    {
+      "german": "Kaution",
+      "english": "security deposit",
+      "article": "die",
+      "exampleSentence": "Die Kaution darf maximal drei Monatsmieten betragen.",
+      "exampleTranslation": "The security deposit may be a maximum of three months' rent."
+    },
+    {
+      "german": "Mietpreisbremse",
+      "english": "rent control / rent cap",
+      "article": "die",
+      "exampleSentence": "Die Mietpreisbremse begrenzt die Miete in Berlin.",
+      "exampleTranslation": "The rent cap limits rent in Berlin."
+    },
+    {
+      "german": "Kündigungsschutz",
+      "english": "protection against eviction",
+      "article": "der",
+      "exampleSentence": "Der Kündigungsschutz ist ein wichtiges Recht für Mieter.",
+      "exampleTranslation": "Protection against eviction is an important right for tenants."
+    },
+    {
+      "german": "Standesamt",
+      "english": "civil registry office",
+      "article": "das",
+      "exampleSentence": "Wir heiraten nächste Woche im Standesamt.",
+      "exampleTranslation": "We are getting married next week at the civil registry office."
+    },
+    {
+      "german": "standesamtliche Trauung",
+      "english": "civil marriage ceremony",
+      "article": "die",
+      "exampleSentence": "Nur die standesamtliche Trauung ist in Deutschland rechtlich gültig.",
+      "exampleTranslation": "Only the civil marriage ceremony is legally valid in Germany."
+    },
+    {
+      "german": "Elterngeld",
+      "english": "parental allowance",
+      "article": "das",
+      "exampleSentence": "Nach der Geburt bekommt man Elterngeld vom Staat.",
+      "exampleTranslation": "After the birth, you receive parental allowance from the state."
+    },
+    {
+      "german": "Kindergeld",
+      "english": "child benefit",
+      "article": "das",
+      "exampleSentence": "Familien in Deutschland bekommen Kindergeld.",
+      "exampleTranslation": "Families in Germany receive child benefit."
+    },
+    {
+      "german": "Mieterhöhung",
+      "english": "rent increase",
+      "article": "die",
+      "exampleSentence": "Die Mieterhöhung war nicht rechtmäßig.",
+      "exampleTranslation": "The rent increase was not lawful."
+    },
+    {
+      "german": "gleichgeschlechtlich",
+      "english": "same-sex",
+      "exampleSentence": "Gleichgeschlechtliche Paare dürfen seit 2017 in Deutschland heiraten.",
+      "exampleTranslation": "Same-sex couples have been allowed to marry in Germany since 2017."
+    },
+    {
+      "german": "Mutterschutz",
+      "english": "maternity protection",
+      "article": "der",
+      "exampleSentence": "Der Mutterschutz beginnt sechs Wochen vor der Geburt.",
+      "exampleTranslation": "Maternity protection begins six weeks before the birth."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch7-ex1",
+      "type": "mcq",
+      "question": "Wie hoch darf die Kaution in Deutschland maximal sein?",
+      "options": ["Eine Monatsmiete", "Zwei Monatsmieten", "Drei Monatsmieten", "Sechs Monatsmieten"],
+      "correctIndex": 2,
+      "tags": ["mietrecht", "kaution"],
+      "explanation": "Die Kaution darf in Deutschland maximal drei Monatsmieten (Kaltmiete) betragen. Das ist gesetzlich geregelt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-ex2",
+      "type": "mcq",
+      "question": "Welche Trauung ist in Deutschland rechtlich gültig?",
+      "options": ["Die kirchliche Trauung", "Die standesamtliche Trauung", "Beide sind gleich gültig", "Keine — man muss nicht heiraten"],
+      "correctIndex": 1,
+      "tags": ["eheschließung", "standesamt", "lid"],
+      "explanation": "In Deutschland ist nur die standesamtliche Trauung (im Standesamt) rechtlich gültig. Eine kirchliche Hochzeit ist optional.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-ex3",
+      "type": "mcq",
+      "question": "Seit wann dürfen gleichgeschlechtliche Paare in Deutschland heiraten?",
+      "options": ["Seit 2005", "Seit 2013", "Seit 2017", "Seit 2020"],
+      "correctIndex": 2,
+      "tags": ["ehe-für-alle", "gleichberechtigung", "lid"],
+      "explanation": "Seit Oktober 2017 gilt in Deutschland die 'Ehe für alle'. Gleichgeschlechtliche Paare dürfen seitdem heiraten.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-ex4",
+      "type": "mcq",
+      "question": "Was sagt Artikel 6 des Grundgesetzes?",
+      "options": ["Jeder darf frei reisen", "Ehe und Familie stehen unter besonderem Schutz des Staates", "Alle Menschen sind gleich", "Die Würde des Menschen ist unantastbar"],
+      "correctIndex": 1,
+      "tags": ["grundgesetz", "familie", "lid"],
+      "explanation": "Artikel 6 GG: 'Ehe und Familie stehen unter dem besonderen Schutz der staatlichen Ordnung.' Der Staat schützt also Ehe und Familie besonders.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-ex5",
+      "type": "fill-blank",
+      "sentence": "Die ___ begrenzt die Miete in Berlin.",
+      "answer": "Mietpreisbremse",
+      "acceptAlternatives": ["mietpreisbremse"],
+      "hint": "Ein Gesetz gegen zu hohe Mieten",
+      "tags": ["mietrecht", "mietpreisbremse"],
+      "explanation": "Die Mietpreisbremse ist ein Gesetz, das die Miete in bestimmten Gebieten begrenzt. In Berlin gilt sie besonders streng.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch7-ex6",
+      "type": "fill-blank",
+      "sentence": "Nur die standesamtliche ___ ist in Deutschland rechtlich gültig.",
+      "answer": "Trauung",
+      "acceptAlternatives": ["trauung"],
+      "hint": "Das Wort für die Hochzeitszeremonie",
+      "tags": ["eheschließung", "standesamt", "lid"],
+      "explanation": "Die standesamtliche Trauung ist die einzige rechtlich gültige Eheschließung in Deutschland. Sie findet im Standesamt statt.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch7-ex7",
+      "type": "fill-blank",
+      "sentence": "Nach der Geburt eines Kindes können Eltern ___ vom Staat bekommen.",
+      "answer": "Elterngeld",
+      "acceptAlternatives": ["elterngeld"],
+      "hint": "Finanzielle Hilfe für Eltern",
+      "tags": ["familie", "elterngeld", "lid"],
+      "explanation": "Elterngeld ist eine finanzielle Unterstützung vom Staat für Eltern nach der Geburt eines Kindes. Es wird bis zu 14 Monate gezahlt.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch7-blitz1",
+      "type": "blitz",
+      "question": "Wo heiratet man in Deutschland offiziell?",
+      "options": ["In der Kirche", "Im Standesamt", "Im Rathaus", "Beim Notar"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["eheschließung", "standesamt"],
+      "explanation": "Die offizielle Eheschließung findet im Standesamt statt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-blitz2",
+      "type": "blitz",
+      "question": "Wie viele Monatsmieten darf die Kaution maximal sein?",
+      "options": ["1", "2", "3", "6"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["mietrecht", "kaution"],
+      "explanation": "Die Kaution darf maximal drei Monatsmieten betragen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-blitz3",
+      "type": "blitz",
+      "question": "Wie heißt das Gesetz gegen zu hohe Mieten in Berlin?",
+      "options": ["Mietvertrag", "Mietpreisbremse", "Kündigungsschutz", "Mieterhöhung"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["mietrecht", "mietpreisbremse"],
+      "explanation": "Die Mietpreisbremse begrenzt Mieterhöhungen in Berlin.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-blitz4",
+      "type": "blitz",
+      "question": "Seit wann gibt es die 'Ehe für alle' in Deutschland?",
+      "options": ["2010", "2015", "2017", "2020"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["ehe-für-alle", "lid"],
+      "explanation": "Seit Oktober 2017 gilt die 'Ehe für alle' in Deutschland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch7-blitz5",
+      "type": "blitz",
+      "question": "Welcher Grundgesetz-Artikel schützt Ehe und Familie?",
+      "options": ["Artikel 1", "Artikel 3", "Artikel 6", "Artikel 10"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 10,
+      "tags": ["grundgesetz", "familie", "lid"],
+      "explanation": "Artikel 6 GG schützt Ehe und Familie besonders.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-19"]
+}

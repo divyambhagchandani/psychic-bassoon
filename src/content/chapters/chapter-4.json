@@ -1,0 +1,232 @@
+{
+  "id": "chapter-4",
+  "number": 4,
+  "title": "Wahlkampf im Späti",
+  "titleEnglish": "Campaign at the Späti",
+  "description": "Jan und Marco diskutieren im Späti über Politik, Wahlen und die deutsche Demokratie.",
+  "characters": ["jan", "marco"],
+  "story": "Es ist Freitagabend. Jan und Marco stehen vor dem Späti in Neukölln. Überall hängen Wahlplakate — SPD, CDU, Grüne, FDP. Marco zeigt auf ein Plakat und lacht.\n\n\"Mamma mia, Jan! Schon wieder Wahlen? In Italien haben wir auch viele Wahlen, aber hier ist alles so... organisiert.\" Marco trinkt sein Bier und schüttelt den Kopf.\n\nJan lächelt ruhig. \"Ja, in Deutschland wählen wir den Bundestag alle vier Jahre. Das ist das Parlament. Es sitzt im Reichstagsgebäude in Berlin. Dort arbeiten ungefähr 736 Abgeordnete.\"\n\n\"736! Das sind viele Leute!\" Marco ist überrascht. \"Und wer entscheidet, wer Kanzler wird?\"\n\n\"Der Bundestag wählt den Bundeskanzler\", erklärt Jan geduldig. \"Der Kanzler ist der Regierungschef. Das ist die wichtigste Person in der Politik. Der Bundespräsident ist das Staatsoberhaupt, aber er hat vor allem eine repräsentative Funktion.\"\n\nMarco nimmt einen Schluck Bier. \"Aspetta — warte mal. Zwei Stimmen? Was soll das?\"\n\nJan nickt. \"Genau. Bei der Bundestagswahl hat jeder Wähler zwei Stimmen. Die Erststimme ist für einen Direktkandidaten aus deinem Wahlkreis. Die Zweitstimme ist für eine Partei — die Parteiliste. Die Zweitstimme ist besonders wichtig, weil sie bestimmt, wie viele Sitze eine Partei im Bundestag bekommt.\"\n\n\"Und was ist mit den kleinen Parteien?\" fragt Marco.\n\n\"Es gibt die Fünf-Prozent-Hürde\", sagt Jan. \"Eine Partei braucht mindestens fünf Prozent der Zweitstimmen, um in den Bundestag zu kommen. Das soll verhindern, dass zu viele kleine Parteien im Parlament sitzen.\"\n\nMarco zeigt auf ein anderes Plakat. \"Und der Bundesrat? Was macht der?\"\n\n\"Der Bundesrat vertritt die 16 Bundesländer. Die Landesregierungen schicken Vertreter dorthin. So können die Bundesländer bei der Gesetzgebung mitreden.\"\n\n\"Interessant!\" sagt Marco. \"Und wählen darf man ab 18, oder?\"\n\n\"Genau. Die Wahl ist frei, geheim, gleich und allgemein. Jede Stimme zählt gleich viel — egal ob du Arzt bist oder Fahrradkurier.\" Jan grinst.\n\nMarco lacht. \"Anche il cuoco — auch der Koch! Dann gehe ich nächstes Mal wählen!\"",
+  "vocab": [
+    {
+      "german": "Bundestag",
+      "english": "federal parliament",
+      "article": "der",
+      "exampleSentence": "Der Bundestag hat ungefähr 736 Abgeordnete.",
+      "exampleTranslation": "The Bundestag has approximately 736 members."
+    },
+    {
+      "german": "Bundesrat",
+      "english": "federal council",
+      "article": "der",
+      "exampleSentence": "Der Bundesrat vertritt die 16 Bundesländer.",
+      "exampleTranslation": "The Bundesrat represents the 16 federal states."
+    },
+    {
+      "german": "Wahl",
+      "english": "election",
+      "article": "die",
+      "plural": "Wahlen",
+      "exampleSentence": "Die Wahl findet alle vier Jahre statt.",
+      "exampleTranslation": "The election takes place every four years."
+    },
+    {
+      "german": "Bundeskanzler",
+      "english": "federal chancellor",
+      "article": "der",
+      "exampleSentence": "Der Bundeskanzler wird vom Bundestag gewählt.",
+      "exampleTranslation": "The federal chancellor is elected by the Bundestag."
+    },
+    {
+      "german": "Bundespräsident",
+      "english": "federal president",
+      "article": "der",
+      "exampleSentence": "Der Bundespräsident hat eine repräsentative Funktion.",
+      "exampleTranslation": "The federal president has a representative function."
+    },
+    {
+      "german": "Partei",
+      "english": "political party",
+      "article": "die",
+      "plural": "Parteien",
+      "exampleSentence": "In Deutschland gibt es viele Parteien.",
+      "exampleTranslation": "There are many political parties in Germany."
+    },
+    {
+      "german": "Abgeordnete",
+      "english": "member of parliament",
+      "article": "der/die",
+      "plural": "Abgeordnete",
+      "exampleSentence": "Die Abgeordneten arbeiten im Reichstagsgebäude.",
+      "exampleTranslation": "The members of parliament work in the Reichstag building."
+    },
+    {
+      "german": "Erststimme",
+      "english": "first vote (for a direct candidate)",
+      "article": "die",
+      "exampleSentence": "Mit der Erststimme wählt man einen Direktkandidaten.",
+      "exampleTranslation": "With the first vote you elect a direct candidate."
+    },
+    {
+      "german": "Zweitstimme",
+      "english": "second vote (for a party list)",
+      "article": "die",
+      "exampleSentence": "Die Zweitstimme bestimmt die Sitzverteilung im Bundestag.",
+      "exampleTranslation": "The second vote determines the seat distribution in the Bundestag."
+    },
+    {
+      "german": "Wahlrecht",
+      "english": "right to vote",
+      "article": "das",
+      "exampleSentence": "Das Wahlrecht hat man in Deutschland ab 18 Jahren.",
+      "exampleTranslation": "In Germany you have the right to vote from age 18."
+    },
+    {
+      "german": "Regierungschef",
+      "english": "head of government",
+      "article": "der",
+      "exampleSentence": "Der Bundeskanzler ist der Regierungschef von Deutschland.",
+      "exampleTranslation": "The federal chancellor is the head of government of Germany."
+    },
+    {
+      "german": "Wahlplakat",
+      "english": "election poster",
+      "article": "das",
+      "plural": "Wahlplakate",
+      "exampleSentence": "Vor der Wahl hängen überall Wahlplakate.",
+      "exampleTranslation": "Before the election, election posters hang everywhere."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch4-ex1",
+      "type": "mcq",
+      "question": "Wie oft wird der Bundestag gewählt?",
+      "options": ["Alle 2 Jahre", "Alle 4 Jahre", "Alle 5 Jahre", "Alle 6 Jahre"],
+      "correctIndex": 1,
+      "tags": ["wahlen", "bundestag", "lid-6"],
+      "explanation": "Der Bundestag wird alle vier Jahre gewählt. Die Wähler geben dabei eine Erststimme und eine Zweitstimme ab.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-ex2",
+      "type": "mcq",
+      "question": "Wer wählt den Bundeskanzler?",
+      "options": ["Das Volk direkt", "Der Bundestag", "Der Bundesrat", "Der Bundespräsident"],
+      "correctIndex": 1,
+      "tags": ["bundeskanzler", "bundestag", "lid-8"],
+      "explanation": "Der Bundeskanzler wird vom Bundestag gewählt. Er ist der Regierungschef und leitet die Bundesregierung.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-ex3",
+      "type": "fill-blank",
+      "sentence": "Die ___ bestimmt, wie viele Sitze eine Partei im Bundestag bekommt.",
+      "answer": "Zweitstimme",
+      "acceptAlternatives": ["zweitstimme"],
+      "hint": "Die Stimme für die Parteiliste",
+      "tags": ["wahlen", "zweitstimme", "lid-6"],
+      "explanation": "Die Zweitstimme ist die Stimme für eine Partei (Parteiliste). Sie bestimmt die Sitzverteilung im Bundestag und ist deshalb besonders wichtig.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch4-ex4",
+      "type": "mcq",
+      "question": "Was vertritt der Bundesrat?",
+      "options": ["Die Bürger direkt", "Die Parteien", "Die 16 Bundesländer", "Die Städte und Gemeinden"],
+      "correctIndex": 2,
+      "tags": ["bundesrat", "bundesländer", "lid-5"],
+      "explanation": "Der Bundesrat ist die Vertretung der 16 Bundesländer. Die Landesregierungen schicken ihre Vertreter in den Bundesrat.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-ex5",
+      "type": "fill-blank",
+      "sentence": "Eine Partei braucht mindestens fünf Prozent der Stimmen — das ist die ___.",
+      "answer": "Fünf-Prozent-Hürde",
+      "acceptAlternatives": ["Fünf-Prozent-Hürde", "fünf-Prozent-Hürde", "5-Prozent-Hürde", "5%-Hürde", "Sperrklausel"],
+      "hint": "Eine Barriere für kleine Parteien",
+      "tags": ["parteien", "wahlen", "lid-7"],
+      "explanation": "Die Fünf-Prozent-Hürde bedeutet: Eine Partei muss mindestens 5% der Zweitstimmen bekommen, um in den Bundestag einzuziehen.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch4-ex6",
+      "type": "mcq",
+      "question": "Welche Funktion hat der Bundespräsident vor allem?",
+      "options": ["Er leitet die Regierung", "Er schreibt die Gesetze", "Er hat eine repräsentative Funktion", "Er kontrolliert die Polizei"],
+      "correctIndex": 2,
+      "tags": ["bundespräsident", "lid-8"],
+      "explanation": "Der Bundespräsident ist das Staatsoberhaupt, hat aber vor allem eine repräsentative Funktion. Der Regierungschef ist der Bundeskanzler.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-ex7",
+      "type": "fill-blank",
+      "sentence": "Der Bundestag sitzt im ___ in Berlin.",
+      "answer": "Reichstagsgebäude",
+      "acceptAlternatives": ["reichstagsgebäude", "Reichstag", "reichstag"],
+      "hint": "Ein berühmtes Gebäude mit einer Glaskuppel",
+      "tags": ["bundestag", "berlin", "lid-5"],
+      "explanation": "Der Deutsche Bundestag hat seinen Sitz im Reichstagsgebäude in Berlin. Das Gebäude ist bekannt für seine gläserne Kuppel.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch4-blitz1",
+      "type": "blitz",
+      "question": "Ab welchem Alter darf man in Deutschland wählen?",
+      "options": ["16", "18", "20", "21"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["wahlrecht", "lid-6"],
+      "explanation": "Das aktive Wahlrecht für den Bundestag hat man in Deutschland ab 18 Jahren.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-blitz2",
+      "type": "blitz",
+      "question": "Wer ist der Regierungschef in Deutschland?",
+      "options": ["Der Bundespräsident", "Der Bundesratspräsident", "Der Bundeskanzler", "Der Außenminister"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["bundeskanzler", "lid-8"],
+      "explanation": "Der Bundeskanzler ist der Regierungschef von Deutschland und leitet die Bundesregierung.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-blitz3",
+      "type": "blitz",
+      "question": "Wie viele Stimmen hat man bei der Bundestagswahl?",
+      "options": ["1", "2", "3", "4"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["wahlen", "lid-6"],
+      "explanation": "Bei der Bundestagswahl hat jeder Wähler zwei Stimmen: die Erststimme und die Zweitstimme.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-blitz4",
+      "type": "blitz",
+      "question": "Wie viele Bundesländer hat Deutschland?",
+      "options": ["12", "14", "16", "18"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 10,
+      "tags": ["bundesländer", "bundesrat", "lid-5"],
+      "explanation": "Deutschland hat 16 Bundesländer, die im Bundesrat vertreten sind.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch4-blitz5",
+      "type": "blitz",
+      "question": "Was ist die Fünf-Prozent-Hürde?",
+      "options": ["Man braucht 5% für ein Bankkonto", "Eine Partei braucht 5% um in den Bundestag zu kommen", "Man zahlt 5% Steuern", "5% der Abgeordneten müssen zustimmen"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["parteien", "wahlen", "lid-7"],
+      "explanation": "Die Fünf-Prozent-Hürde bedeutet, dass eine Partei mindestens 5% der Zweitstimmen braucht, um in den Bundestag einzuziehen.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-5", "lid-6", "lid-7", "lid-8"]
+}

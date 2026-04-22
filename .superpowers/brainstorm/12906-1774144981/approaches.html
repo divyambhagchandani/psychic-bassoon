@@ -1,0 +1,45 @@
+<h2>Three Approaches for Berlin Leben</h2>
+<p class="subtitle">Pick the architecture that fits your month-long timeline best</p>
+
+<div class="options">
+  <div class="option" data-choice="a" onclick="toggleSelect(this)">
+    <div class="letter">A</div>
+    <div class="content">
+      <h3>Chapter-Driven Linear Path</h3>
+      <p><strong>Structure:</strong> 10-12 chapters, each a Berlin life scenario (Bürgeramt, Wohnung, Wahl...). Each chapter has a story intro → lesson content → mixed exercises → chapter quiz. Unlock next chapter by passing.</p>
+      <p><strong>Adaptive:</strong> Failed questions enter a spaced-repetition review queue that appears at the start of each session.</p>
+      <p><strong>Pros:</strong> Clear progression, easy to scope, strong narrative flow, natural stopping points.</p>
+      <p><strong>Cons:</strong> Less flexible — you must follow the path. Review feels separate from story.</p>
+      <p><strong>Build time:</strong> ~2-3 weeks for core, 1 week polish</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="b" onclick="toggleSelect(this)">
+    <div class="letter">B</div>
+    <div class="content">
+      <h3>Berlin Map Hub + Missions</h3>
+      <p><strong>Structure:</strong> A visual Berlin map as the home screen. Locations (Rathaus, Schule, Krankenhaus...) unlock missions. Each mission = a scenario with exercises. Daily review missions appear as "errands" on the map.</p>
+      <p><strong>Adaptive:</strong> Weak areas resurface as "urgent errands" — spaced repetition baked into the map metaphor.</p>
+      <p><strong>Pros:</strong> Non-linear exploration, the map IS the progress tracker, review feels organic. Very engaging visually.</p>
+      <p><strong>Cons:</strong> More complex to build (map UI, location states). Harder to ensure full LiD coverage without linear ordering.</p>
+      <p><strong>Build time:</strong> ~3-4 weeks, tight for a month</p>
+    </div>
+  </div>
+
+  <div class="option" data-choice="c" onclick="toggleSelect(this)">
+    <div class="letter">C</div>
+    <div class="content">
+      <h3>Hybrid: Linear Story + Daily Dashboard</h3>
+      <p><strong>Structure:</strong> Two modes — <em>Story Mode</em> (linear chapters, new content + narrative) and <em>Tägliche Übung</em> (daily practice dashboard with streak, review queue, quick drills). Story unlocks new content; daily practice reinforces it.</p>
+      <p><strong>Adaptive:</strong> Daily practice is 100% driven by spaced repetition. Story mode advances when you're ready (based on review performance).</p>
+      <p><strong>Pros:</strong> Best of both — narrative engagement + flexible daily practice. Adapts to 10min days (just do daily) vs 1hr days (daily + story). Clear separation of "learn new" vs "review".</p>
+      <p><strong>Cons:</strong> Two UIs to build. Slightly more complexity than pure linear.</p>
+      <p><strong>Build time:</strong> ~3 weeks core, but the two-mode split parallelizes well</p>
+    </div>
+  </div>
+</div>
+
+<div style="margin-top: 2rem; padding: 1.2rem; border-left: 3px solid #60a5fa; background: rgba(96,165,250,0.08); border-radius: 6px;">
+  <h3 style="margin-top:0; color: #60a5fa;">⭐ Recommendation: Option C (Hybrid)</h3>
+  <p style="margin-bottom:0;">It naturally handles your variable schedule (short days = daily review, long days = story + review), keeps the narrative engaging, and the spaced repetition review is its own dedicated space rather than awkwardly mixed into the story. The two modes also parallelize well during development.</p>
+</div>

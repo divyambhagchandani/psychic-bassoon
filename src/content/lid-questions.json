@@ -1,0 +1,6202 @@
+[
+  {
+    "id": "lid-q001",
+    "type": "mcq",
+    "question": "In Deutschland dürfen Menschen offen etwas gegen die Regierung sagen, weil …",
+    "options": [
+      "hier Religionsfreiheit gilt.",
+      "die Menschen Steuern zahlen.",
+      "die Menschen das Wahlrecht haben.",
+      "hier Meinungsfreiheit gilt."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "meinungsfreiheit"
+    ],
+    "explanation": "In Deutschland gilt Meinungsfreiheit nach Artikel 5 des Grundgesetzes.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 1
+  },
+  {
+    "id": "lid-q002",
+    "type": "mcq",
+    "question": "In Deutschland können Eltern bis zum 14. Lebensjahr ihres Kindes entscheiden, ob es in der Schule am …",
+    "options": [
+      "Geschichtsunterricht teilnimmt.",
+      "Religionsunterricht teilnimmt.",
+      "Politikunterricht teilnimmt.",
+      "Sprachunterricht teilnimmt."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "religionsfreiheit"
+    ],
+    "explanation": "Eltern dürfen über die Teilnahme am Religionsunterricht bis zum 14. Lebensjahr entscheiden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-3",
+    "questionNumber": 2
+  },
+  {
+    "id": "lid-q003",
+    "type": "mcq",
+    "question": "Deutschland ist ein Rechtsstaat. Was ist damit gemeint?",
+    "options": [
+      "Alle Einwohner / Einwohnerinnen und der Staat müssen sich an die Gesetze halten.",
+      "Der Staat muss sich nicht an die Gesetze halten.",
+      "Nur Deutsche müssen die Gesetze befolgen.",
+      "Die Gerichte machen die Gesetze."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Im Rechtsstaat sind alle an die Gesetze gebunden, auch der Staat selbst.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 3
+  },
+  {
+    "id": "lid-q004",
+    "type": "mcq",
+    "question": "Welches Recht gehört zu den Grundrechten in Deutschland?",
+    "options": [
+      "Waffenbesitz",
+      "Faustrecht",
+      "Meinungsfreiheit",
+      "Selbstjustiz"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Meinungsfreiheit ist ein im Grundgesetz verankertes Grundrecht.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 4
+  },
+  {
+    "id": "lid-q005",
+    "type": "mcq",
+    "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+    "options": [
+      "Man darf Geld annehmen, wenn man dafür einen bestimmten Kandidaten / eine bestimmte Kandidatin wählt.",
+      "Der Wähler darf bei der Wahl weder beeinflusst noch zu einer bestimmten Stimmabgabe gezwungen werden und keine Nachteile durch die Wahl haben.",
+      "Nur Personen, die noch nie im Gefängnis waren, dürfen wählen.",
+      "Alle wahlberechtigten Personen müssen wählen."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Freie Wahlen bedeuten, dass niemand bei der Stimmabgabe beeinflusst oder gezwungen werden darf.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 5
+  },
+  {
+    "id": "lid-q006",
+    "type": "mcq",
+    "question": "Wie heißt die deutsche Verfassung?",
+    "options": [
+      "Volksgesetz",
+      "Bundesgesetz",
+      "Deutsches Gesetz",
+      "Grundgesetz"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Die deutsche Verfassung heißt Grundgesetz.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 6
+  },
+  {
+    "id": "lid-q007",
+    "type": "mcq",
+    "question": "Welches Recht gehört zu den Grundrechten, die nach der deutschen Verfassung garantiert werden? Das Recht auf …",
+    "options": [
+      "Glaubens- und Gewissensfreiheit",
+      "Unterhaltung",
+      "Arbeit",
+      "Wohnung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Glaubens- und Gewissensfreiheit ist ein Grundrecht nach Artikel 4 GG.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-3",
+    "questionNumber": 7
+  },
+  {
+    "id": "lid-q008",
+    "type": "mcq",
+    "question": "Was steht nicht im Grundgesetz von Deutschland?",
+    "options": [
+      "Die Würde des Menschen ist unantastbar.",
+      "Alle sollen gleich viel Geld haben.",
+      "Jeder Mensch darf seine Meinung sagen.",
+      "Alle sind vor dem Gesetz gleich."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Das Grundgesetz garantiert keine gleiche Vermögensverteilung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 8
+  },
+  {
+    "id": "lid-q009",
+    "type": "mcq",
+    "question": "Welches Grundrecht gilt in Deutschland nur für Ausländer / Ausländerinnen? Das Grundrecht auf …",
+    "options": [
+      "Schutz der Familie",
+      "Menschenwürde",
+      "Asyl",
+      "Meinungsfreiheit"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "asyl"
+    ],
+    "explanation": "Das Asylrecht nach Artikel 16a GG gilt speziell für politisch Verfolgte aus dem Ausland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 9
+  },
+  {
+    "id": "lid-q010",
+    "type": "mcq",
+    "question": "Was ist mit dem deutschen Grundgesetz vereinbar?",
+    "options": [
+      "die Prügelstrafe",
+      "die Folter",
+      "die Todesstrafe",
+      "die Geldstrafe"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Die Geldstrafe ist eine zulässige Strafe. Folter und Todesstrafe sind verboten.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 10
+  },
+  {
+    "id": "lid-q011",
+    "type": "mcq",
+    "question": "Wie wird die Verfassung der Bundesrepublik Deutschland genannt?",
+    "options": [
+      "Grundgesetz",
+      "Bundesverfassung",
+      "Gesetzbuch",
+      "Verfassungsvertrag"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Die Verfassung heißt offiziell Grundgesetz für die Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 11
+  },
+  {
+    "id": "lid-q012",
+    "type": "mcq",
+    "question": "Eine Partei im Deutschen Bundestag will die Pressefreiheit abschaffen. Ist das möglich?",
+    "options": [
+      "Ja, wenn mehr als die Hälfte der Abgeordneten im Bundestag dafür sind.",
+      "Ja, aber dazu müssen zwei Drittel der Abgeordneten im Bundestag dafür sein.",
+      "Nein, denn die Pressefreiheit ist ein Grundrecht. Sie kann nicht abgeschafft werden.",
+      "Nein, denn der Bundesrat kann die Pressefreiheit abschaffen."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "pressefreiheit"
+    ],
+    "explanation": "Die Pressefreiheit ist durch die Ewigkeitsklausel geschützt und kann nicht abgeschafft werden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 12
+  },
+  {
+    "id": "lid-q013",
+    "type": "mcq",
+    "question": "Im Parlament steht der Begriff „Opposition\" für …",
+    "options": [
+      "die regierenden Parteien.",
+      "alle Abgeordneten, die nicht zu der Regierungspartei / den Regierungsparteien gehören.",
+      "die Fraktion mit den meisten Abgeordneten.",
+      "alle Parteien, die bei der letzten Wahl die 5%-Hürde erreichen konnten."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "opposition"
+    ],
+    "explanation": "Die Opposition umfasst alle Parteien im Parlament, die nicht an der Regierung beteiligt sind.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 13
+  },
+  {
+    "id": "lid-q014",
+    "type": "mcq",
+    "question": "Meinungsfreiheit in Deutschland heißt zum Beispiel, dass ich …",
+    "options": [
+      "Passanten auf der Straße beschimpfen darf.",
+      "meine Meinung im Internet äußern kann.",
+      "Nazi-, Hamas- oder IS-Symbole öffentlich tragen darf.",
+      "meine Meinung nur äußern darf, solange ich der Regierung nicht widerspreche."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "meinungsfreiheit"
+    ],
+    "explanation": "Meinungsfreiheit erlaubt die freie Äußerung der eigenen Meinung, auch im Internet.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 14
+  },
+  {
+    "id": "lid-q015",
+    "type": "mcq",
+    "question": "Was verbietet das deutsche Grundgesetz?",
+    "options": [
+      "Militärdienst",
+      "Zwangsarbeit",
+      "freie Berufswahl",
+      "Arbeit im Ausland"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Zwangsarbeit ist nach Artikel 12 des Grundgesetzes verboten.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 15
+  },
+  {
+    "id": "lid-q016",
+    "type": "mcq",
+    "question": "Wann ist die Meinungsfreiheit in Deutschland eingeschränkt?",
+    "options": [
+      "bei der öffentlichen Verbreitung falscher Behauptungen über einzelne Personen",
+      "bei Meinungsäußerungen über die Bundesregierung",
+      "bei Diskussionen über Religionen",
+      "bei Kritik am Staat"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "meinungsfreiheit"
+    ],
+    "explanation": "Meinungsfreiheit endet bei Verleumdung und übler Nachrede.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 16
+  },
+  {
+    "id": "lid-q017",
+    "type": "mcq",
+    "question": "Die deutschen Gesetze verbieten …",
+    "options": [
+      "Meinungsfreiheit der Einwohner und Einwohnerinnen.",
+      "Petitionen der Bürger und Bürgerinnen.",
+      "Versammlungsfreiheit der Einwohner und Einwohnerinnen.",
+      "Ungleichbehandlung der Bürger und Bürgerinnen durch den Staat."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "gleichberechtigung"
+    ],
+    "explanation": "Diskriminierung durch den Staat ist nach Artikel 3 GG verboten.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-4",
+    "questionNumber": 17
+  },
+  {
+    "id": "lid-q018",
+    "type": "mcq",
+    "question": "Welches Grundrecht ist in Artikel 1 des Grundgesetzes garantiert?",
+    "options": [
+      "die Unantastbarkeit der Menschenwürde",
+      "das Recht auf Leben",
+      "Religionsfreiheit",
+      "Meinungsfreiheit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "menschenwürde"
+    ],
+    "explanation": "Artikel 1 GG: Die Würde des Menschen ist unantastbar.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 18
+  },
+  {
+    "id": "lid-q019",
+    "type": "mcq",
+    "question": "Was versteht man unter dem Recht der „Freizügigkeit\" in Deutschland?",
+    "options": [
+      "Man darf sich seinen Wohnort selbst aussuchen.",
+      "Man kann seinen Beruf wechseln.",
+      "Man darf sich für eine andere Religion entscheiden.",
+      "Man darf sich in der Öffentlichkeit nur leicht bekleidet bewegen."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "freizügigkeit"
+    ],
+    "explanation": "Freizügigkeit bedeutet, dass man seinen Wohnort frei wählen darf.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 19
+  },
+  {
+    "id": "lid-q020",
+    "type": "mcq",
+    "question": "Eine Partei in Deutschland verfolgt das Ziel, eine Diktatur zu errichten. Sie ist dann …",
+    "options": [
+      "tolerant.",
+      "rechtsstaatlich orientiert.",
+      "gesetztreu.",
+      "verfassungswidrig."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "verfassung"
+    ],
+    "explanation": "Eine Partei, die die Demokratie abschaffen will, ist verfassungswidrig.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 20
+  },
+  {
+    "id": "lid-q021",
+    "type": "mcq",
+    "question": "Welches ist das Wappen der Bundesrepublik Deutschland?",
+    "options": [
+      "Bild 1 (Adler)",
+      "Bild 2",
+      "Bild 3",
+      "Bild 4"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wappen"
+    ],
+    "explanation": "Der Bundesadler ist das Wappen der Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 21
+  },
+  {
+    "id": "lid-q022",
+    "type": "mcq",
+    "question": "Was für eine Staatsform hat Deutschland?",
+    "options": [
+      "Monarchie",
+      "Diktatur",
+      "Republik",
+      "Fürstentum"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "staatsform"
+    ],
+    "explanation": "Deutschland ist eine Republik, genauer eine parlamentarische Bundesrepublik.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 22
+  },
+  {
+    "id": "lid-q023",
+    "type": "mcq",
+    "question": "In Deutschland sind die meisten Erwerbstätigen …",
+    "options": [
+      "bei einer Firma oder Behörde beschäftigt.",
+      "in kleinen Familienunternehmen beschäftigt.",
+      "ehrenamtlich für ein Bundesland tätig.",
+      "selbständig mit einer eigenen Firma tätig."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wirtschaft"
+    ],
+    "explanation": "Die Mehrheit der Erwerbstätigen arbeitet als Angestellte in Firmen oder Behörden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 23
+  },
+  {
+    "id": "lid-q024",
+    "type": "mcq",
+    "question": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+    "options": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundesländer"
+    ],
+    "explanation": "Deutschland hat 16 Bundesländer.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 24
+  },
+  {
+    "id": "lid-q025",
+    "type": "mcq",
+    "question": "Was ist kein Bundesland der Bundesrepublik Deutschland?",
+    "options": [
+      "Nordrhein-Westfalen",
+      "Elsass-Lothringen",
+      "Mecklenburg-Vorpommern",
+      "Sachsen-Anhalt"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesländer"
+    ],
+    "explanation": "Elsass-Lothringen gehört zu Frankreich, nicht zu Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 25
+  },
+  {
+    "id": "lid-q026",
+    "type": "mcq",
+    "question": "Deutschland ist …",
+    "options": [
+      "eine kommunistische Republik.",
+      "ein demokratischer und sozialer Bundesstaat.",
+      "eine kapitalistische und soziale Monarchie.",
+      "ein sozialer und sozialistischer Bundesstaat."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesstaat"
+    ],
+    "explanation": "Nach Artikel 20 GG ist Deutschland ein demokratischer und sozialer Bundesstaat.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 26
+  },
+  {
+    "id": "lid-q027",
+    "type": "mcq",
+    "question": "Deutschland ist …",
+    "options": [
+      "ein sozialistischer Staat.",
+      "eine Diktatur.",
+      "eine Monarchie.",
+      "ein Bundesstaat."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundesstaat"
+    ],
+    "explanation": "Deutschland ist ein föderaler Bundesstaat mit 16 Ländern.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 27
+  },
+  {
+    "id": "lid-q028",
+    "type": "mcq",
+    "question": "Wer wählt in Deutschland die Abgeordneten zum Bundestag?",
+    "options": [
+      "das Militär",
+      "die Wirtschaft",
+      "das wahlberechtigte Volk",
+      "die Verwaltung"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die Bundestagsabgeordneten werden vom wahlberechtigten Volk gewählt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 28
+  },
+  {
+    "id": "lid-q029",
+    "type": "mcq",
+    "question": "Welches Tier ist das Wappentier der Bundesrepublik Deutschland?",
+    "options": [
+      "Löwe",
+      "Adler",
+      "Bär",
+      "Pferd"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wappen"
+    ],
+    "explanation": "Der Adler ist das Wappentier der Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 29
+  },
+  {
+    "id": "lid-q030",
+    "type": "mcq",
+    "question": "Was ist kein Merkmal unserer Demokratie?",
+    "options": [
+      "regelmäßige Wahlen",
+      "Pressezensur",
+      "Meinungsfreiheit",
+      "verschiedene Parteien"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "demokratie"
+    ],
+    "explanation": "Pressezensur ist kein Merkmal einer Demokratie, sondern einer Diktatur.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-2",
+    "questionNumber": 30
+  },
+  {
+    "id": "lid-q031",
+    "type": "mcq",
+    "question": "Die Zusammenarbeit von Parteien zur Bildung einer Regierung nennt man in Deutschland …",
+    "options": [
+      "Einheit.",
+      "Koalition.",
+      "Ministerium.",
+      "Fraktion."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "koalition"
+    ],
+    "explanation": "Eine Koalition ist die Zusammenarbeit von Parteien zur Regierungsbildung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 31
+  },
+  {
+    "id": "lid-q032",
+    "type": "mcq",
+    "question": "Was ist keine staatliche Gewalt in Deutschland?",
+    "options": [
+      "Gesetzgebung",
+      "Regierung",
+      "Presse",
+      "Rechtsprechung"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "gewaltenteilung"
+    ],
+    "explanation": "Die Presse ist keine staatliche Gewalt, sondern wird als 'vierte Gewalt' bezeichnet.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 32
+  },
+  {
+    "id": "lid-q033",
+    "type": "mcq",
+    "question": "Welche Aussage ist richtig? In Deutschland …",
+    "options": [
+      "sind Staat und Religionsgemeinschaften voneinander getrennt.",
+      "bilden die Religionsgemeinschaften den Staat.",
+      "ist der Staat abhängig von den Religionsgemeinschaften.",
+      "bilden Staat und Religionsgemeinschaften eine Einheit."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "religion"
+    ],
+    "explanation": "In Deutschland gibt es eine Trennung von Staat und Religion.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-3",
+    "questionNumber": 33
+  },
+  {
+    "id": "lid-q034",
+    "type": "mcq",
+    "question": "Was ist Deutschland nicht?",
+    "options": [
+      "eine Demokratie",
+      "ein Rechtsstaat",
+      "eine Monarchie",
+      "ein Sozialstaat"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "staatsform"
+    ],
+    "explanation": "Deutschland ist keine Monarchie, sondern eine Republik.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 34
+  },
+  {
+    "id": "lid-q035",
+    "type": "mcq",
+    "question": "Womit finanziert der deutsche Staat die Sozialversicherung?",
+    "options": [
+      "Kirchensteuern",
+      "Sozialabgaben",
+      "Spendengeldern",
+      "Vereinsbeiträgen"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Sozialversicherung wird durch Sozialabgaben finanziert.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 35
+  },
+  {
+    "id": "lid-q036",
+    "type": "mcq",
+    "question": "Welche Maßnahme schafft in Deutschland soziale Sicherheit?",
+    "options": [
+      "die Krankenversicherung",
+      "die Autoversicherung",
+      "die Gebäudeversicherung",
+      "die Haftpflichtversicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Krankenversicherung ist Teil der gesetzlichen Sozialversicherung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 36
+  },
+  {
+    "id": "lid-q037",
+    "type": "mcq",
+    "question": "Wie werden die Regierungschefs / Regierungschefinnen der meisten Bundesländer in Deutschland genannt?",
+    "options": [
+      "Erster Minister / Erste Ministerin",
+      "Premierminister / Premierministerin",
+      "Senator / Senatorin",
+      "Ministerpräsident / Ministerpräsidentin"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundesländer"
+    ],
+    "explanation": "Die Regierungschefs der Bundesländer heißen Ministerpräsident/in.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 37
+  },
+  {
+    "id": "lid-q038",
+    "type": "mcq",
+    "question": "Die Bundesrepublik Deutschland ist ein demokratischer und sozialer …",
+    "options": [
+      "Staatenverbund.",
+      "Bundesstaat.",
+      "Staatenbund.",
+      "Zentralstaat."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesstaat"
+    ],
+    "explanation": "Deutschland ist nach Art. 20 GG ein demokratischer und sozialer Bundesstaat.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 38
+  },
+  {
+    "id": "lid-q039",
+    "type": "mcq",
+    "question": "Was hat jedes deutsche Bundesland?",
+    "options": [
+      "einen eigenen Außenminister / eine eigene Außenministerin",
+      "eine eigene Währung",
+      "eine eigene Armee",
+      "eine eigene Regierung"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundesländer"
+    ],
+    "explanation": "Jedes Bundesland hat eine eigene Landesregierung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 39
+  },
+  {
+    "id": "lid-q040",
+    "type": "mcq",
+    "question": "Mit welchen Worten beginnt die deutsche Nationalhymne?",
+    "options": [
+      "Völker, hört die Signale …",
+      "Einigkeit und Recht und Freiheit …",
+      "Freude schöner Götterfunken …",
+      "Deutschland einig Vaterland …"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "nationalhymne"
+    ],
+    "explanation": "Die deutsche Nationalhymne beginnt mit 'Einigkeit und Recht und Freiheit'.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 40
+  },
+  {
+    "id": "lid-q041",
+    "type": "mcq",
+    "question": "Warum gibt es in einer Demokratie mehr als eine Partei?",
+    "options": [
+      "weil dadurch die unterschiedlichen Meinungen der Bürger und Bürgerinnen vertreten werden",
+      "damit Bestechung in der Politik begrenzt wird",
+      "um politische Demonstrationen zu verhindern",
+      "um wirtschaftlichen Wettbewerb anzuregen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "Mehrere Parteien vertreten die unterschiedlichen Meinungen in der Gesellschaft.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 41
+  },
+  {
+    "id": "lid-q042",
+    "type": "mcq",
+    "question": "Wer beschließt in Deutschland ein neues Gesetz?",
+    "options": [
+      "die Regierung",
+      "das Parlament",
+      "die Gerichte",
+      "die Polizei"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "gesetzgebung"
+    ],
+    "explanation": "Das Parlament (Bundestag) beschließt die Gesetze.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 42
+  },
+  {
+    "id": "lid-q043",
+    "type": "mcq",
+    "question": "Wann kann in Deutschland eine Partei verboten werden?",
+    "options": [
+      "wenn ihr Wahlkampf zu teuer ist",
+      "wenn sie gegen die Verfassung kämpft",
+      "wenn sie Kritik am Staatsoberhaupt äußert",
+      "wenn ihr Programm eine neue Richtung vorschlägt"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "Eine Partei kann verboten werden, wenn sie die freiheitlich-demokratische Grundordnung bekämpft.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 43
+  },
+  {
+    "id": "lid-q044",
+    "type": "mcq",
+    "question": "Wen kann man als Bürger / Bürgerin in Deutschland nicht direkt wählen?",
+    "options": [
+      "Abgeordnete des EU-Parlaments",
+      "den Bundespräsidenten / die Bundespräsidentin",
+      "Landtagsabgeordnete",
+      "Bundestagsabgeordnete"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Der Bundespräsident wird von der Bundesversammlung gewählt, nicht direkt vom Volk.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 44
+  },
+  {
+    "id": "lid-q045",
+    "type": "mcq",
+    "question": "Zu welcher Versicherung gehört die Pflegeversicherung?",
+    "options": [
+      "Sozialversicherung",
+      "Unfallversicherung",
+      "Hausratversicherung",
+      "Haftpflicht- und Feuerversicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Pflegeversicherung ist Teil der gesetzlichen Sozialversicherung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 45
+  },
+  {
+    "id": "lid-q046",
+    "type": "mcq",
+    "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört dazu?",
+    "options": [
+      "Er baut Straßen und Schulen.",
+      "Er verkauft Lebensmittel und Kleidung.",
+      "Er versorgt alle Einwohner und Einwohnerinnen kostenlos mit Zeitungen.",
+      "Er produziert Autos und Busse."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "staat"
+    ],
+    "explanation": "Der Staat ist für die Infrastruktur wie Straßen und Schulen zuständig.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 46
+  },
+  {
+    "id": "lid-q047",
+    "type": "mcq",
+    "question": "Der deutsche Staat hat viele Aufgaben. Welche Aufgabe gehört nicht dazu?",
+    "options": [
+      "Er bezahlt für alle Staatsangehörigen Urlaubsreisen.",
+      "Er zahlt Kindergeld.",
+      "Er unterstützt Museen.",
+      "Er fördert Sportler und Sportlerinnen."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "staat"
+    ],
+    "explanation": "Der Staat bezahlt keine Urlaubsreisen für Bürger.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 47
+  },
+  {
+    "id": "lid-q048",
+    "type": "mcq",
+    "question": "Welches Organ gehört nicht zu den Verfassungsorganen Deutschlands?",
+    "options": [
+      "der Bundesrat",
+      "der Bundespräsident / die Bundespräsidentin",
+      "die Bürgerversammlung",
+      "die Regierung"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "verfassungsorgane"
+    ],
+    "explanation": "Die Bürgerversammlung ist kein Verfassungsorgan.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 48
+  },
+  {
+    "id": "lid-q049",
+    "type": "mcq",
+    "question": "Wer bestimmt in Deutschland die Schulpolitik?",
+    "options": [
+      "die Lehrer und Lehrerinnen",
+      "die Bundesländer",
+      "das Familienministerium",
+      "die Universitäten"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bildung"
+    ],
+    "explanation": "Die Schulpolitik ist Ländersache (Kulturhoheit der Länder).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-10",
+    "questionNumber": 49
+  },
+  {
+    "id": "lid-q050",
+    "type": "mcq",
+    "question": "Die Wirtschaftsform in Deutschland nennt man …",
+    "options": [
+      "freie Zentralwirtschaft.",
+      "soziale Marktwirtschaft.",
+      "gelenkte Zentralwirtschaft.",
+      "Planwirtschaft."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wirtschaft"
+    ],
+    "explanation": "Deutschland hat eine soziale Marktwirtschaft.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 50
+  },
+  {
+    "id": "lid-q051",
+    "type": "mcq",
+    "question": "Zu einem demokratischen Rechtsstaat gehört es nicht, dass …",
+    "options": [
+      "Menschen sich kritisch über die Regierung äußern können.",
+      "Bürger friedlich demonstrieren gehen dürfen.",
+      "Menschen von einer Privatpolizei ohne Grund verhaftet werden.",
+      "jemand ein Verbrechen begeht und deshalb verhaftet wird."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Eine Privatpolizei, die ohne Grund verhaftet, gehört nicht zum Rechtsstaat.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 51
+  },
+  {
+    "id": "lid-q052",
+    "type": "mcq",
+    "question": "Was bedeutet „Volkssouveränität\"? Alle Staatsgewalt geht vom …",
+    "options": [
+      "Volke aus.",
+      "Bundestag aus.",
+      "preußischen König aus.",
+      "Bundesverfassungsgericht aus."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "volkssouveränität"
+    ],
+    "explanation": "Volkssouveränität bedeutet: Alle Staatsgewalt geht vom Volke aus (Art. 20 GG).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 52
+  },
+  {
+    "id": "lid-q053",
+    "type": "mcq",
+    "question": "Was bedeutet „Rechtsstaat\" in Deutschland?",
+    "options": [
+      "Der Staat hat Recht.",
+      "Es gibt nur rechte Parteien.",
+      "Die Bürger und Bürgerinnen entscheiden über Gesetze.",
+      "Der Staat muss die Gesetze einhalten."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Im Rechtsstaat ist auch der Staat an Gesetze gebunden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 53
+  },
+  {
+    "id": "lid-q054",
+    "type": "mcq",
+    "question": "Was ist keine staatliche Gewalt in Deutschland?",
+    "options": [
+      "Legislative",
+      "Judikative",
+      "Exekutive",
+      "Direktive"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "gewaltenteilung"
+    ],
+    "explanation": "Direktive ist keine der drei Staatsgewalten.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 54
+  },
+  {
+    "id": "lid-q055",
+    "type": "mcq",
+    "question": "Was zeigt dieses Bild? [Bild: Reichstagsgebäude]",
+    "options": [
+      "den Bundestagssitz in Berlin",
+      "das Bundesverfassungsgericht in Karlsruhe",
+      "das Bundesratsgebäude in Berlin",
+      "das Bundeskanzleramt in Berlin"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Das Reichstagsgebäude in Berlin ist der Sitz des Deutschen Bundestages.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 55
+  },
+  {
+    "id": "lid-q056",
+    "type": "mcq",
+    "question": "Welches Amt gehört in Deutschland zur Gemeindeverwaltung?",
+    "options": [
+      "Pfarramt",
+      "Ordnungsamt",
+      "Finanzamt",
+      "Auswärtiges Amt"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "verwaltung"
+    ],
+    "explanation": "Das Ordnungsamt gehört zur kommunalen Verwaltung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 56
+  },
+  {
+    "id": "lid-q057",
+    "type": "mcq",
+    "question": "Wer wird meistens zum Präsidenten / zur Präsidentin des Deutschen Bundestages gewählt?",
+    "options": [
+      "der / die älteste Abgeordnete im Parlament",
+      "der Ministerpräsident / die Ministerpräsidentin des größten Bundeslandes",
+      "ein Abgeordneter / eine Abgeordnete der stärksten Fraktion",
+      "ein ehemaliger Bundeskanzler / eine ehemalige Bundeskanzlerin"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Der Bundestagspräsident kommt traditionell aus der stärksten Fraktion.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 57
+  },
+  {
+    "id": "lid-q058",
+    "type": "mcq",
+    "question": "Wer ernennt in Deutschland die Minister / die Ministerinnen der Bundesregierung?",
+    "options": [
+      "der Präsident / die Präsidentin des Bundesverfassungsgerichtes",
+      "der Bundespräsident / die Bundespräsidentin",
+      "der Bundesratspräsident / die Bundesratspräsidentin",
+      "der Bundestagspräsident / die Bundestagspräsidentin"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesregierung"
+    ],
+    "explanation": "Der Bundespräsident ernennt die Bundesminister auf Vorschlag des Kanzlers.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 58
+  },
+  {
+    "id": "lid-q059",
+    "type": "mcq",
+    "question": "Vor wie vielen Jahren gab es erstmals eine jüdische Gemeinde auf dem Gebiet des heutigen Deutschlands?",
+    "options": [
+      "vor etwa 300 Jahren",
+      "vor etwa 700 Jahren",
+      "vor etwa 1150 Jahren",
+      "vor etwa 1700 Jahren"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "geschichte"
+    ],
+    "explanation": "Jüdisches Leben gibt es auf dem Gebiet Deutschlands seit etwa 1700 Jahren.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-13",
+    "questionNumber": 59
+  },
+  {
+    "id": "lid-q060",
+    "type": "mcq",
+    "question": "In Deutschland gehören der Bundestag und der Bundesrat zur …",
+    "options": [
+      "Exekutive.",
+      "Legislative.",
+      "Direktive.",
+      "Judikative."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "gewaltenteilung"
+    ],
+    "explanation": "Bundestag und Bundesrat bilden zusammen die Legislative.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 60
+  },
+  {
+    "id": "lid-q061",
+    "type": "mcq",
+    "question": "Was bedeutet „Volkssouveränität\"?",
+    "options": [
+      "Der König / die Königin herrscht über das Volk.",
+      "Das Bundesverfassungsgericht steht über der Verfassung.",
+      "Die Interessenverbände üben die Souveränität zusammen mit der Regierung aus.",
+      "Die Staatsgewalt geht vom Volke aus."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "volkssouveränität"
+    ],
+    "explanation": "Volkssouveränität bedeutet: Alle Staatsgewalt geht vom Volke aus.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 61
+  },
+  {
+    "id": "lid-q062",
+    "type": "mcq",
+    "question": "Wenn das Parlament eines deutschen Bundeslandes gewählt wird, nennt man das …",
+    "options": [
+      "Kommunalwahl.",
+      "Landtagswahl.",
+      "Europawahl.",
+      "Bundestagswahl."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die Wahl des Landesparlaments heißt Landtagswahl.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 62
+  },
+  {
+    "id": "lid-q063",
+    "type": "mcq",
+    "question": "Was gehört in Deutschland nicht zur Exekutive?",
+    "options": [
+      "die Polizei",
+      "die Gerichte",
+      "das Finanzamt",
+      "die Ministerien"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "gewaltenteilung"
+    ],
+    "explanation": "Die Gerichte gehören zur Judikative, nicht zur Exekutive.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 63
+  },
+  {
+    "id": "lid-q064",
+    "type": "mcq",
+    "question": "Die Bundesrepublik Deutschland ist heute gegliedert in …",
+    "options": [
+      "vier Besatzungszonen.",
+      "einen Oststaat und einen Weststaat.",
+      "16 Kantone.",
+      "Bund, Länder und Kommunen."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "föderalismus"
+    ],
+    "explanation": "Deutschland ist in Bund, Länder und Kommunen gegliedert.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 64
+  },
+  {
+    "id": "lid-q065",
+    "type": "mcq",
+    "question": "Es gehört nicht zu den Aufgaben des Deutschen Bundestages, …",
+    "options": [
+      "Gesetze zu entwerfen.",
+      "die Bundesregierung zu kontrollieren.",
+      "den Bundeskanzler / die Bundeskanzlerin zu wählen.",
+      "das Bundeskabinett zu bilden."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Das Bundeskabinett wird vom Bundeskanzler gebildet, nicht vom Bundestag.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 65
+  },
+  {
+    "id": "lid-q066",
+    "type": "mcq",
+    "question": "Welche Städte haben die größten jüdischen Gemeinden in Deutschland?",
+    "options": [
+      "Berlin und München",
+      "Hamburg und Essen",
+      "Nürnberg und Stuttgart",
+      "Worms und Speyer"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "religion"
+    ],
+    "explanation": "Berlin und München haben die größten jüdischen Gemeinden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-3",
+    "questionNumber": 66
+  },
+  {
+    "id": "lid-q067",
+    "type": "mcq",
+    "question": "Was ist in Deutschland vor allem eine Aufgabe der Bundesländer?",
+    "options": [
+      "Verteidigungspolitik",
+      "Außenpolitik",
+      "Wirtschaftspolitik",
+      "Schulpolitik"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "föderalismus"
+    ],
+    "explanation": "Schulpolitik ist Ländersache (Kulturhoheit der Länder).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-10",
+    "questionNumber": 67
+  },
+  {
+    "id": "lid-q068",
+    "type": "mcq",
+    "question": "Warum kontrolliert der Staat in Deutschland das Schulwesen?",
+    "options": [
+      "weil es in Deutschland nur staatliche Schulen gibt",
+      "weil alle Schüler und Schülerinnen einen Schulabschluss haben müssen",
+      "weil es in den Bundesländern verschiedene Schulen gibt",
+      "weil es nach dem Grundgesetz seine Aufgabe ist"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bildung"
+    ],
+    "explanation": "Die Aufsicht über das Schulwesen ist nach Art. 7 GG Aufgabe des Staates.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-10",
+    "questionNumber": 68
+  },
+  {
+    "id": "lid-q069",
+    "type": "mcq",
+    "question": "Wie heißt die unterste politische Stufe im dreistufigen Verwaltungsaufbau?",
+    "options": [
+      "Stadträte",
+      "Landräte",
+      "Gemeinden",
+      "Bezirksämter"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "verwaltung"
+    ],
+    "explanation": "Die Gemeinden bilden die unterste Stufe des Verwaltungsaufbaus.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 69
+  },
+  {
+    "id": "lid-q070",
+    "type": "mcq",
+    "question": "Was gehört zu den Aufgaben des deutschen Bundespräsidenten / der deutschen Bundespräsidentin?",
+    "options": [
+      "Er / Sie führt die Regierungsgeschäfte.",
+      "Er / Sie kontrolliert die Regierungspartei.",
+      "Er / Sie wählt die Minister / Ministerinnen aus.",
+      "Er / Sie schlägt den Kanzler / die Kanzlerin zur Wahl vor."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundespräsident"
+    ],
+    "explanation": "Der Bundespräsident schlägt dem Bundestag einen Kanzlerkandidaten vor.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 70
+  },
+  {
+    "id": "lid-q071",
+    "type": "mcq",
+    "question": "Wo hält sich der deutsche Bundeskanzler / die deutsche Bundeskanzlerin am häufigsten auf?",
+    "options": [
+      "in Bonn, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+      "in Berlin, weil sich dort das Bundeskanzleramt und der Bundestag befinden.",
+      "auf Schloss Meseberg, dem Gästehaus der Bundesregierung.",
+      "auf Schloss Bellevue, dem Amtssitz des Bundespräsidenten."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Das Bundeskanzleramt und der Bundestag befinden sich in Berlin.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 71
+  },
+  {
+    "id": "lid-q072",
+    "type": "mcq",
+    "question": "Wie heißt der jetzige Bundeskanzler / die jetzige Bundeskanzlerin von Deutschland?",
+    "options": [
+      "Gerhard Schröder",
+      "Angela Merkel",
+      "Ursula von der Leyen",
+      "Friedrich Merz"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Friedrich Merz ist der aktuelle Bundeskanzler.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 72
+  },
+  {
+    "id": "lid-q073",
+    "type": "mcq",
+    "question": "Die beiden größten Fraktionen im Deutschen Bundestag heißen zurzeit …",
+    "options": [
+      "CDU/CSU und AfD.",
+      "Die Linke und Bündnis 90/Die Grünen.",
+      "Bündnis 90/Die Grünen und SPD.",
+      "Die Linke und CDU/CSU."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "CDU/CSU und AfD sind die beiden größten Fraktionen im aktuellen Bundestag.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 73
+  },
+  {
+    "id": "lid-q074",
+    "type": "mcq",
+    "question": "Wie heißt das Parlament für ganz Deutschland?",
+    "options": [
+      "Bundesversammlung",
+      "Volkskammer",
+      "Bundestag",
+      "Bundesgerichtshof"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Das Parlament für ganz Deutschland heißt Bundestag.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 74
+  },
+  {
+    "id": "lid-q075",
+    "type": "mcq",
+    "question": "Wie heißt Deutschlands heutiges Staatsoberhaupt?",
+    "options": [
+      "Frank-Walter Steinmeier",
+      "Bärbel Bas",
+      "Bodo Ramelow",
+      "Joachim Gauck"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundespräsident"
+    ],
+    "explanation": "Frank-Walter Steinmeier ist der aktuelle Bundespräsident.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 75
+  },
+  {
+    "id": "lid-q076",
+    "type": "mcq",
+    "question": "Was bedeutet die Abkürzung CDU in Deutschland?",
+    "options": [
+      "Christliche Deutsche Union",
+      "Club Deutscher Unternehmer",
+      "Christlicher Deutscher Umweltschutz",
+      "Christlich Demokratische Union"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "CDU steht für Christlich Demokratische Union.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 76
+  },
+  {
+    "id": "lid-q077",
+    "type": "mcq",
+    "question": "Was ist die Bundeswehr?",
+    "options": [
+      "die deutsche Polizei",
+      "ein deutscher Hafen",
+      "eine deutsche Bürgerinitiative",
+      "die deutsche Armee"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundeswehr"
+    ],
+    "explanation": "Die Bundeswehr ist die Armee der Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 77
+  },
+  {
+    "id": "lid-q078",
+    "type": "mcq",
+    "question": "Was bedeutet die Abkürzung SPD?",
+    "options": [
+      "Sozialistische Partei Deutschlands",
+      "Sozialpolitische Partei Deutschlands",
+      "Sozialdemokratische Partei Deutschlands",
+      "Sozialgerechte Partei Deutschlands"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "SPD steht für Sozialdemokratische Partei Deutschlands.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 78
+  },
+  {
+    "id": "lid-q079",
+    "type": "mcq",
+    "question": "Was bedeutet die Abkürzung FDP in Deutschland?",
+    "options": [
+      "Friedliche Demokratische Partei",
+      "Freie Deutschland Partei",
+      "Führende Demokratische Partei",
+      "Freie Demokratische Partei"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "FDP steht für Freie Demokratische Partei.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 79
+  },
+  {
+    "id": "lid-q080",
+    "type": "mcq",
+    "question": "Welches Gericht ist zuständig für die Auslegung des Grundgesetzes?",
+    "options": [
+      "Oberlandesgericht",
+      "Amtsgericht",
+      "Bundesverfassungsgericht",
+      "Verwaltungsgericht"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "verfassungsgericht"
+    ],
+    "explanation": "Das Bundesverfassungsgericht legt das Grundgesetz aus.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 80
+  },
+  {
+    "id": "lid-q081",
+    "type": "mcq",
+    "question": "Wer wählt den Bundeskanzler / die Bundeskanzlerin in Deutschland?",
+    "options": [
+      "der Bundesrat",
+      "die Bundesversammlung",
+      "das Volk",
+      "der Bundestag"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Der Bundeskanzler wird vom Bundestag gewählt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 81
+  },
+  {
+    "id": "lid-q082",
+    "type": "mcq",
+    "question": "Wer leitet das deutsche Bundeskabinett?",
+    "options": [
+      "der Bundestagspräsident / die Bundestagspräsidentin",
+      "der Bundespräsident / die Bundespräsidentin",
+      "der Bundeskanzler / die Bundeskanzlerin",
+      "der Bundesratspräsident / die Bundesratspräsidentin"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Der Bundeskanzler leitet das Bundeskabinett.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 82
+  },
+  {
+    "id": "lid-q083",
+    "type": "mcq",
+    "question": "Wer wählt den deutschen Bundeskanzler / die deutsche Bundeskanzlerin?",
+    "options": [
+      "das Volk",
+      "die Bundesversammlung",
+      "der Bundestag",
+      "die Bundesregierung"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Der Bundestag wählt den Bundeskanzler.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 83
+  },
+  {
+    "id": "lid-q084",
+    "type": "mcq",
+    "question": "Welche Hauptaufgabe hat der deutsche Bundespräsident / die deutsche Bundespräsidentin?",
+    "options": [
+      "regiert das Land.",
+      "ernennt die Gesetze.",
+      "repräsentiert das Land.",
+      "überwacht die Einhaltung der Gesetze."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundespräsident"
+    ],
+    "explanation": "Der Bundespräsident repräsentiert die Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 84
+  },
+  {
+    "id": "lid-q085",
+    "type": "mcq",
+    "question": "Wer bildet den deutschen Bundesrat?",
+    "options": [
+      "die Abgeordneten des Bundestages",
+      "die Minister und Ministerinnen der Bundesregierung",
+      "die Regierungsvertreter der Bundesländer",
+      "die Parteimitglieder"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundesrat"
+    ],
+    "explanation": "Der Bundesrat besteht aus Vertretern der Landesregierungen.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 85
+  },
+  {
+    "id": "lid-q086",
+    "type": "mcq",
+    "question": "Wer wählt in Deutschland den Bundespräsidenten / die Bundespräsidentin?",
+    "options": [
+      "die Bundesversammlung",
+      "der Bundesrat",
+      "das Bundesparlament",
+      "das Bundesverfassungsgericht"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundespräsident"
+    ],
+    "explanation": "Die Bundesversammlung wählt den Bundespräsidenten.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 86
+  },
+  {
+    "id": "lid-q087",
+    "type": "mcq",
+    "question": "Wer ist das Staatsoberhaupt der Bundesrepublik Deutschland?",
+    "options": [
+      "der Bundeskanzler / die Bundeskanzlerin",
+      "der Bundespräsident / die Bundespräsidentin",
+      "der Bundesratspräsident / die Bundesratspräsidentin",
+      "der Bundestagspräsident / die Bundestagspräsidentin"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundespräsident"
+    ],
+    "explanation": "Der Bundespräsident ist das Staatsoberhaupt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 87
+  },
+  {
+    "id": "lid-q088",
+    "type": "mcq",
+    "question": "Die parlamentarische Opposition im Deutschen Bundestag …",
+    "options": [
+      "kontrolliert die Regierung.",
+      "entscheidet, wer Bundesminister / Bundesministerin wird.",
+      "bestimmt, wer im Bundesrat sitzt.",
+      "schlägt die Regierungschefs / Regierungschefinnen der Länder vor."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "opposition"
+    ],
+    "explanation": "Die Opposition kontrolliert die Regierung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 88
+  },
+  {
+    "id": "lid-q089",
+    "type": "mcq",
+    "question": "Wie nennt man in Deutschland die Vereinigung von Abgeordneten einer Partei im Parlament?",
+    "options": [
+      "Verband",
+      "Abstammrat",
+      "Fraktion",
+      "Opposition"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "fraktion"
+    ],
+    "explanation": "Die Abgeordneten einer Partei im Parlament bilden eine Fraktion.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 89
+  },
+  {
+    "id": "lid-q090",
+    "type": "mcq",
+    "question": "Die deutschen Bundesländer wirken an der Gesetzgebung des Bundes mit durch …",
+    "options": [
+      "den Bundesrat.",
+      "die Bundesversammlung.",
+      "den Bundestag.",
+      "die Bundesregierung."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundesrat"
+    ],
+    "explanation": "Über den Bundesrat wirken die Länder an der Bundesgesetzgebung mit.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 90
+  },
+  {
+    "id": "lid-q091",
+    "type": "mcq",
+    "question": "Ein Regierungswechsel in einem Bundesland kann Auswirkungen auf die Bundespolitik haben. Das Regieren wird …",
+    "options": [
+      "schwieriger, wenn sich dadurch die Mehrheit im Bundesrat ändert.",
+      "leichter, wenn dadurch neue Parteien in den Bundesrat kommen.",
+      "schwieriger, wenn dadurch die Mehrheit im Bundesrat verändert wird.",
+      "leichter, wenn es sich um ein reiches Bundesland handelt."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundesrat"
+    ],
+    "explanation": "Änderungen im Bundesrat können die Bundespolitik beeinflussen.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 91
+  },
+  {
+    "id": "lid-q092",
+    "type": "mcq",
+    "question": "Was bedeutet die Abkürzung CSU in Deutschland?",
+    "options": [
+      "Christlich Sichere Union",
+      "Christlich Süddeutsche Union",
+      "Christlich Sozialer Unternehmerverband",
+      "Christlich Soziale Union"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "parteien"
+    ],
+    "explanation": "CSU steht für Christlich Soziale Union.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 92
+  },
+  {
+    "id": "lid-q093",
+    "type": "mcq",
+    "question": "Je mehr „Zweitstimmen\" eine Partei bei einer Bundestagswahl bekommt, desto …",
+    "options": [
+      "mehr Sitze erhält die Partei im Parlament.",
+      "weniger Erststimmen kann sie haben.",
+      "mehr Direktkandidaten der Partei ziehen ins Parlament ein.",
+      "kleiner ist das Risiko, eine Koalition bilden zu müssen."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die Zweitstimme bestimmt die Sitzverteilung im Bundestag.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 93
+  },
+  {
+    "id": "lid-q094",
+    "type": "mcq",
+    "question": "Ab welchem Alter darf man in Deutschland an der Wahl zum Deutschen Bundestag teilnehmen?",
+    "options": [
+      "16",
+      "18",
+      "21",
+      "23"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Das aktive Wahlrecht zum Bundestag hat man ab 18 Jahren.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 94
+  },
+  {
+    "id": "lid-q095",
+    "type": "mcq",
+    "question": "Was gilt für die meisten Kinder in Deutschland?",
+    "options": [
+      "Wahlpflicht",
+      "Schulpflicht",
+      "Schweigepflicht",
+      "Religionspflicht"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bildung"
+    ],
+    "explanation": "In Deutschland gilt die allgemeine Schulpflicht.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-10",
+    "questionNumber": 95
+  },
+  {
+    "id": "lid-q096",
+    "type": "mcq",
+    "question": "Wie kann jemand, der den Holocaust leugnet, bestraft werden?",
+    "options": [
+      "Kürzung sozialer Leistungen",
+      "bis zu 100 Sozialstunden",
+      "gar nicht, Holocaustleugnung ist erlaubt",
+      "mit Freiheitsstrafe bis zu fünf Jahren oder mit Geldstrafe"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "holocaust"
+    ],
+    "explanation": "Holocaustleugnung ist strafbar und kann mit bis zu fünf Jahren Freiheitsstrafe bestraft werden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-13",
+    "questionNumber": 96
+  },
+  {
+    "id": "lid-q097",
+    "type": "mcq",
+    "question": "Was bezahlt man in Deutschland automatisch, wenn man fest angestellt ist?",
+    "options": [
+      "Sozialversicherung",
+      "Sozialhilfe",
+      "Kindergeld",
+      "Wohngeld"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Festangestellte zahlen automatisch Beiträge zur Sozialversicherung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 97
+  },
+  {
+    "id": "lid-q098",
+    "type": "mcq",
+    "question": "Wenn Abgeordnete im Deutschen Bundestag ihre Fraktion wechseln, …",
+    "options": [
+      "kann die Regierung ihre Mehrheit verlieren.",
+      "dürfen sie nicht mehr an Sitzungen des Parlaments teilnehmen.",
+      "muss der Bundeskanzler / die Bundeskanzlerin dem Fraktionswechsel zustimmen.",
+      "dürfen die Wähler / Wählerinnen dieser Abgeordneten noch einmal wählen."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "fraktion"
+    ],
+    "explanation": "Fraktionswechsel können die Mehrheitsverhältnisse und damit die Regierung gefährden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 98
+  },
+  {
+    "id": "lid-q099",
+    "type": "mcq",
+    "question": "Wer bezahlt in Deutschland die Sozialversicherungen?",
+    "options": [
+      "Arbeitgeber / Arbeitgeberinnen und Arbeitnehmer / Arbeitnehmerinnen",
+      "nur Arbeitnehmer / Arbeitnehmerinnen",
+      "alle Staatsangehörigen",
+      "nur Arbeitgeber / Arbeitgeberinnen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Beiträge zur Sozialversicherung werden von Arbeitgebern und Arbeitnehmern gemeinsam getragen.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 99
+  },
+  {
+    "id": "lid-q100",
+    "type": "mcq",
+    "question": "Was gehört nicht zur gesetzlichen Sozialversicherung?",
+    "options": [
+      "die gesetzliche Rentenversicherung",
+      "die Lebensversicherung",
+      "die Arbeitslosenversicherung",
+      "die Pflegeversicherung"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Lebensversicherung ist eine private Versicherung, keine gesetzliche Sozialversicherung.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 100
+  },
+  {
+    "id": "lid-q101",
+    "type": "mcq",
+    "question": "Gewerkschaften sind Interessenverbände der …",
+    "options": [
+      "Jugendlichen.",
+      "Arbeitnehmer und Arbeitnehmerinnen.",
+      "Rentner und Rentnerinnen.",
+      "Arbeitgeber und Arbeitgeberinnen."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "gewerkschaften"
+    ],
+    "explanation": "Gewerkschaften vertreten die Interessen der Arbeitnehmer.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-9",
+    "questionNumber": 101
+  },
+  {
+    "id": "lid-q102",
+    "type": "mcq",
+    "question": "Woran kann man in der Bundesrepublik Deutschland für besondere Leistungen geehrt werden?",
+    "options": [
+      "Bundesadler",
+      "Bundesverdienstkreuz",
+      "Vaterländischer Verdienstorden",
+      "Ehrentitel „Held der DDR\""
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesrepublik"
+    ],
+    "explanation": "Das Bundesverdienstkreuz ist die höchste Auszeichnung in Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 102
+  },
+  {
+    "id": "lid-q103",
+    "type": "mcq",
+    "question": "Was wird in Deutschland als „Ampelkoalition\" bezeichnet?",
+    "options": [
+      "die Zusammenarbeit der Bundestagsfraktionen von CDU und CSU",
+      "die Zusammenarbeit von SPD, FDP und Bündnis 90/Die Grünen in einer Regierung",
+      "die Zusammenarbeit von CSU, Die Linke und Bündnis 90/Die Grünen",
+      "die Zusammenarbeit der Bundestagsfraktionen von CDU und SPD"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "koalition"
+    ],
+    "explanation": "Eine Ampelkoalition besteht aus SPD (rot), FDP (gelb) und Grünen (grün).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-7",
+    "questionNumber": 103
+  },
+  {
+    "id": "lid-q104",
+    "type": "mcq",
+    "question": "Eine Frau in Deutschland verliert ihre Arbeit. Was darf nicht der Grund für diese Entlassung sein?",
+    "options": [
+      "Die Frau ist lange krank und arbeitsunfähig.",
+      "Die Frau kam oft zu spät zur Arbeit.",
+      "Die Frau erledigt private Sachen während der Arbeitszeit.",
+      "Die Frau bekommt ein Kind und ihr Chef weiß das."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "mutterschutz"
+    ],
+    "explanation": "Schwangere Frauen genießen besonderen Kündigungsschutz.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-4",
+    "questionNumber": 104
+  },
+  {
+    "id": "lid-q105",
+    "type": "mcq",
+    "question": "Was ist eine Aufgabe von Wahlhelfern / Wahlhelferinnen in Deutschland?",
+    "options": [
+      "Sie helfen alten Menschen bei der Stimmabgabe in der Wahlkabine.",
+      "Sie schreiben die Wahlbenachrichtigungen vor der Wahl.",
+      "Sie geben Zwischenergebnisse an die Medien weiter.",
+      "Sie zählen die Stimmen nach dem Ende der Wahl."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Wahlhelfer zählen die Stimmen nach Schließung der Wahllokale.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 105
+  },
+  {
+    "id": "lid-q106",
+    "type": "mcq",
+    "question": "Was ist eine Aufgabe von ehrenamtlichen Wahlhelfern / Wahlhelferinnen?",
+    "options": [
+      "Sie helfen Kindern und alten Menschen beim Wählen.",
+      "Sie schreiben Karten und Briefe mit der Angabe des Wahllokals.",
+      "Sie geben Zwischenergebnisse an Journalisten weiter.",
+      "Sie zählen die Stimmen nach dem Ende der Wahl."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Ehrenamtliche Wahlhelfer zählen die Stimmen nach der Wahl.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 106
+  },
+  {
+    "id": "lid-q107",
+    "type": "mcq",
+    "question": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
+    "options": [
+      "2 Jahre",
+      "4 Jahre",
+      "6 Jahre",
+      "8 Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Der Bundestag wird für eine Legislaturperiode von vier Jahren gewählt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 107
+  },
+  {
+    "id": "lid-q108",
+    "type": "mcq",
+    "question": "Bei einer Bundestagswahl in Deutschland darf jeder wählen, der …",
+    "options": [
+      "in der Bundesrepublik Deutschland wohnt und wählen möchte.",
+      "Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 18 Jahre alt ist.",
+      "seit mindestens 3 Jahren in der Bundesrepublik Deutschland lebt.",
+      "Bürger / Bürgerin der Bundesrepublik Deutschland ist und mindestens 21 Jahre alt ist."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Wahlberechtigt sind deutsche Staatsbürger ab 18 Jahren.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 108
+  },
+  {
+    "id": "lid-q109",
+    "type": "mcq",
+    "question": "Wie oft gibt es normalerweise Bundestagswahlen in Deutschland?",
+    "options": [
+      "alle drei Jahre",
+      "alle vier Jahre",
+      "alle fünf Jahre",
+      "alle sechs Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Bundestagswahlen finden normalerweise alle vier Jahre statt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 109
+  },
+  {
+    "id": "lid-q110",
+    "type": "mcq",
+    "question": "Für wie viele Jahre wird der Bundestag in Deutschland gewählt?",
+    "options": [
+      "2 Jahre",
+      "3 Jahre",
+      "4 Jahre",
+      "5 Jahre"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Der Bundestag wird für vier Jahre gewählt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 110
+  },
+  {
+    "id": "lid-q111",
+    "type": "mcq",
+    "question": "Welche Handlung mit Bezug auf den Staat Israel ist in Deutschland verboten?",
+    "options": [
+      "Die Politik Israels öffentlich kritisieren.",
+      "Das Aufhängen einer israelischen Flagge auf dem Privatgrundstück.",
+      "Eine Diskussion über die Politik Israels.",
+      "Der öffentliche Aufruf zur Vernichtung Israels."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Der Aufruf zur Vernichtung eines Staates ist Volksverhetzung und strafbar.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-1",
+    "questionNumber": 111
+  },
+  {
+    "id": "lid-q112",
+    "type": "mcq",
+    "question": "Die Wahlen in Deutschland sind …",
+    "options": [
+      "telefonisch.",
+      "geheim.",
+      "berufsbezogen.",
+      "geschlechtsabhängig."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "In Deutschland sind die Wahlen allgemein, unmittelbar, frei, gleich und geheim.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 112
+  },
+  {
+    "id": "lid-q113",
+    "type": "mcq",
+    "question": "Wahlen in Deutschland gewinnt die Partei, die …",
+    "options": [
+      "die meisten Stimmen bekommt.",
+      "die meisten Männer mehrheitlich gewählt haben.",
+      "die meisten Stimmen bei den Arbeitern / Arbeiterinnen bekommen hat.",
+      "die meisten Erststimmen für ihren Kanzlerkandidaten / ihre Kanzlerkandidatin erhalten hat."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die Partei mit den meisten Stimmen gewinnt die Wahl.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 113
+  },
+  {
+    "id": "lid-q114",
+    "type": "mcq",
+    "question": "An demokratischen Wahlen in Deutschland teilzunehmen ist …",
+    "options": [
+      "eine Pflicht.",
+      "ein Recht.",
+      "ein Zwang.",
+      "eine Last."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die Wahlteilnahme ist ein Recht, keine Pflicht.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 114
+  },
+  {
+    "id": "lid-q115",
+    "type": "mcq",
+    "question": "Was bedeutet „aktives Wahlrecht\" in Deutschland?",
+    "options": [
+      "Man kann gewählt werden.",
+      "Man muss wählen gehen.",
+      "Man kann wählen.",
+      "Man muss zur Auszählung der Stimmen gehen."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Aktives Wahlrecht bedeutet, dass man selbst wählen darf.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 115
+  },
+  {
+    "id": "lid-q116",
+    "type": "mcq",
+    "question": "Wenn Sie bei einer Bundestagswahl in Deutschland wählen dürfen, heißt das …",
+    "options": [
+      "aktive Wahlkampagne.",
+      "aktives Wahlverfahren.",
+      "aktiver Wahlkampf.",
+      "aktives Wahlrecht."
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Wählen dürfen bedeutet, man hat das aktive Wahlrecht.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 116
+  },
+  {
+    "id": "lid-q117",
+    "type": "mcq",
+    "question": "Wie viel Prozent der Zweitstimmen müssen Parteien mindestens bekommen, um in den Deutschen Bundestag gewählt zu werden?",
+    "options": [
+      "3 %",
+      "4 %",
+      "5 %",
+      "6 %"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Eine Partei muss mindestens 5 % der Zweitstimmen bekommen (Fünf-Prozent-Hürde).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 117
+  },
+  {
+    "id": "lid-q118",
+    "type": "mcq",
+    "question": "Wer darf bei den rund 40 jüdischen Makkabi-Sportvereinen Mitglied werden?",
+    "options": [
+      "nur Deutsche",
+      "nur Israelis",
+      "nur religiöse Menschen",
+      "alle Menschen"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "religion"
+    ],
+    "explanation": "Jeder Mensch kann Mitglied in einem Makkabi-Sportverein werden.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-3",
+    "questionNumber": 118
+  },
+  {
+    "id": "lid-q119",
+    "type": "mcq",
+    "question": "Wahlen in Deutschland sind frei. Was bedeutet das?",
+    "options": [
+      "Alle verurteilten Straftäter / Straftäterinnen dürfen nicht wählen.",
+      "Wenn ich wählen gehen möchte, muss mein Arbeitgeber / meine Arbeitgeberin mir frei geben.",
+      "Jede Person kann ohne Zwang entscheiden, ob sie wählen möchte und wen sie wählen möchte.",
+      "Ich kann frei entscheiden, wo ich wählen gehen möchte."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Freie Wahlen bedeuten: Jeder entscheidet ohne Zwang, ob und wen er wählt.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 119
+  },
+  {
+    "id": "lid-q120",
+    "type": "mcq",
+    "question": "Das Wahlsystem in Deutschland ist ein …",
+    "options": [
+      "Zensuswahlrecht.",
+      "Dreiklassenwahlrecht.",
+      "Mehrheits- und Verhältniswahlrecht.",
+      "allgemeines Männerwahlrecht."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Deutschland hat ein personalisiertes Verhältniswahlrecht (Mischsystem).",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 120
+  },
+  {
+    "id": "lid-q121",
+    "type": "mcq",
+    "question": "Was ist „passives Wahlrecht\" in Deutschland?",
+    "options": [
+      "Man wird zur Wahl zugelassen.",
+      "Man darf wählen.",
+      "Man kann gewählt werden.",
+      "Man muss wählen gehen."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Passives Wahlrecht bedeutet, dass man selbst gewählt werden kann.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-6",
+    "questionNumber": 121
+  },
+  {
+    "id": "lid-q122",
+    "type": "mcq",
+    "question": "Welche deutsche Stadt hat die meisten Einwohner?",
+    "options": [
+      "München",
+      "Köln",
+      "Berlin",
+      "Frankfurt am Main"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "geografie"
+    ],
+    "explanation": "Berlin ist mit über 3,5 Millionen Einwohnern die größte Stadt Deutschlands.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-15",
+    "questionNumber": 122
+  },
+  {
+    "id": "lid-q123",
+    "type": "mcq",
+    "question": "Hauptstadt der Bundesrepublik Deutschland ist …",
+    "options": [
+      "Bonn.",
+      "München.",
+      "Berlin.",
+      "Frankfurt."
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "hauptstadt"
+    ],
+    "explanation": "Berlin ist die Hauptstadt der Bundesrepublik Deutschland.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-15",
+    "questionNumber": 123
+  },
+  {
+    "id": "lid-q124",
+    "type": "mcq",
+    "question": "Wer unterschreibt in Deutschland die Gesetze?",
+    "options": [
+      "der Bundespräsident / die Bundespräsidentin",
+      "der Bundesratsvorsitzende / die Bundesratsvorsitzende",
+      "der Bundespräsident / die Bundespräsidentin",
+      "der Bundesratspräsident / die Bundesratspräsidentin"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gesetzgebung"
+    ],
+    "explanation": "Der Bundespräsident unterzeichnet die Gesetze.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 124
+  },
+  {
+    "id": "lid-q125",
+    "type": "mcq",
+    "question": "Was ist in Deutschland eine kommunale Aufgabe?",
+    "options": [
+      "Verteidigung",
+      "Außenpolitik",
+      "Müllabfuhr",
+      "Gesetzgebung"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "verwaltung"
+    ],
+    "explanation": "Die Müllabfuhr ist eine Aufgabe der Kommunen.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 125
+  },
+  {
+    "id": "lid-q126",
+    "type": "mcq",
+    "question": "Welche Ministerin / welcher Minister gehört nicht zur deutschen Bundesregierung?",
+    "options": [
+      "Justizminister / Justizministerin",
+      "Außenminister / Außenministerin",
+      "Finanzminister / Finanzministerin",
+      "Premierminister / Premierministerin"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "bundesregierung"
+    ],
+    "explanation": "In Deutschland gibt es keinen Premierminister.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-8",
+    "questionNumber": 126
+  },
+  {
+    "id": "lid-q127",
+    "type": "mcq",
+    "question": "Wie heißt das politische System Deutschlands?",
+    "options": [
+      "parlamentarische Demokratie",
+      "konstitutionelle Monarchie",
+      "Monarchie",
+      "Kommunismus"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "demokratie"
+    ],
+    "explanation": "Deutschland ist eine parlamentarische Demokratie.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 127
+  },
+  {
+    "id": "lid-q128",
+    "type": "mcq",
+    "question": "Wer beschließt in Deutschland ein neues Gesetz?",
+    "options": [
+      "die Regierung",
+      "der Bundestag",
+      "die Gerichte",
+      "die Polizei"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "gesetzgebung"
+    ],
+    "explanation": "Der Bundestag beschließt Gesetze.",
+    "xpValue": 10,
+    "category": "Demokratie",
+    "lidTopicId": "lid-5",
+    "questionNumber": 128
+  },
+  {
+    "id": "lid-q129",
+    "type": "mcq",
+    "question": "Was war am 8. Mai 1945?",
+    "options": [
+      "Ende des Ersten Weltkriegs",
+      "Ende des Zweiten Weltkriegs in Europa",
+      "Beginn der Berliner Luftbrücke",
+      "Gründung der Bundesrepublik Deutschland"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "zweiter-weltkrieg"
+    ],
+    "explanation": "Am 8. Mai 1945 endete der Zweite Weltkrieg in Europa.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 129
+  },
+  {
+    "id": "lid-q130",
+    "type": "mcq",
+    "question": "Was war der Holocaust?",
+    "options": [
+      "die Verfolgung und Ermordung der europäischen Juden durch die Nationalsozialisten",
+      "eine Hungersnot in Deutschland",
+      "ein deutscher Nationalfeiertag",
+      "die Vertreibung der Deutschen aus Osteuropa"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "holocaust"
+    ],
+    "explanation": "Der Holocaust war die systematische Ermordung von sechs Millionen Juden.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 130
+  },
+  {
+    "id": "lid-q131",
+    "type": "mcq",
+    "question": "Wann war der Zweite Weltkrieg?",
+    "options": [
+      "1914–1918",
+      "1933–1945",
+      "1939–1945",
+      "1949–1989"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "zweiter-weltkrieg"
+    ],
+    "explanation": "Der Zweite Weltkrieg dauerte von 1939 bis 1945.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 131
+  },
+  {
+    "id": "lid-q132",
+    "type": "mcq",
+    "question": "Wer war Adolf Hitler?",
+    "options": [
+      "ein demokratisch gewählter Bundespräsident",
+      "Kanzler der Weimarer Republik",
+      "der Diktator des nationalsozialistischen Deutschlands",
+      "der letzte Kaiser von Deutschland"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "nationalsozialismus"
+    ],
+    "explanation": "Adolf Hitler war der Diktator des nationalsozialistischen Deutschlands von 1933 bis 1945.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 132
+  },
+  {
+    "id": "lid-q133",
+    "type": "mcq",
+    "question": "Wann waren die Nationalsozialisten mit Adolf Hitler in Deutschland an der Macht?",
+    "options": [
+      "1918–1933",
+      "1933–1945",
+      "1945–1949",
+      "1949–1963"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "nationalsozialismus"
+    ],
+    "explanation": "Die NS-Herrschaft dauerte von 1933 bis 1945.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 133
+  },
+  {
+    "id": "lid-q134",
+    "type": "mcq",
+    "question": "In welchem Jahr wurde Adolf Hitler zum Reichskanzler ernannt?",
+    "options": [
+      "1929",
+      "1933",
+      "1938",
+      "1945"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "nationalsozialismus"
+    ],
+    "explanation": "Hitler wurde am 30. Januar 1933 zum Reichskanzler ernannt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 134
+  },
+  {
+    "id": "lid-q135",
+    "type": "mcq",
+    "question": "Was geschah am 20. Juli 1944 in Deutschland?",
+    "options": [
+      "D-Day: die Landung der Alliierten in der Normandie",
+      "Attentat auf Adolf Hitler",
+      "Kapitulation Deutschlands",
+      "Nürnberger Prozesse begannen"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "widerstand"
+    ],
+    "explanation": "Am 20. Juli 1944 scheiterte ein Attentatsversuch auf Hitler.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 135
+  },
+  {
+    "id": "lid-q136",
+    "type": "mcq",
+    "question": "Was kennzeichnete den NS-Staat? Es war eine …",
+    "options": [
+      "Diktatur.",
+      "Demokratie.",
+      "Monarchie.",
+      "Anarchie."
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "nationalsozialismus"
+    ],
+    "explanation": "Der NS-Staat war eine Diktatur.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 136
+  },
+  {
+    "id": "lid-q137",
+    "type": "mcq",
+    "question": "Welcher Krieg begann 1939?",
+    "options": [
+      "Erster Weltkrieg",
+      "Zweiter Weltkrieg",
+      "Dreißigjähriger Krieg",
+      "Koreakrieg"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "zweiter-weltkrieg"
+    ],
+    "explanation": "1939 begann der Zweite Weltkrieg mit dem Überfall auf Polen.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 137
+  },
+  {
+    "id": "lid-q138",
+    "type": "mcq",
+    "question": "Was passierte am 9. November 1938 in Deutschland?",
+    "options": [
+      "Beginn des Zweiten Weltkriegs",
+      "Pogrome gegen die jüdische Bevölkerung (Reichspogromnacht)",
+      "Verabschiedung des Grundgesetzes",
+      "Fall der Berliner Mauer"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "reichspogromnacht"
+    ],
+    "explanation": "In der Reichspogromnacht wurden Synagogen und jüdische Geschäfte zerstört.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 138
+  },
+  {
+    "id": "lid-q139",
+    "type": "mcq",
+    "question": "Wann begann der Zweite Weltkrieg mit dem deutschen Überfall auf Polen?",
+    "options": [
+      "am 1. September 1939",
+      "am 1. Januar 1933",
+      "am 8. Mai 1945",
+      "am 9. November 1938"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "zweiter-weltkrieg"
+    ],
+    "explanation": "Deutschland überfiel Polen am 1. September 1939.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 139
+  },
+  {
+    "id": "lid-q140",
+    "type": "mcq",
+    "question": "Was passierte am 9. November 1989 in Deutschland?",
+    "options": [
+      "Die Bundesrepublik wurde gegründet.",
+      "Die Berliner Mauer fiel.",
+      "Der Zweite Weltkrieg endete.",
+      "Die Wiedervereinigung fand statt."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "mauerfall"
+    ],
+    "explanation": "Am 9. November 1989 fiel die Berliner Mauer.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-12",
+    "questionNumber": 140
+  },
+  {
+    "id": "lid-q141",
+    "type": "mcq",
+    "question": "Wann wurde Deutschland wiedervereinigt?",
+    "options": [
+      "1949",
+      "1961",
+      "1989",
+      "1990"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "wiedervereinigung"
+    ],
+    "explanation": "Die deutsche Wiedervereinigung fand am 3. Oktober 1990 statt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 141
+  },
+  {
+    "id": "lid-q142",
+    "type": "mcq",
+    "question": "Welches Ereignis war am 3. Oktober 1990?",
+    "options": [
+      "die Wiedervereinigung Deutschlands",
+      "der Fall der Berliner Mauer",
+      "die Gründung der DDR",
+      "die Verabschiedung des Grundgesetzes"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wiedervereinigung"
+    ],
+    "explanation": "Am 3. Oktober 1990 wurde Deutschland wiedervereinigt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 142
+  },
+  {
+    "id": "lid-q143",
+    "type": "mcq",
+    "question": "Wann wurde die Berliner Mauer gebaut?",
+    "options": [
+      "1949",
+      "1953",
+      "1961",
+      "1989"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "berliner-mauer"
+    ],
+    "explanation": "Die Berliner Mauer wurde am 13. August 1961 gebaut.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-12",
+    "questionNumber": 143
+  },
+  {
+    "id": "lid-q144",
+    "type": "mcq",
+    "question": "Was war die DDR?",
+    "options": [
+      "ein demokratischer Staat",
+      "die Deutsche Demokratische Republik, ein sozialistischer Staat",
+      "ein Teil der Bundesrepublik Deutschland",
+      "eine freie Marktwirtschaft"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Die DDR war die Deutsche Demokratische Republik, ein sozialistischer Staat.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 144
+  },
+  {
+    "id": "lid-q145",
+    "type": "mcq",
+    "question": "Welche Staaten waren nach 1945 Besatzungsmaechte in Deutschland?",
+    "options": [
+      "USA, Sowjetunion, Grossbritannien, Frankreich",
+      "USA, Japan, China, Grossbritannien",
+      "USA, Sowjetunion, Italien, Frankreich",
+      "USA, Japan, Grossbritannien, Frankreich"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "besatzung"
+    ],
+    "explanation": "Die vier Besatzungsmaechte waren USA, Sowjetunion, Grossbritannien und Frankreich.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 145
+  },
+  {
+    "id": "lid-q146",
+    "type": "mcq",
+    "question": "Wann wurde die Bundesrepublik Deutschland gegruendet?",
+    "options": [
+      "1945",
+      "1949",
+      "1952",
+      "1954"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "bundesrepublik"
+    ],
+    "explanation": "Die BRD wurde 1949 gegruendet.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 146
+  },
+  {
+    "id": "lid-q147",
+    "type": "mcq",
+    "question": "In wie viele Besatzungszonen wurde Deutschland aufgeteilt?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "besatzung"
+    ],
+    "explanation": "Deutschland wurde in vier Besatzungszonen aufgeteilt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 147
+  },
+  {
+    "id": "lid-q148",
+    "type": "mcq",
+    "question": "Was war die Stasi?",
+    "options": [
+      "die Geheimpolizei der DDR",
+      "die Polizei der BRD",
+      "eine politische Partei",
+      "ein Geheimdienst der USA"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Die Stasi war das Ministerium fuer Staatssicherheit der DDR.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 148
+  },
+  {
+    "id": "lid-q149",
+    "type": "mcq",
+    "question": "Was geschah am 13. August 1961?",
+    "options": [
+      "Gruendung der BRD",
+      "Bau der Berliner Mauer",
+      "Mauerfall",
+      "Wiedervereinigung"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "berliner-mauer"
+    ],
+    "explanation": "Am 13. August 1961 begann der Bau der Berliner Mauer.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-12",
+    "questionNumber": 149
+  },
+  {
+    "id": "lid-q150",
+    "type": "mcq",
+    "question": "Welche Form hatte der Staat der DDR?",
+    "options": [
+      "Demokratie",
+      "Diktatur",
+      "Monarchie",
+      "Anarchie"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Die DDR war eine Diktatur unter Fuehrung der SED.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 150
+  },
+  {
+    "id": "lid-q151",
+    "type": "mcq",
+    "question": "Was war der Marshallplan?",
+    "options": [
+      "ein Friedensvertrag",
+      "ein Wiederaufbauprogramm der USA fuer Westeuropa",
+      "ein Militaerbuendnis",
+      "ein Handelsabkommen"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "marshallplan"
+    ],
+    "explanation": "Der Marshallplan war ein US-Hilfsprogramm zum Wiederaufbau Europas.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-20",
+    "questionNumber": 151
+  },
+  {
+    "id": "lid-q152",
+    "type": "mcq",
+    "question": "Wann trat das Grundgesetz in Kraft?",
+    "options": [
+      "23. Mai 1945",
+      "23. Mai 1949",
+      "3. Oktober 1990",
+      "9. November 1989"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "grundgesetz"
+    ],
+    "explanation": "Das Grundgesetz trat am 23. Mai 1949 in Kraft.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 152
+  },
+  {
+    "id": "lid-q153",
+    "type": "mcq",
+    "question": "Was war die Weimarer Republik?",
+    "options": [
+      "das erste demokratische System in Deutschland",
+      "das Deutsche Kaiserreich",
+      "die DDR",
+      "das NS-Regime"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "weimarer-republik"
+    ],
+    "explanation": "Die Weimarer Republik war Deutschlands erste Demokratie (1919-1933).",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 153
+  },
+  {
+    "id": "lid-q154",
+    "type": "mcq",
+    "question": "Wann war der Erste Weltkrieg?",
+    "options": [
+      "1894-1898",
+      "1914-1918",
+      "1939-1945",
+      "1949-1989"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "erster-weltkrieg"
+    ],
+    "explanation": "Der Erste Weltkrieg war von 1914 bis 1918.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 154
+  },
+  {
+    "id": "lid-q155",
+    "type": "mcq",
+    "question": "Was ist die EU?",
+    "options": [
+      "die Europaeische Union",
+      "die Evangelische Universitaet",
+      "die Einheits-Union",
+      "die Europaeische Universitaet"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "eu"
+    ],
+    "explanation": "EU steht fuer Europaeische Union.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-20",
+    "questionNumber": 155
+  },
+  {
+    "id": "lid-q156",
+    "type": "mcq",
+    "question": "Was waren die Nuernberger Prozesse?",
+    "options": [
+      "Gerichtsverhandlungen gegen NS-Kriegsverbrecher",
+      "Friedensverhandlungen",
+      "Wirtschaftskonferenzen",
+      "Gruendungsversammlungen der UNO"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "nuernberger-prozesse"
+    ],
+    "explanation": "In den Nuernberger Prozessen wurden NS-Kriegsverbrecher verurteilt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 156
+  },
+  {
+    "id": "lid-q157",
+    "type": "mcq",
+    "question": "Wann wurde die DDR gegruendet?",
+    "options": [
+      "1945",
+      "1949",
+      "1952",
+      "1990"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Die DDR wurde 1949 gegruendet.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 157
+  },
+  {
+    "id": "lid-q158",
+    "type": "mcq",
+    "question": "Was war die Berliner Luftbruecke?",
+    "options": [
+      "Versorgung Westberlins durch Flugzeuge 1948/49",
+      "ein Fluchtweg aus der DDR",
+      "eine Bruecke in Berlin",
+      "eine Eisenbahnverbindung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "luftbruecke"
+    ],
+    "explanation": "Die Berliner Luftbruecke versorgte Westberlin waehrend der Blockade.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-12",
+    "questionNumber": 158
+  },
+  {
+    "id": "lid-q159",
+    "type": "mcq",
+    "question": "Was war das Wirtschaftswunder?",
+    "options": [
+      "wirtschaftlicher Aufschwung Westdeutschlands in den 1950ern",
+      "Gruendung der DDR",
+      "Waehrungsreform 1990",
+      "Einfuehrung des Euro"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wirtschaftswunder"
+    ],
+    "explanation": "Das Wirtschaftswunder war der Aufschwung in den 1950ern.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 159
+  },
+  {
+    "id": "lid-q160",
+    "type": "mcq",
+    "question": "Wer waren die Gastarbeiter?",
+    "options": [
+      "angeworbene auslaendische Arbeitskraefte ab den 1950ern",
+      "deutsche Arbeiter im Ausland",
+      "ehrenamtliche Helfer",
+      "Studenten"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gastarbeiter"
+    ],
+    "explanation": "Gastarbeiter waren auslaendische Arbeitskraefte.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 160
+  },
+  {
+    "id": "lid-q161",
+    "type": "mcq",
+    "question": "Was war der Kalte Krieg?",
+    "options": [
+      "politischer Konflikt zwischen Ost und West ohne direkten Krieg",
+      "ein Krieg mit Waffen",
+      "ein Buergerkrieg",
+      "ein Handelskrieg"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kalter-krieg"
+    ],
+    "explanation": "Der Kalte Krieg war die Konfrontation ohne direkten Krieg.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 161
+  },
+  {
+    "id": "lid-q162",
+    "type": "mcq",
+    "question": "Welche zwei deutschen Staaten wurden 1949 gegruendet?",
+    "options": [
+      "BRD und DDR",
+      "BRD und Oesterreich",
+      "DDR und Schweiz",
+      "Preussen und Bayern"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "teilung"
+    ],
+    "explanation": "1949 wurden BRD und DDR gegruendet.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 162
+  },
+  {
+    "id": "lid-q163",
+    "type": "mcq",
+    "question": "Was war die SED?",
+    "options": [
+      "Sozialistische Einheitspartei Deutschlands",
+      "Sozialdemokratische Partei",
+      "Freie Demokratische Partei",
+      "CDU"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sed"
+    ],
+    "explanation": "SED war die regierende Partei der DDR.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 163
+  },
+  {
+    "id": "lid-q164",
+    "type": "mcq",
+    "question": "Warum wurde die Berliner Mauer gebaut?",
+    "options": [
+      "um die Flucht von DDR-Buergern zu verhindern",
+      "zum Schutz vor Armeen",
+      "als Hochwasserschutz",
+      "als Laermschutz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "berliner-mauer"
+    ],
+    "explanation": "Die Mauer sollte die Massenflucht aus der DDR stoppen.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-12",
+    "questionNumber": 164
+  },
+  {
+    "id": "lid-q165",
+    "type": "mcq",
+    "question": "Was geschah beim Volksaufstand am 17. Juni 1953?",
+    "options": [
+      "Arbeiter protestierten gegen die DDR-Regierung",
+      "die DDR wurde gegruendet",
+      "die Mauer wurde gebaut",
+      "die Wiedervereinigung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Am 17. Juni 1953 protestierten Arbeiter in der DDR.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 165
+  },
+  {
+    "id": "lid-q166",
+    "type": "mcq",
+    "question": "Wann trat Deutschland der NATO bei?",
+    "options": [
+      "1949",
+      "1955",
+      "1961",
+      "1990"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "nato"
+    ],
+    "explanation": "Deutschland trat 1955 der NATO bei.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-20",
+    "questionNumber": 166
+  },
+  {
+    "id": "lid-q167",
+    "type": "mcq",
+    "question": "Wann trat die DDR der Bundesrepublik bei?",
+    "options": [
+      "1949",
+      "1961",
+      "1989",
+      "1990"
+    ],
+    "correctIndex": 3,
+    "tags": [
+      "wiedervereinigung"
+    ],
+    "explanation": "Am 3. Oktober 1990 trat die DDR der BRD bei.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 167
+  },
+  {
+    "id": "lid-q168",
+    "type": "mcq",
+    "question": "Wer war der erste Bundeskanzler?",
+    "options": [
+      "Konrad Adenauer",
+      "Ludwig Erhard",
+      "Willy Brandt",
+      "Helmut Kohl"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundeskanzler"
+    ],
+    "explanation": "Konrad Adenauer war der erste Bundeskanzler.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-8",
+    "questionNumber": 168
+  },
+  {
+    "id": "lid-q169",
+    "type": "mcq",
+    "question": "Was war der Eiserne Vorhang?",
+    "options": [
+      "Grenze zwischen Ost- und Westeuropa",
+      "eine Mauer in Berlin",
+      "ein Kinofilm",
+      "eine Ruestungsfabrik"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kalter-krieg"
+    ],
+    "explanation": "Der Eiserne Vorhang trennte Ost- und Westeuropa.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 169
+  },
+  {
+    "id": "lid-q170",
+    "type": "mcq",
+    "question": "Was war die Waehrungsreform 1948?",
+    "options": [
+      "Einfuehrung der D-Mark in Westdeutschland",
+      "Einfuehrung des Euro",
+      "Abschaffung des Geldes",
+      "Einfuehrung der DDR-Mark"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "waehrungsreform"
+    ],
+    "explanation": "1948 wurde die D-Mark eingefuehrt.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 170
+  },
+  {
+    "id": "lid-q171",
+    "type": "mcq",
+    "question": "In welchem Jahr endete der Erste Weltkrieg?",
+    "options": [
+      "1914",
+      "1918",
+      "1933",
+      "1945"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "erster-weltkrieg"
+    ],
+    "explanation": "Der Erste Weltkrieg endete 1918.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 171
+  },
+  {
+    "id": "lid-q172",
+    "type": "mcq",
+    "question": "Was geschah 1953 in der DDR?",
+    "options": [
+      "Volksaufstand gegen das SED-Regime",
+      "Gruendung der DDR",
+      "Bau der Mauer",
+      "Mauerfall"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "1953 gab es einen Volksaufstand in der DDR.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 172
+  },
+  {
+    "id": "lid-q173",
+    "type": "mcq",
+    "question": "Wann wurde die UNO gegruendet?",
+    "options": [
+      "1920",
+      "1945",
+      "1949",
+      "1957"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "uno"
+    ],
+    "explanation": "Die UNO wurde 1945 gegruendet.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-20",
+    "questionNumber": 173
+  },
+  {
+    "id": "lid-q174",
+    "type": "mcq",
+    "question": "Was war der 17. Juni in der Bundesrepublik?",
+    "options": [
+      "Tag der Arbeit",
+      "Nationalfeiertag (Gedenken an Volksaufstand in DDR)",
+      "Weihnachten",
+      "Tag der Einheit"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "ddr"
+    ],
+    "explanation": "Der 17. Juni war Gedenktag fuer den DDR-Volksaufstand.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-11",
+    "questionNumber": 174
+  },
+  {
+    "id": "lid-q175",
+    "type": "mcq",
+    "question": "Wann wurde das Deutsche Kaiserreich gegruendet?",
+    "options": [
+      "1815",
+      "1848",
+      "1871",
+      "1918"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "kaiserreich"
+    ],
+    "explanation": "Das Deutsche Kaiserreich wurde 1871 gegruendet.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 175
+  },
+  {
+    "id": "lid-q176",
+    "type": "mcq",
+    "question": "Wann endete das Deutsche Kaiserreich?",
+    "options": [
+      "1871",
+      "1914",
+      "1918",
+      "1933"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "kaiserreich"
+    ],
+    "explanation": "Das Kaiserreich endete 1918 mit der Abdankung des Kaisers.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 176
+  },
+  {
+    "id": "lid-q177",
+    "type": "mcq",
+    "question": "Was war die Dolchstosslegende?",
+    "options": [
+      "eine Verschwoerungstheorie nach dem Ersten Weltkrieg",
+      "ein militaerischer Plan",
+      "ein Friedensvertrag",
+      "eine Verfassung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "weimarer-republik"
+    ],
+    "explanation": "Die Dolchstosslegende war eine falsche Behauptung ueber Deutschlands Niederlage.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 177
+  },
+  {
+    "id": "lid-q178",
+    "type": "mcq",
+    "question": "Was waren die Konzentrationslager?",
+    "options": [
+      "Gefangenenlager der Nationalsozialisten zur Verfolgung und Ermordung",
+      "Ausbildungslager",
+      "Ferienlaeger",
+      "Militaerlager"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "holocaust"
+    ],
+    "explanation": "Die KZ waren Orte der Verfolgung und Ermordung durch die Nazis.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 178
+  },
+  {
+    "id": "lid-q179",
+    "type": "mcq",
+    "question": "Was war der Widerstand gegen den Nationalsozialismus?",
+    "options": [
+      "Gruppen und Einzelpersonen, die gegen Hitler kaempften",
+      "eine Nazi-Organisation",
+      "die Wehrmacht",
+      "die SS"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "widerstand"
+    ],
+    "explanation": "Es gab verschiedene Widerstandsgruppen gegen das NS-Regime.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 179
+  },
+  {
+    "id": "lid-q180",
+    "type": "mcq",
+    "question": "Was geschah bei den Nuernberger Gesetzen 1935?",
+    "options": [
+      "Entrechtung der juedischen Bevoelkerung",
+      "Gruendung der UNO",
+      "Wiedervereinigung",
+      "Waehrungsreform"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "nationalsozialismus"
+    ],
+    "explanation": "Die Nuernberger Gesetze entrechteten die juedische Bevoelkerung.",
+    "xpValue": 10,
+    "category": "Geschichte",
+    "lidTopicId": "lid-13",
+    "questionNumber": 180
+  },
+  {
+    "id": "lid-q181",
+    "type": "mcq",
+    "question": "Was gehoert zur gesetzlichen Sozialversicherung?",
+    "options": [
+      "Lebensversicherung",
+      "Krankenversicherung",
+      "Hausratversicherung",
+      "Kfz-Versicherung"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "sozialversicherung"
+    ],
+    "explanation": "Die Krankenversicherung ist Teil der Sozialversicherung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 181
+  },
+  {
+    "id": "lid-q182",
+    "type": "mcq",
+    "question": "Welche Versicherung ist Pflicht fuer alle in Deutschland?",
+    "options": [
+      "Krankenversicherung",
+      "Lebensversicherung",
+      "Zahnzusatzversicherung",
+      "Reiseversicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "krankenversicherung"
+    ],
+    "explanation": "Die Krankenversicherung ist Pflicht.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 182
+  },
+  {
+    "id": "lid-q183",
+    "type": "mcq",
+    "question": "Was ist die Rentenversicherung?",
+    "options": [
+      "Versicherung fuer das Alter",
+      "Versicherung fuer Krankheit",
+      "Versicherung fuer Unfaelle",
+      "Versicherung fuer Arbeitslosigkeit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rentenversicherung"
+    ],
+    "explanation": "Die Rentenversicherung sichert das Einkommen im Alter.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 183
+  },
+  {
+    "id": "lid-q184",
+    "type": "mcq",
+    "question": "Ab wann bekommt man in Deutschland Rente?",
+    "options": [
+      "ab 60 Jahren",
+      "ab 63 Jahren",
+      "ab 67 Jahren",
+      "ab 70 Jahren"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "rentenversicherung"
+    ],
+    "explanation": "Das Rentenalter liegt bei 67 Jahren.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 184
+  },
+  {
+    "id": "lid-q185",
+    "type": "mcq",
+    "question": "Was zahlt die Arbeitslosenversicherung?",
+    "options": [
+      "Arbeitslosengeld bei Verlust des Arbeitsplatzes",
+      "Gehalt",
+      "Kindergeld",
+      "Wohngeld"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "arbeitslosenversicherung"
+    ],
+    "explanation": "Die Arbeitslosenversicherung zahlt Arbeitslosengeld.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 185
+  },
+  {
+    "id": "lid-q186",
+    "type": "mcq",
+    "question": "Wer muss in Deutschland Steuern zahlen?",
+    "options": [
+      "nur Deutsche",
+      "nur Arbeitnehmer",
+      "jeder, der Einkommen hat",
+      "nur Selbstaendige"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "steuern"
+    ],
+    "explanation": "Jeder mit Einkommen muss Steuern zahlen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 186
+  },
+  {
+    "id": "lid-q187",
+    "type": "mcq",
+    "question": "Was ist das Finanzamt?",
+    "options": [
+      "eine Bank",
+      "die Behoerde fuer Steuern",
+      "ein Versicherungsunternehmen",
+      "ein Gericht"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "finanzamt"
+    ],
+    "explanation": "Das Finanzamt erhebt Steuern.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 187
+  },
+  {
+    "id": "lid-q188",
+    "type": "mcq",
+    "question": "Welche Steuer zahlt man beim Einkauf?",
+    "options": [
+      "Einkommensteuer",
+      "Grundsteuer",
+      "Mehrwertsteuer",
+      "Kirchensteuer"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "steuern"
+    ],
+    "explanation": "Beim Einkauf zahlt man Mehrwertsteuer.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 188
+  },
+  {
+    "id": "lid-q189",
+    "type": "mcq",
+    "question": "Was ist die Lohnsteuer?",
+    "options": [
+      "Steuer auf das Arbeitseinkommen",
+      "Steuer auf Grundbesitz",
+      "Kirchensteuer",
+      "Steuer auf Benzin"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "steuern"
+    ],
+    "explanation": "Die Lohnsteuer wird vom Arbeitseinkommen abgezogen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 189
+  },
+  {
+    "id": "lid-q190",
+    "type": "mcq",
+    "question": "Was bedeutet Schulpflicht in Deutschland?",
+    "options": [
+      "Kinder muessen eine Schule besuchen",
+      "Kinder duerfen keine Schule besuchen",
+      "nur Jungen muessen zur Schule",
+      "gilt nur bis 10 Jahre"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "schulpflicht"
+    ],
+    "explanation": "Alle Kinder muessen eine Schule besuchen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 190
+  },
+  {
+    "id": "lid-q191",
+    "type": "mcq",
+    "question": "Ab welchem Alter beginnt die Schulpflicht?",
+    "options": [
+      "4 Jahre",
+      "6 Jahre",
+      "7 Jahre",
+      "8 Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "schulpflicht"
+    ],
+    "explanation": "Die Schulpflicht beginnt mit 6 Jahren.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 191
+  },
+  {
+    "id": "lid-q192",
+    "type": "mcq",
+    "question": "Welche Schule fuehrt zum hoechsten Abschluss?",
+    "options": [
+      "Hauptschule",
+      "Realschule",
+      "Gymnasium",
+      "Berufsschule"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "schulsystem"
+    ],
+    "explanation": "Das Gymnasium fuehrt zum Abitur.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 192
+  },
+  {
+    "id": "lid-q193",
+    "type": "mcq",
+    "question": "Was ist das Abitur?",
+    "options": [
+      "der hoechste Schulabschluss",
+      "ein Berufsabschluss",
+      "ein Fuehrerschein",
+      "eine Versicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "abitur"
+    ],
+    "explanation": "Das Abitur ist der hoechste Schulabschluss.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 193
+  },
+  {
+    "id": "lid-q194",
+    "type": "mcq",
+    "question": "Wer darf in Deutschland heiraten?",
+    "options": [
+      "nur Deutsche",
+      "nur gleichaltrige Menschen",
+      "zwei erwachsene Menschen",
+      "nur Menschen gleicher Religion"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "ehe"
+    ],
+    "explanation": "In Deutschland duerfen zwei erwachsene Menschen heiraten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 194
+  },
+  {
+    "id": "lid-q195",
+    "type": "mcq",
+    "question": "Ab welchem Alter darf man in Deutschland heiraten?",
+    "options": [
+      "14 Jahre",
+      "16 Jahre",
+      "18 Jahre",
+      "21 Jahre"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "ehe"
+    ],
+    "explanation": "Man darf ab 18 Jahren heiraten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 195
+  },
+  {
+    "id": "lid-q196",
+    "type": "mcq",
+    "question": "Seit wann ist die Ehe fuer alle in Deutschland erlaubt?",
+    "options": [
+      "2001",
+      "2010",
+      "2017",
+      "2020"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "ehe"
+    ],
+    "explanation": "Die Ehe fuer alle ist seit Oktober 2017 erlaubt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 196
+  },
+  {
+    "id": "lid-q197",
+    "type": "mcq",
+    "question": "Was ist Elternzeit?",
+    "options": [
+      "berufliche Auszeit nach der Geburt eines Kindes",
+      "Schulferien",
+      "Rentenzeit",
+      "Arbeitszeit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "elternzeit"
+    ],
+    "explanation": "Elternzeit ist eine Auszeit nach der Geburt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 197
+  },
+  {
+    "id": "lid-q198",
+    "type": "mcq",
+    "question": "Wer bekommt in Deutschland Kindergeld?",
+    "options": [
+      "nur Deutsche",
+      "nur Maenner",
+      "Eltern mit Kindern",
+      "nur Alleinerziehende"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "kindergeld"
+    ],
+    "explanation": "Eltern mit Kindern bekommen Kindergeld.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 198
+  },
+  {
+    "id": "lid-q199",
+    "type": "mcq",
+    "question": "Was bedeutet Religionsfreiheit?",
+    "options": [
+      "Jeder muss einer Religion angehoeren.",
+      "Jeder darf seine Religion frei waehlen.",
+      "Religion ist verboten.",
+      "Es gibt nur eine erlaubte Religion."
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "religionsfreiheit"
+    ],
+    "explanation": "Religionsfreiheit bedeutet freie Wahl der Religion.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-3",
+    "questionNumber": 199
+  },
+  {
+    "id": "lid-q200",
+    "type": "mcq",
+    "question": "Was ist Ehrenamt?",
+    "options": [
+      "freiwillige, unbezahlte Taetigkeit",
+      "bezahlte Arbeit",
+      "ein Amt in der Regierung",
+      "Pflichtarbeit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "ehrenamt"
+    ],
+    "explanation": "Ehrenamt ist freiwillige, unbezahlte Arbeit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 200
+  },
+  {
+    "id": "lid-q201",
+    "type": "mcq",
+    "question": "Was ist Mutterschutz?",
+    "options": [
+      "Schutz schwangerer Frauen am Arbeitsplatz",
+      "Umweltschutz",
+      "Schutz vor Krankheiten",
+      "Schutz des Eigenheims"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "mutterschutz"
+    ],
+    "explanation": "Mutterschutz schuetzt schwangere Frauen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 201
+  },
+  {
+    "id": "lid-q202",
+    "type": "mcq",
+    "question": "Was bedeutet Gleichberechtigung?",
+    "options": [
+      "Maenner und Frauen haben die gleichen Rechte",
+      "alle verdienen gleich viel",
+      "alle haben die gleiche Religion",
+      "alle haben den gleichen Beruf"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gleichberechtigung"
+    ],
+    "explanation": "Gleichberechtigung bedeutet gleiche Rechte fuer alle.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 202
+  },
+  {
+    "id": "lid-q203",
+    "type": "mcq",
+    "question": "Was verbietet das Allgemeine Gleichbehandlungsgesetz?",
+    "options": [
+      "Diskriminierung aufgrund von Herkunft, Geschlecht, Religion",
+      "Arbeit am Sonntag",
+      "Ueberstunden",
+      "Teilzeitarbeit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gleichberechtigung"
+    ],
+    "explanation": "Das AGG verbietet Diskriminierung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 203
+  },
+  {
+    "id": "lid-q204",
+    "type": "mcq",
+    "question": "Was ist eine Gewerkschaft?",
+    "options": [
+      "Interessenvertretung der Arbeitnehmer",
+      "eine Behoerde",
+      "ein Unternehmen",
+      "eine Partei"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gewerkschaften"
+    ],
+    "explanation": "Gewerkschaften vertreten die Arbeitnehmer.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 204
+  },
+  {
+    "id": "lid-q205",
+    "type": "mcq",
+    "question": "Was ist ein Betriebsrat?",
+    "options": [
+      "Vertretung der Arbeitnehmer im Betrieb",
+      "der Chef",
+      "ein Gericht",
+      "eine Versicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "betriebsrat"
+    ],
+    "explanation": "Der Betriebsrat vertritt die Arbeitnehmer.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 205
+  },
+  {
+    "id": "lid-q206",
+    "type": "mcq",
+    "question": "Was bedeutet Versammlungsfreiheit?",
+    "options": [
+      "das Recht, sich friedlich zu versammeln",
+      "Pflicht zur Versammlung",
+      "Verbot von Demonstrationen",
+      "Recht Waffen zu tragen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "versammlungsfreiheit"
+    ],
+    "explanation": "Versammlungsfreiheit erlaubt friedliche Versammlungen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-18",
+    "questionNumber": 206
+  },
+  {
+    "id": "lid-q207",
+    "type": "mcq",
+    "question": "Was ist die Einbuergerung?",
+    "options": [
+      "Erwerb der deutschen Staatsangehoerigkeit",
+      "eine Pruefung",
+      "eine Versicherung",
+      "ein Umzug"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "einbuergerung"
+    ],
+    "explanation": "Einbuergerung ist der Erwerb der Staatsbuergerschaft.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 207
+  },
+  {
+    "id": "lid-q208",
+    "type": "mcq",
+    "question": "Wie lange muss man in Deutschland leben fuer die Einbuergerung?",
+    "options": [
+      "3 Jahre",
+      "5 Jahre",
+      "8 Jahre",
+      "10 Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "einbuergerung"
+    ],
+    "explanation": "Seit 2024 mindestens 5 Jahre.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 208
+  },
+  {
+    "id": "lid-q209",
+    "type": "mcq",
+    "question": "Was ist das Jugendschutzgesetz?",
+    "options": [
+      "Schutz von Kindern und Jugendlichen",
+      "Steuergesetz",
+      "Wahlgesetz",
+      "Seniorengesetz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "jugendschutz"
+    ],
+    "explanation": "Das Jugendschutzgesetz schuetzt Kinder und Jugendliche.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 209
+  },
+  {
+    "id": "lid-q210",
+    "type": "mcq",
+    "question": "Ab welchem Alter darf man Alkohol kaufen?",
+    "options": [
+      "14 Jahre",
+      "16 (Bier/Wein), 18 (Spirituosen)",
+      "18 Jahre",
+      "21 Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "jugendschutz"
+    ],
+    "explanation": "Bier/Wein ab 16, Spirituosen ab 18.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 210
+  },
+  {
+    "id": "lid-q211",
+    "type": "mcq",
+    "question": "Was ist Datenschutz?",
+    "options": [
+      "Schutz persoenlicher Daten",
+      "Schutz vor Computerviren",
+      "Gebaeudesschutz",
+      "Umweltschutz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "datenschutz"
+    ],
+    "explanation": "Datenschutz schuetzt persoenliche Daten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 211
+  },
+  {
+    "id": "lid-q212",
+    "type": "mcq",
+    "question": "Was bedeutet Pressefreiheit?",
+    "options": [
+      "Medien duerfen frei berichten",
+      "jeder muss Zeitung lesen",
+      "nur der Staat druckt Zeitungen",
+      "Zeitungen sind kostenlos"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "pressefreiheit"
+    ],
+    "explanation": "Pressefreiheit bedeutet freie Berichterstattung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 212
+  },
+  {
+    "id": "lid-q213",
+    "type": "mcq",
+    "question": "Was ist der Mindestlohn?",
+    "options": [
+      "der niedrigste erlaubte Stundenlohn",
+      "das Durchschnittsgehalt",
+      "das Hoechstgehalt",
+      "der Steuersatz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "mindestlohn"
+    ],
+    "explanation": "Der Mindestlohn ist der gesetzliche Mindeststundenlohn.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 213
+  },
+  {
+    "id": "lid-q214",
+    "type": "mcq",
+    "question": "Was ist eine Petition?",
+    "options": [
+      "Bitte oder Beschwerde an das Parlament",
+      "Steuerzahlung",
+      "Gerichtsurteil",
+      "Parteimitgliedschaft"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "petitionsrecht"
+    ],
+    "explanation": "Eine Petition ist ein Schreiben an das Parlament.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 214
+  },
+  {
+    "id": "lid-q215",
+    "type": "mcq",
+    "question": "Was ist ein Tarifvertrag?",
+    "options": [
+      "Vertrag zwischen Gewerkschaften und Arbeitgebern",
+      "Mietvertrag",
+      "Kaufvertrag",
+      "Versicherungsvertrag"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "tarifvertrag"
+    ],
+    "explanation": "Ein Tarifvertrag regelt Loehne und Arbeitsbedingungen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 215
+  },
+  {
+    "id": "lid-q216",
+    "type": "mcq",
+    "question": "Was ist die Pflegeversicherung?",
+    "options": [
+      "Versicherung fuer Pflegebeduerftigkeit",
+      "Autoversicherung",
+      "Wohnungsversicherung",
+      "Reiseversicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "pflegeversicherung"
+    ],
+    "explanation": "Die Pflegeversicherung hilft bei Pflegebeduerftigkeit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 216
+  },
+  {
+    "id": "lid-q217",
+    "type": "mcq",
+    "question": "Was ist die Unfallversicherung?",
+    "options": [
+      "Versicherung bei Arbeitsunfaellen",
+      "Autodiebstahlversicherung",
+      "Tierversicherung",
+      "Reiseversicherung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "unfallversicherung"
+    ],
+    "explanation": "Die Unfallversicherung schuetzt bei Arbeitsunfaellen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 217
+  },
+  {
+    "id": "lid-q218",
+    "type": "mcq",
+    "question": "Was ist die duale Berufsausbildung?",
+    "options": [
+      "Ausbildung in Betrieb und Berufsschule",
+      "nur Schulunterricht",
+      "nur Arbeit",
+      "Fernstudium"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "berufsausbildung"
+    ],
+    "explanation": "Duale Ausbildung kombiniert Betrieb und Berufsschule.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 218
+  },
+  {
+    "id": "lid-q219",
+    "type": "mcq",
+    "question": "Welche Religionen gibt es in Deutschland?",
+    "options": [
+      "nur Christentum",
+      "Christentum, Islam, Judentum und andere",
+      "nur Islam",
+      "keine"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "religionen"
+    ],
+    "explanation": "In Deutschland gibt es viele Religionen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-3",
+    "questionNumber": 219
+  },
+  {
+    "id": "lid-q220",
+    "type": "mcq",
+    "question": "Was bedeutet Integration?",
+    "options": [
+      "Teilhabe am gesellschaftlichen Leben",
+      "Trennung",
+      "Rueckkehr",
+      "nur Sprachkurs"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "integration"
+    ],
+    "explanation": "Integration bedeutet Teilhabe am gesellschaftlichen Leben.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 220
+  },
+  {
+    "id": "lid-q221",
+    "type": "mcq",
+    "question": "Was ist Berufsfreiheit?",
+    "options": [
+      "Recht, seinen Beruf frei zu waehlen",
+      "Pflicht einen bestimmten Beruf zu ergreifen",
+      "Verbot den Beruf zu wechseln",
+      "Recht auf kostenloses Studium"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "berufsfreiheit"
+    ],
+    "explanation": "Berufsfreiheit erlaubt freie Berufswahl.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 221
+  },
+  {
+    "id": "lid-q222",
+    "type": "mcq",
+    "question": "Was ist Rassismus?",
+    "options": [
+      "Benachteiligung aufgrund der Herkunft",
+      "eine Partei",
+      "ein Gesetz",
+      "eine Religion"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rassismus"
+    ],
+    "explanation": "Rassismus ist Diskriminierung aufgrund der Herkunft.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 222
+  },
+  {
+    "id": "lid-q223",
+    "type": "mcq",
+    "question": "Was ist Antisemitismus?",
+    "options": [
+      "Feindlichkeit gegenueber Juden",
+      "eine Bewegung",
+      "ein Gesetz",
+      "eine Steuer"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "antisemitismus"
+    ],
+    "explanation": "Antisemitismus ist Feindlichkeit gegenueber Juden.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-13",
+    "questionNumber": 223
+  },
+  {
+    "id": "lid-q224",
+    "type": "mcq",
+    "question": "Was ist das Recht auf koerperliche Unversehrtheit?",
+    "options": [
+      "niemand darf koerperlich verletzt werden",
+      "jeder muss Sport treiben",
+      "jeder bekommt kostenlose Medizin",
+      "man darf nicht krank werden"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Schuetzt vor Gewalt und koerperlichen Eingriffen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 224
+  },
+  {
+    "id": "lid-q225",
+    "type": "mcq",
+    "question": "Welche Freiheit schuetzt Artikel 5 GG?",
+    "options": [
+      "Meinungs- und Pressefreiheit",
+      "Berufsfreiheit",
+      "Eigentumsfreiheit",
+      "Reisefreiheit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "meinungsfreiheit"
+    ],
+    "explanation": "Artikel 5 GG schuetzt Meinungs- und Pressefreiheit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 225
+  },
+  {
+    "id": "lid-q226",
+    "type": "mcq",
+    "question": "Was ist die Todesstrafe in Deutschland?",
+    "options": [
+      "verboten",
+      "erlaubt",
+      "nur bei schweren Verbrechen",
+      "nur in Bayern"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Die Todesstrafe ist nach dem Grundgesetz verboten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 226
+  },
+  {
+    "id": "lid-q227",
+    "type": "mcq",
+    "question": "Was bedeutet Koalitionsfreiheit?",
+    "options": [
+      "Recht Gewerkschaften zu gruenden",
+      "Pflicht einer Partei beizutreten",
+      "Recht auf Koalitionsvertrag",
+      "Verbot von Vereinen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "koalitionsfreiheit"
+    ],
+    "explanation": "Koalitionsfreiheit erlaubt Gewerkschaftsgruendungen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-18",
+    "questionNumber": 227
+  },
+  {
+    "id": "lid-q228",
+    "type": "mcq",
+    "question": "Was ist ein Volksentscheid?",
+    "options": [
+      "direkte Abstimmung der Buerger",
+      "Bundestagswahl",
+      "Meinungsumfrage",
+      "Gerichtsurteil"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "volksentscheid"
+    ],
+    "explanation": "Volksentscheid ist direkte Abstimmung des Volkes.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 228
+  },
+  {
+    "id": "lid-q229",
+    "type": "mcq",
+    "question": "Was bedeutet Foederalismus?",
+    "options": [
+      "Aufteilung zwischen Bund und Laendern",
+      "Zentralisierung",
+      "Diktatur",
+      "Monarchie"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "foederalismus"
+    ],
+    "explanation": "Foederalismus teilt Macht zwischen Bund und Laendern.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-5",
+    "questionNumber": 229
+  },
+  {
+    "id": "lid-q230",
+    "type": "mcq",
+    "question": "Was ist Rechtsstaatlichkeit?",
+    "options": [
+      "der Staat handelt nach Gesetzen",
+      "der Staat kann alles machen",
+      "nur Reiche haben Rechte",
+      "Gesetze gelten nur fuer Auslaender"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Rechtsstaatlichkeit bindet den Staat an Gesetze.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 230
+  },
+  {
+    "id": "lid-q231",
+    "type": "mcq",
+    "question": "Was ist das Briefgeheimnis?",
+    "options": [
+      "Post darf nicht von anderen gelesen werden",
+      "Briefe muessen frankiert werden",
+      "man darf keine Briefe schreiben",
+      "Briefe sind verboten"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Das Briefgeheimnis schuetzt private Kommunikation.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 231
+  },
+  {
+    "id": "lid-q232",
+    "type": "mcq",
+    "question": "Was ist das Existenzminimum?",
+    "options": [
+      "das Minimum zum Leben",
+      "das Hoechsteinkommen",
+      "der Steuerfreibetrag",
+      "das Durchschnittseinkommen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialstaat"
+    ],
+    "explanation": "Das Existenzminimum ist der Mindestbedarf zum Leben.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 232
+  },
+  {
+    "id": "lid-q233",
+    "type": "mcq",
+    "question": "Was ist Sozialhilfe?",
+    "options": [
+      "finanzielle Hilfe fuer Menschen in Not",
+      "eine Versicherung",
+      "eine Steuer",
+      "ein Kredit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sozialhilfe"
+    ],
+    "explanation": "Sozialhilfe hilft Menschen in Not.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 233
+  },
+  {
+    "id": "lid-q234",
+    "type": "mcq",
+    "question": "Was ist der Tag der Deutschen Einheit?",
+    "options": [
+      "Nationalfeiertag am 3. Oktober",
+      "1. Mai",
+      "Weihnachten",
+      "Silvester"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wiedervereinigung"
+    ],
+    "explanation": "Der 3. Oktober ist der Tag der Deutschen Einheit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-11",
+    "questionNumber": 234
+  },
+  {
+    "id": "lid-q235",
+    "type": "mcq",
+    "question": "Welches Land gehoert nicht zur EU?",
+    "options": [
+      "Frankreich",
+      "Schweiz",
+      "Italien",
+      "Spanien"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "eu"
+    ],
+    "explanation": "Die Schweiz ist kein EU-Mitglied.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 235
+  },
+  {
+    "id": "lid-q236",
+    "type": "mcq",
+    "question": "Was ist der Euro?",
+    "options": [
+      "gemeinsame Waehrung der Eurozone",
+      "eine Bank",
+      "eine Versicherung",
+      "eine Steuer"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "euro"
+    ],
+    "explanation": "Der Euro ist die gemeinsame Waehrung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 236
+  },
+  {
+    "id": "lid-q237",
+    "type": "mcq",
+    "question": "Was bedeutet Demonstrationsrecht?",
+    "options": [
+      "Recht friedlich zu demonstrieren",
+      "Pflicht zu demonstrieren",
+      "Verbot von Protesten",
+      "Recht auf Gewalt"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "versammlungsfreiheit"
+    ],
+    "explanation": "Demonstrationsrecht erlaubt friedliche Proteste.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-18",
+    "questionNumber": 237
+  },
+  {
+    "id": "lid-q238",
+    "type": "mcq",
+    "question": "Was ist der Internationale Frauentag?",
+    "options": [
+      "Gedenktag fuer Frauenrechte am 8. Maerz",
+      "nur in Bayern",
+      "Muttertag",
+      "kirchlicher Feiertag"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gleichberechtigung"
+    ],
+    "explanation": "Der 8. Maerz feiert Frauenrechte.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 238
+  },
+  {
+    "id": "lid-q239",
+    "type": "mcq",
+    "question": "Welche Sprache ist Amtssprache in Deutschland?",
+    "options": [
+      "Englisch",
+      "Franzoesisch",
+      "Deutsch",
+      "Tuerkisch"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "amtssprache"
+    ],
+    "explanation": "Deutsch ist die Amtssprache.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 239
+  },
+  {
+    "id": "lid-q240",
+    "type": "mcq",
+    "question": "Was ist ein Grundrecht?",
+    "options": [
+      "unverauesserliches Recht jedes Menschen",
+      "Gesetz fuer Grundstuecke",
+      "Recht nur fuer Deutsche",
+      "Recht nur fuer Beamte"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "grundrechte"
+    ],
+    "explanation": "Grundrechte stehen jedem Menschen zu.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 240
+  },
+  {
+    "id": "lid-q241",
+    "type": "mcq",
+    "question": "Was bedeutet Zensurverbot?",
+    "options": [
+      "der Staat darf die Presse nicht zensieren",
+      "alle Buecher sind kostenlos",
+      "Fernsehen ist verboten",
+      "Internet ist verboten"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "pressefreiheit"
+    ],
+    "explanation": "Zensurverbot schuetzt die Pressefreiheit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 241
+  },
+  {
+    "id": "lid-q242",
+    "type": "mcq",
+    "question": "Was ist die Bundesagentur fuer Arbeit?",
+    "options": [
+      "Behoerde fuer Arbeitsvermittlung",
+      "private Firma",
+      "Gericht",
+      "Ministerium"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "arbeit"
+    ],
+    "explanation": "Die Bundesagentur vermittelt Arbeit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 242
+  },
+  {
+    "id": "lid-q243",
+    "type": "mcq",
+    "question": "Was bedeutet Wahlgeheimnis?",
+    "options": [
+      "niemand erfaehrt was man gewaehlt hat",
+      "die Wahl ist geheim",
+      "nur wenige duerfen waehlen",
+      "Kandidaten bleiben geheim"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Wahlgeheimnis schuetzt die geheime Stimmabgabe.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 243
+  },
+  {
+    "id": "lid-q244",
+    "type": "mcq",
+    "question": "Was ist der Europarat?",
+    "options": [
+      "Organisation fuer Menschenrechte",
+      "EU-Parlament",
+      "NATO-Abteilung",
+      "UNO"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "europarat"
+    ],
+    "explanation": "Der Europarat schuetzt Menschenrechte.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 244
+  },
+  {
+    "id": "lid-q245",
+    "type": "mcq",
+    "question": "Was bedeutet Wahlrecht fuer alle?",
+    "options": [
+      "jeder erwachsene Buerger darf waehlen",
+      "nur Maenner",
+      "nur Reiche",
+      "nur Akademiker"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Allgemeines Wahlrecht fuer alle Buerger.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 245
+  },
+  {
+    "id": "lid-q246",
+    "type": "mcq",
+    "question": "Was ist die Genfer Fluechtlingskonvention?",
+    "options": [
+      "Abkommen zum Schutz von Fluechtlingen",
+      "Handelsabkommen",
+      "Friedensvertrag",
+      "Verfassung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "fluechtlinge"
+    ],
+    "explanation": "Die Genfer Konvention schuetzt Fluechtlinge.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 246
+  },
+  {
+    "id": "lid-q247",
+    "type": "mcq",
+    "question": "Wann duerfen Kinder in Deutschland arbeiten?",
+    "options": [
+      "ab 10 Jahren",
+      "ab 13 mit Einschraenkungen",
+      "ab 16",
+      "ab 18"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "jugendschutz"
+    ],
+    "explanation": "Ab 13 Jahren leichte Arbeiten erlaubt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 247
+  },
+  {
+    "id": "lid-q248",
+    "type": "mcq",
+    "question": "Was regelt der Mietvertrag?",
+    "options": [
+      "Rechte und Pflichten von Mieter und Vermieter",
+      "Kaufpreis",
+      "Steuerhoehe",
+      "Versicherungsschutz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "mietrecht"
+    ],
+    "explanation": "Der Mietvertrag regelt das Mietverhaeltnis.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 248
+  },
+  {
+    "id": "lid-q249",
+    "type": "mcq",
+    "question": "Was ist die Aufenthaltserlaubnis?",
+    "options": [
+      "Erlaubnis in Deutschland zu leben",
+      "Fuehrerschein",
+      "Waffenschein",
+      "Gewerbeschein"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "aufenthaltserlaubnis"
+    ],
+    "explanation": "Die Aufenthaltserlaubnis erlaubt den Aufenthalt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 249
+  },
+  {
+    "id": "lid-q250",
+    "type": "mcq",
+    "question": "Was ist Umweltschutz?",
+    "options": [
+      "Schutz der natuerlichen Umwelt",
+      "Eigentumsschutz",
+      "Grenzschutz",
+      "Regierungsschutz"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "umweltschutz"
+    ],
+    "explanation": "Umweltschutz schuetzt die Natur.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 250
+  },
+  {
+    "id": "lid-q251",
+    "type": "mcq",
+    "question": "Was ist die Europaeische Menschenrechtskonvention?",
+    "options": [
+      "Vertrag zum Schutz der Menschenrechte",
+      "Handelsabkommen",
+      "Militaervereinbarung",
+      "Steuerabkommen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "menschenrechte"
+    ],
+    "explanation": "Die EMRK schuetzt Menschenrechte in Europa.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 251
+  },
+  {
+    "id": "lid-q252",
+    "type": "mcq",
+    "question": "Was bedeutet Subsidiaritaetsprinzip?",
+    "options": [
+      "Aufgaben auf niedrigster Ebene erledigen",
+      "alles zentral entscheiden",
+      "nur Bund macht Gesetze",
+      "Laender haben keine Rechte"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "foederalismus"
+    ],
+    "explanation": "Subsidiaritaet: Aufgaben auf niedrigster Ebene.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-5",
+    "questionNumber": 252
+  },
+  {
+    "id": "lid-q253",
+    "type": "mcq",
+    "question": "Was ist die UNESCO?",
+    "options": [
+      "UNO-Organisation fuer Bildung und Kultur",
+      "eine Armee",
+      "eine Bank",
+      "eine Partei"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "uno"
+    ],
+    "explanation": "Die UNESCO foerdert Bildung und Kultur.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 253
+  },
+  {
+    "id": "lid-q254",
+    "type": "mcq",
+    "question": "Wer kontrolliert die Einhaltung der Gesetze?",
+    "options": [
+      "Polizei und Gerichte",
+      "nur Bundesregierung",
+      "nur Bundespraesident",
+      "nur Parteien"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Polizei und Gerichte kontrollieren die Gesetze.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 254
+  },
+  {
+    "id": "lid-q255",
+    "type": "mcq",
+    "question": "Was ist der Wehrbeauftragte des Bundestages?",
+    "options": [
+      "Schutzbeauftragter fuer Soldaten",
+      "Verteidigungsminister",
+      "Bundeskanzler",
+      "Bundespraesident"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bundestag"
+    ],
+    "explanation": "Der Wehrbeauftragte schuetzt Grundrechte der Soldaten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-5",
+    "questionNumber": 255
+  },
+  {
+    "id": "lid-q256",
+    "type": "mcq",
+    "question": "Wer kann Bundestagsabgeordneter werden?",
+    "options": [
+      "jeder Deutsche ab 18",
+      "nur Juristen",
+      "nur Maenner",
+      "nur Parteimitglieder"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Jeder Deutsche ab 18 kann kandidieren.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 256
+  },
+  {
+    "id": "lid-q257",
+    "type": "mcq",
+    "question": "Was passiert bei Gesetzesverstoss?",
+    "options": [
+      "Polizei oder Justiz werden taetig",
+      "nichts",
+      "Ausweisung",
+      "Verlust der Staatsbuergerschaft"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rechtsstaat"
+    ],
+    "explanation": "Bei Gesetzesverstoessen wird man belangt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 257
+  },
+  {
+    "id": "lid-q258",
+    "type": "mcq",
+    "question": "Was ist Gewaltenteilung?",
+    "options": [
+      "Aufteilung in Legislative, Exekutive, Judikative",
+      "Geldaufteilung",
+      "Arbeitsaufteilung",
+      "Laenderaufteilung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gewaltenteilung"
+    ],
+    "explanation": "Gewaltenteilung teilt die Staatsgewalt auf.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-5",
+    "questionNumber": 258
+  },
+  {
+    "id": "lid-q259",
+    "type": "mcq",
+    "question": "Was ist ein Referendum?",
+    "options": [
+      "eine Volksabstimmung",
+      "Parlamentswahl",
+      "Demonstration",
+      "Gerichtsverfahren"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "demokratie"
+    ],
+    "explanation": "Ein Referendum ist eine Volksabstimmung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 259
+  },
+  {
+    "id": "lid-q260",
+    "type": "mcq",
+    "question": "Was bedeutet Eigentumsrecht?",
+    "options": [
+      "Recht auf Besitz und Eigentum",
+      "Pflicht alles zu teilen",
+      "Verbot von Eigentum",
+      "staatliches Eigentum"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "eigentumsrecht"
+    ],
+    "explanation": "Eigentumsrecht schuetzt den privaten Besitz.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 260
+  },
+  {
+    "id": "lid-q261",
+    "type": "mcq",
+    "question": "Was ist Vertragsfreiheit?",
+    "options": [
+      "Recht Vertraege frei abzuschliessen",
+      "Pflicht jeden Vertrag zu unterschreiben",
+      "Vertraege sind verboten",
+      "nur der Staat darf Vertraege machen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "vertragsfreiheit"
+    ],
+    "explanation": "Vertragsfreiheit erlaubt freien Vertragsabschluss.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 261
+  },
+  {
+    "id": "lid-q262",
+    "type": "mcq",
+    "question": "Was ist die Kulturhoheit der Laender?",
+    "options": [
+      "Laender sind fuer Bildung und Kultur zustaendig",
+      "Bund bestimmt Bildungspolitik",
+      "UNESCO bestimmt Kultur",
+      "Gemeinden machen Schulpolitik"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kulturhoheit"
+    ],
+    "explanation": "Die Kulturhoheit gibt den Laendern Bildungskompetenz.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 262
+  },
+  {
+    "id": "lid-q263",
+    "type": "mcq",
+    "question": "Was ist Rundfunkfreiheit?",
+    "options": [
+      "Radio und Fernsehen duerfen frei berichten",
+      "nur staatliches Fernsehen ist erlaubt",
+      "Rundfunk ist verboten",
+      "jeder muss Radio hoeren"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rundfunkfreiheit"
+    ],
+    "explanation": "Rundfunkfreiheit schuetzt freie Berichterstattung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 263
+  },
+  {
+    "id": "lid-q264",
+    "type": "mcq",
+    "question": "Was ist Informationsfreiheit?",
+    "options": [
+      "Recht sich aus oeffentlichen Quellen zu informieren",
+      "Pflicht Nachrichten zu lesen",
+      "Verbot von Informationen",
+      "nur der Staat hat Informationen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "informationsfreiheit"
+    ],
+    "explanation": "Informationsfreiheit erlaubt freien Zugang zu Informationen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 264
+  },
+  {
+    "id": "lid-q265",
+    "type": "mcq",
+    "question": "Was ist Tierschutz in Deutschland?",
+    "options": [
+      "Tiere werden durch Gesetze geschuetzt",
+      "Tiere haben keine Rechte",
+      "nur Haustiere sind geschuetzt",
+      "Tierschutz ist freiwillig"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "tierschutz"
+    ],
+    "explanation": "Tierschutz ist im Grundgesetz verankert.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 265
+  },
+  {
+    "id": "lid-q266",
+    "type": "mcq",
+    "question": "Was sind die Wahlgrundsaetze in Deutschland?",
+    "options": [
+      "allgemein, unmittelbar, frei, gleich, geheim",
+      "offen, oeffentlich, direkt",
+      "nur fuer Maenner, geheim",
+      "freiwillig, oeffentlich"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlgrundsaetze"
+    ],
+    "explanation": "Wahlen sind allgemein, unmittelbar, frei, gleich und geheim.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 266
+  },
+  {
+    "id": "lid-q267",
+    "type": "mcq",
+    "question": "Was ist die Fuenf-Prozent-Huerde?",
+    "options": [
+      "Parteien brauchen mindestens 5% um in den Bundestag zu kommen",
+      "man muss 5% Steuern zahlen",
+      "5% der Bevoelkerung darf waehlen",
+      "5% der Gesetze sind geheim"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Die 5%-Huerde verhindert Zersplitterung des Parlaments.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 267
+  },
+  {
+    "id": "lid-q268",
+    "type": "mcq",
+    "question": "Was ist Diskriminierungsverbot?",
+    "options": [
+      "Verbot Menschen aufgrund bestimmter Merkmale zu benachteiligen",
+      "Verbot zu diskutieren",
+      "Verbot von Kritik",
+      "Verbot von Meinungsfreiheit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "diskriminierung"
+    ],
+    "explanation": "Diskriminierung ist nach dem GG verboten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 268
+  },
+  {
+    "id": "lid-q269",
+    "type": "mcq",
+    "question": "Was ist das Asylrecht?",
+    "options": [
+      "Recht auf Schutz fuer politisch Verfolgte",
+      "Recht auf Urlaub",
+      "Recht auf Eigentum",
+      "Recht auf Bildung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "asylrecht"
+    ],
+    "explanation": "Das Asylrecht schuetzt politisch Verfolgte.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 269
+  },
+  {
+    "id": "lid-q270",
+    "type": "mcq",
+    "question": "Was bedeutet Verbot der Kinderarbeit?",
+    "options": [
+      "Kinder duerfen nicht arbeiten (mit Ausnahmen)",
+      "alle Kinder muessen arbeiten",
+      "nur Jungen duerfen arbeiten",
+      "Kinderarbeit ist erlaubt"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kinderarbeit"
+    ],
+    "explanation": "Kinderarbeit ist in Deutschland grundsaetzlich verboten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 270
+  },
+  {
+    "id": "lid-q271",
+    "type": "mcq",
+    "question": "Was ist das Recht auf Bildung?",
+    "options": [
+      "jeder hat Zugang zu Bildung",
+      "nur Reiche duerfen lernen",
+      "Bildung ist verboten",
+      "nur Maenner duerfen studieren"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bildung"
+    ],
+    "explanation": "Jeder hat das Recht auf Bildung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 271
+  },
+  {
+    "id": "lid-q272",
+    "type": "mcq",
+    "question": "Was ist Wohngeld?",
+    "options": [
+      "staatliche Hilfe fuer Miete",
+      "ein Kredit",
+      "eine Versicherung",
+      "eine Steuer"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "wohngeld"
+    ],
+    "explanation": "Wohngeld unterstuetzt bei Mietkosten.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 272
+  },
+  {
+    "id": "lid-q273",
+    "type": "mcq",
+    "question": "Was ist Buergergeld?",
+    "options": [
+      "Grundsicherung fuer Arbeitslose",
+      "Kindergeld",
+      "Rente",
+      "Gehalt"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "buergergeld"
+    ],
+    "explanation": "Buergergeld sichert den Lebensunterhalt Arbeitsloser.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 273
+  },
+  {
+    "id": "lid-q274",
+    "type": "mcq",
+    "question": "Was ist die Steuererklarung?",
+    "options": [
+      "jaehrliche Angabe der Einkuenfte beim Finanzamt",
+      "ein Bankdokument",
+      "eine Versicherungspolice",
+      "ein Arbeitsvertrag"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "steuern"
+    ],
+    "explanation": "In der Steuererklaerung gibt man seine Einkuenfte an.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 274
+  },
+  {
+    "id": "lid-q275",
+    "type": "mcq",
+    "question": "Was ist die Kirchensteuer?",
+    "options": [
+      "Steuer fuer Mitglieder einer Religionsgemeinschaft",
+      "allgemeine Steuer",
+      "Steuer auf Lebensmittel",
+      "Steuer auf Benzin"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kirchensteuer"
+    ],
+    "explanation": "Kirchensteuer zahlen Mitglieder einer Kirche.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 275
+  },
+  {
+    "id": "lid-q276",
+    "type": "mcq",
+    "question": "Was ist das Standesamt?",
+    "options": [
+      "Behoerde fuer Eheschliessungen und Geburten",
+      "ein Gericht",
+      "eine Bank",
+      "ein Krankenhaus"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "standesamt"
+    ],
+    "explanation": "Das Standesamt beurkundet Geburten und Ehen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 276
+  },
+  {
+    "id": "lid-q277",
+    "type": "mcq",
+    "question": "Was ist eine Partnerschaft?",
+    "options": [
+      "Zusammenleben zweier Menschen",
+      "ein Geschaeftsvertrag",
+      "eine Versicherung",
+      "ein Verein"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "partnerschaft"
+    ],
+    "explanation": "Eine Partnerschaft ist das Zusammenleben.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 277
+  },
+  {
+    "id": "lid-q278",
+    "type": "mcq",
+    "question": "Was ist hauesliche Gewalt?",
+    "options": [
+      "Gewalt innerhalb der Familie oder Partnerschaft",
+      "ein Kampfsport",
+      "eine Partei",
+      "ein Beruf"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "haeusliche-gewalt"
+    ],
+    "explanation": "Haeusliche Gewalt ist in Deutschland strafbar.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-4",
+    "questionNumber": 278
+  },
+  {
+    "id": "lid-q279",
+    "type": "mcq",
+    "question": "Was ist Sorgerecht?",
+    "options": [
+      "das Recht und die Pflicht, fuer ein Kind zu sorgen",
+      "Versicherung fuer Kinder",
+      "Recht auf Sorgen",
+      "Recht auf Urlaub"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "sorgerecht"
+    ],
+    "explanation": "Sorgerecht umfasst die Verantwortung fuer das Kind.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 279
+  },
+  {
+    "id": "lid-q280",
+    "type": "mcq",
+    "question": "Was ist die Schulpflicht in Deutschland?",
+    "options": [
+      "Pflicht alle Kinder zur Schule zu schicken",
+      "freiwilliger Schulbesuch",
+      "nur fuer Jungen",
+      "nur bis 10 Jahre"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "schulpflicht"
+    ],
+    "explanation": "Die Schulpflicht gilt fuer alle Kinder.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 280
+  },
+  {
+    "id": "lid-q281",
+    "type": "mcq",
+    "question": "Was ist ein Ausbildungsvertrag?",
+    "options": [
+      "Vertrag zwischen Azubi und Betrieb",
+      "Mietvertrag",
+      "Kaufvertrag",
+      "Versicherungsvertrag"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "berufsausbildung"
+    ],
+    "explanation": "Der Ausbildungsvertrag regelt die Lehre.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 281
+  },
+  {
+    "id": "lid-q282",
+    "type": "mcq",
+    "question": "Was ist das Bafög?",
+    "options": [
+      "finanzielle Hilfe fuer Studenten und Schueler",
+      "eine Steuer",
+      "eine Versicherung",
+      "ein Kredit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bafoeg"
+    ],
+    "explanation": "BAföG unterstuetzt Studierende finanziell.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 282
+  },
+  {
+    "id": "lid-q283",
+    "type": "mcq",
+    "question": "Was ist die Lohnfortzahlung im Krankheitsfall?",
+    "options": [
+      "Arbeitgeber zahlt Lohn bei Krankheit weiter",
+      "man bekommt kein Geld bei Krankheit",
+      "nur Beamte bekommen Geld",
+      "man muss arbeiten gehen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "arbeitnehmerrechte"
+    ],
+    "explanation": "Bei Krankheit wird der Lohn weitergezahlt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 283
+  },
+  {
+    "id": "lid-q284",
+    "type": "mcq",
+    "question": "Was ist Kuendigungsschutz?",
+    "options": [
+      "Schutz vor willkuerlicher Entlassung",
+      "Pflicht zu kuendigen",
+      "Verbot zu kuendigen",
+      "Recht sofort zu kuendigen"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "kuendigungsschutz"
+    ],
+    "explanation": "Kuendigungsschutz schuetzt vor ungerechtfertigter Entlassung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 284
+  },
+  {
+    "id": "lid-q285",
+    "type": "mcq",
+    "question": "Was ist der Betriebsarzt?",
+    "options": [
+      "Arzt der die Gesundheit am Arbeitsplatz betreut",
+      "Privatarzt",
+      "Zahnarzt",
+      "Tierarzt"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "arbeitsschutz"
+    ],
+    "explanation": "Der Betriebsarzt kuemmert sich um die Gesundheit am Arbeitsplatz.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 285
+  },
+  {
+    "id": "lid-q286",
+    "type": "mcq",
+    "question": "Was ist Elterngeld?",
+    "options": [
+      "staatliche Leistung nach der Geburt eines Kindes",
+      "Kindergeld",
+      "Rente",
+      "Gehalt"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "elterngeld"
+    ],
+    "explanation": "Elterngeld wird nach der Geburt gezahlt.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 286
+  },
+  {
+    "id": "lid-q287",
+    "type": "mcq",
+    "question": "Was ist der Personalausweis?",
+    "options": [
+      "amtliches Ausweisdokument",
+      "Fuehrerschein",
+      "Kreditkarte",
+      "Krankenkassenkarte"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "personalausweis"
+    ],
+    "explanation": "Der Personalausweis ist ein amtliches Dokument.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 287
+  },
+  {
+    "id": "lid-q288",
+    "type": "mcq",
+    "question": "Was ist die Krankenversicherungskarte?",
+    "options": [
+      "Nachweis der Krankenversicherung",
+      "Personalausweis",
+      "Fuehrerschein",
+      "Bankkarte"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "krankenversicherung"
+    ],
+    "explanation": "Die Karte weist die Versicherung nach.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 288
+  },
+  {
+    "id": "lid-q289",
+    "type": "mcq",
+    "question": "Was bedeutet Niederlassungsfreiheit in der EU?",
+    "options": [
+      "EU-Buerger duerfen in jedem EU-Land leben und arbeiten",
+      "nur Deutsche duerfen reisen",
+      "EU-Buerger brauchen ein Visum",
+      "nur in Deutschland"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "eu"
+    ],
+    "explanation": "EU-Buerger duerfen ueberall in der EU leben.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-20",
+    "questionNumber": 289
+  },
+  {
+    "id": "lid-q290",
+    "type": "mcq",
+    "question": "Was ist die gesetzliche Krankenversicherung?",
+    "options": [
+      "Pflichtversicherung fuer Gesundheitskosten",
+      "freiwillige Versicherung",
+      "private Bank",
+      "Sparplan"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "krankenversicherung"
+    ],
+    "explanation": "Die GKV deckt Gesundheitskosten ab.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 290
+  },
+  {
+    "id": "lid-q291",
+    "type": "mcq",
+    "question": "Was ist Erziehungsurlaub?",
+    "options": [
+      "anderes Wort fuer Elternzeit",
+      "Schulferien",
+      "Urlaub fuer Lehrer",
+      "Rentenzeit"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "elternzeit"
+    ],
+    "explanation": "Erziehungsurlaub ist die alte Bezeichnung fuer Elternzeit.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-19",
+    "questionNumber": 291
+  },
+  {
+    "id": "lid-q292",
+    "type": "mcq",
+    "question": "Was ist die Gewerbefreiheit?",
+    "options": [
+      "Recht ein Gewerbe frei zu gruenden",
+      "Verbot von Gewerben",
+      "nur der Staat darf Geschaefte betreiben",
+      "nur Deutsche duerfen Firmen gruenden"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "gewerbefreiheit"
+    ],
+    "explanation": "Gewerbefreiheit erlaubt die freie Gruendung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-1",
+    "questionNumber": 292
+  },
+  {
+    "id": "lid-q293",
+    "type": "mcq",
+    "question": "Was ist die Berufsausbildung in Deutschland?",
+    "options": [
+      "praktische und theoretische Ausbildung",
+      "nur Universitaetsstudium",
+      "nur Arbeit",
+      "nur Theorie"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "berufsausbildung"
+    ],
+    "explanation": "Die Berufsausbildung kombiniert Praxis und Theorie.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 293
+  },
+  {
+    "id": "lid-q294",
+    "type": "mcq",
+    "question": "Was ist das Wahlalter in Deutschland fuer Bundestagswahlen?",
+    "options": [
+      "16 Jahre",
+      "18 Jahre",
+      "21 Jahre",
+      "25 Jahre"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "wahlen"
+    ],
+    "explanation": "Man darf ab 18 Jahren an Bundestagswahlen teilnehmen.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 294
+  },
+  {
+    "id": "lid-q295",
+    "type": "mcq",
+    "question": "Was ist die Aufgabe des Jugendamtes?",
+    "options": [
+      "Schutz und Hilfe fuer Kinder und Familien",
+      "Steuern erheben",
+      "Polizeiarbeit",
+      "Strassenreinigung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "jugendschutz"
+    ],
+    "explanation": "Das Jugendamt schuetzt Kinder und hilft Familien.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 295
+  },
+  {
+    "id": "lid-q296",
+    "type": "mcq",
+    "question": "Was ist die Erbschaftsteuer?",
+    "options": [
+      "Steuer auf geerbtes Vermoegen",
+      "Steuer auf Einkommen",
+      "Steuer auf Einkauf",
+      "Steuer auf Benzin"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "steuern"
+    ],
+    "explanation": "Erbschaftsteuer faellt bei Erbschaften an.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-17",
+    "questionNumber": 296
+  },
+  {
+    "id": "lid-q297",
+    "type": "mcq",
+    "question": "Was ist der Rundfunkbeitrag?",
+    "options": [
+      "Beitrag fuer oeffentlich-rechtliche Medien",
+      "Steuer",
+      "Versicherung",
+      "Spende"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "rundfunk"
+    ],
+    "explanation": "Der Rundfunkbeitrag finanziert ARD, ZDF und Deutschlandradio.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-2",
+    "questionNumber": 297
+  },
+  {
+    "id": "lid-q298",
+    "type": "mcq",
+    "question": "Was ist die Berufsgenossenschaft?",
+    "options": [
+      "Traeger der gesetzlichen Unfallversicherung",
+      "eine Gewerkschaft",
+      "eine Partei",
+      "ein Sportverein"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "unfallversicherung"
+    ],
+    "explanation": "Berufsgenossenschaften sind fuer die Unfallversicherung zustaendig.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-9",
+    "questionNumber": 298
+  },
+  {
+    "id": "lid-q299",
+    "type": "mcq",
+    "question": "Was ist ein Buergerbegehren?",
+    "options": [
+      "Antrag der Buerger auf eine Volksabstimmung",
+      "ein Strafantrag",
+      "ein Mietvertrag",
+      "eine Steuererklarung"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "demokratie"
+    ],
+    "explanation": "Ein Buergerbegehren ist ein Antrag auf Volksabstimmung.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-6",
+    "questionNumber": 299
+  },
+  {
+    "id": "lid-q300",
+    "type": "mcq",
+    "question": "Was ist die Volkshochschule?",
+    "options": [
+      "Bildungseinrichtung fuer Erwachsene",
+      "eine Grundschule",
+      "eine Universitaet",
+      "ein Kindergarten"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "bildung"
+    ],
+    "explanation": "Die VHS bietet Kurse fuer Erwachsene an.",
+    "xpValue": 10,
+    "category": "Gesellschaft",
+    "lidTopicId": "lid-10",
+    "questionNumber": 300
+  },
+  {
+    "id": "lid-q301",
+    "type": "mcq",
+    "question": "Wer ist Regierender Buergermeister von Berlin?",
+    "options": [
+      "Franziska Giffey",
+      "Kai Wegner",
+      "Michael Mueller",
+      "Klaus Wowereit"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "regierender-buergermeister"
+    ],
+    "explanation": "Kai Wegner ist Regierender Buergermeister.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-14",
+    "questionNumber": 301
+  },
+  {
+    "id": "lid-q302",
+    "type": "mcq",
+    "question": "Wie heisst das Landesparlament von Berlin?",
+    "options": [
+      "Landtag",
+      "Buergerschaft",
+      "Abgeordnetenhaus",
+      "Senat"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "abgeordnetenhaus"
+    ],
+    "explanation": "Das Landesparlament heisst Abgeordnetenhaus.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-15",
+    "questionNumber": 302
+  },
+  {
+    "id": "lid-q303",
+    "type": "mcq",
+    "question": "Welches Tier ist auf dem Wappen von Berlin?",
+    "options": [
+      "Adler",
+      "Loewe",
+      "Baer",
+      "Pferd"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "wappen"
+    ],
+    "explanation": "Der Baer ist das Wappentier Berlins.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-16",
+    "questionNumber": 303
+  },
+  {
+    "id": "lid-q304",
+    "type": "mcq",
+    "question": "Wie viele Bezirke hat Berlin?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "16"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bezirke"
+    ],
+    "explanation": "Berlin hat 12 Bezirke.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-15",
+    "questionNumber": 304
+  },
+  {
+    "id": "lid-q305",
+    "type": "mcq",
+    "question": "Welches Bauwerk ist ein Wahrzeichen Berlins?",
+    "options": [
+      "Koelner Dom",
+      "Brandenburger Tor",
+      "Schloss Neuschwanstein",
+      "Hamburger Michel"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "sehenswuerdigkeiten"
+    ],
+    "explanation": "Das Brandenburger Tor ist Berlins Wahrzeichen.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-16",
+    "questionNumber": 305
+  },
+  {
+    "id": "lid-q306",
+    "type": "mcq",
+    "question": "Was ist der Berliner Senat?",
+    "options": [
+      "die Landesregierung von Berlin",
+      "ein Gericht",
+      "eine Universitaet",
+      "ein Museum"
+    ],
+    "correctIndex": 0,
+    "tags": [
+      "senat"
+    ],
+    "explanation": "Der Senat ist die Landesregierung Berlins.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-15",
+    "questionNumber": 306
+  },
+  {
+    "id": "lid-q307",
+    "type": "mcq",
+    "question": "Seit wann ist Berlin die Hauptstadt des wiedervereinigten Deutschlands?",
+    "options": [
+      "1949",
+      "1961",
+      "1990",
+      "2000"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "hauptstadt"
+    ],
+    "explanation": "Berlin ist seit 1990 die Hauptstadt.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-15",
+    "questionNumber": 307
+  },
+  {
+    "id": "lid-q308",
+    "type": "mcq",
+    "question": "Wie heisst der Regierungschef von Berlin?",
+    "options": [
+      "Ministerpraesident",
+      "Regierender Buergermeister",
+      "Erster Buergermeister",
+      "Senatspraesident"
+    ],
+    "correctIndex": 1,
+    "tags": [
+      "regierender-buergermeister"
+    ],
+    "explanation": "Berlin wird vom Regierenden Buergermeister regiert.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-14",
+    "questionNumber": 308
+  },
+  {
+    "id": "lid-q309",
+    "type": "mcq",
+    "question": "Welcher Bezirk gehoert nicht zu Berlin?",
+    "options": [
+      "Mitte",
+      "Kreuzberg",
+      "Potsdam",
+      "Charlottenburg"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "bezirke"
+    ],
+    "explanation": "Potsdam ist die Hauptstadt Brandenburgs.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-15",
+    "questionNumber": 309
+  },
+  {
+    "id": "lid-q310",
+    "type": "mcq",
+    "question": "Wann fiel die Berliner Mauer?",
+    "options": [
+      "1961",
+      "1985",
+      "1989",
+      "1990"
+    ],
+    "correctIndex": 2,
+    "tags": [
+      "berliner-mauer"
+    ],
+    "explanation": "Die Berliner Mauer fiel am 9. November 1989.",
+    "xpValue": 10,
+    "category": "Berlin",
+    "lidTopicId": "lid-12",
+    "questionNumber": 310
+  }
+]

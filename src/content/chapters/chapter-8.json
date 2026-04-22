@@ -1,0 +1,230 @@
+{
+  "id": "chapter-8",
+  "number": 8,
+  "title": "Kindergeburtstag Chaos",
+  "titleEnglish": "Birthday Party Chaos",
+  "description": "Du feierst einen Kindergeburtstag in der Kita und lernst dabei alles über das deutsche Schulsystem.",
+  "characters": ["lena", "amara"],
+  "story": "Es ist Samstagnachmittag und du bist bei einem Kindergeburtstag in der Kita in Friedrichshain. Überall liegen Luftballons und Pappteller mit Schokoladenkuchen. Fünf Kinder rennen lachend durch den Raum. Es ist laut, bunt und chaotisch.\n\nLena, eine Grundschullehrerin, steht neben dem Geschenketisch und räumt Geschenkpapier auf. Amara kommt mit ihrer kleinen Tochter Awa herein. Awa ist vier Jahre alt.\n\n\"Lena! Schön dich zu sehen!\" Amara umarmt Lena. \"Awa freut sich so auf die Party.\" Awa rennt sofort zu den anderen Kindern.\n\n\"Amara, wie schön!\" Lena lächelt. \"Awa wird bald fünf, oder? Dann noch ein Jahr Kita, und dann kommt die Schule.\"\n\nAmara nickt. \"Ja, ich habe viele Fragen dazu. In Deutschland gibt es doch Schulpflicht, oder?\"\n\n\"Genau\", sagt Lena. \"In Deutschland müssen alle Kinder in die Schule gehen. Das ist Pflicht. In Berlin sind es sogar zehn Jahre Schulpflicht. Awa kommt zuerst in die Grundschule. Hier in Berlin geht die Grundschule von Klasse eins bis Klasse sechs.\"\n\n\"Sechs Jahre?\" fragt Amara überrascht. \"In anderen Bundesländern ist das anders, oder?\"\n\n\"Ja, in den meisten Bundesländern geht die Grundschule nur bis Klasse vier.\" Lena nimmt ein Stück Kuchen. \"Nach der Grundschule gibt es verschiedene Wege: Gymnasium, Realschule oder Hauptschule. Manche Bundesländer haben auch die Gesamtschule — da ist alles zusammen.\"\n\nEin Kind kippt seinen Saft um. Amara wischt schnell den Tisch ab und fragt weiter: \"Und was ist das Abitur? Das braucht man für die Uni, oder?\"\n\n\"Richtig! Das Abitur macht man am Gymnasium, nach der zwölften oder dreizehnten Klasse. Damit kann man an der Universität studieren.\" Lena hilft einem Kind, sein Geschenk zu öffnen. \"Aber es gibt auch die Ausbildung. Das ist eine praktische Berufsausbildung — zum Beispiel als Krankenschwester, wie du!\"\n\nAmara lacht. \"Stimmt! Meine Ausbildung war super. Nicht jeder muss studieren.\" Sie schaut zu Awa, die gerade mit Luftballons spielt. \"Aber erstmal genießt Awa die Kita. Die Schule kommt früh genug!\"",
+  "vocab": [
+    {
+      "german": "Schulpflicht",
+      "english": "compulsory education",
+      "article": "die",
+      "exampleSentence": "In Deutschland gibt es eine allgemeine Schulpflicht.",
+      "exampleTranslation": "In Germany there is compulsory education for all."
+    },
+    {
+      "german": "Grundschule",
+      "english": "primary school",
+      "article": "die",
+      "exampleSentence": "Die Grundschule geht in Berlin von Klasse eins bis sechs.",
+      "exampleTranslation": "Primary school in Berlin goes from grade one to six."
+    },
+    {
+      "german": "Gymnasium",
+      "english": "grammar school (academic secondary school)",
+      "article": "das",
+      "exampleSentence": "Nach der Grundschule kann man auf das Gymnasium gehen.",
+      "exampleTranslation": "After primary school you can go to the Gymnasium."
+    },
+    {
+      "german": "Abitur",
+      "english": "final secondary school exam (for university entrance)",
+      "article": "das",
+      "exampleSentence": "Mit dem Abitur kann man an der Universität studieren.",
+      "exampleTranslation": "With the Abitur you can study at a university."
+    },
+    {
+      "german": "Ausbildung",
+      "english": "vocational training",
+      "article": "die",
+      "exampleSentence": "Amara hat eine Ausbildung als Krankenschwester gemacht.",
+      "exampleTranslation": "Amara did vocational training as a nurse."
+    },
+    {
+      "german": "Kita",
+      "english": "daycare (Kindertagesstätte)",
+      "article": "die",
+      "exampleSentence": "Awa geht jeden Tag in die Kita.",
+      "exampleTranslation": "Awa goes to daycare every day."
+    },
+    {
+      "german": "Gesamtschule",
+      "english": "comprehensive school",
+      "article": "die",
+      "exampleSentence": "In der Gesamtschule lernen alle Schüler zusammen.",
+      "exampleTranslation": "At the comprehensive school all students learn together."
+    },
+    {
+      "german": "Bundesland",
+      "english": "federal state",
+      "article": "das",
+      "plural": "Bundesländer",
+      "exampleSentence": "Jedes Bundesland hat eigene Schulregeln.",
+      "exampleTranslation": "Each federal state has its own school rules."
+    },
+    {
+      "german": "Pflicht",
+      "english": "duty / obligation",
+      "article": "die",
+      "exampleSentence": "Der Schulbesuch ist eine Pflicht für alle Kinder.",
+      "exampleTranslation": "Attending school is an obligation for all children."
+    },
+    {
+      "german": "Kindergeburtstag",
+      "english": "children's birthday party",
+      "article": "der",
+      "exampleSentence": "Der Kindergeburtstag in der Kita war sehr lustig.",
+      "exampleTranslation": "The children's birthday party at the daycare was very fun."
+    },
+    {
+      "german": "Geschenk",
+      "english": "gift / present",
+      "article": "das",
+      "plural": "Geschenke",
+      "exampleSentence": "Die Kinder haben viele Geschenke mitgebracht.",
+      "exampleTranslation": "The children brought many gifts."
+    },
+    {
+      "german": "Berufsausbildung",
+      "english": "professional/vocational training",
+      "article": "die",
+      "exampleSentence": "Eine Berufsausbildung dauert meistens drei Jahre.",
+      "exampleTranslation": "Vocational training usually lasts three years."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch8-ex1",
+      "type": "mcq",
+      "question": "Wie viele Jahre dauert die Schulpflicht in Berlin?",
+      "options": ["6 Jahre", "8 Jahre", "10 Jahre", "12 Jahre"],
+      "correctIndex": 2,
+      "tags": ["schulpflicht", "berlin", "lid"],
+      "explanation": "In Berlin beträgt die Schulpflicht zehn Jahre. In den meisten anderen Bundesländern sind es neun Jahre.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-ex2",
+      "type": "mcq",
+      "question": "Bis zu welcher Klasse geht die Grundschule in Berlin?",
+      "options": ["Klasse 3", "Klasse 4", "Klasse 5", "Klasse 6"],
+      "correctIndex": 3,
+      "tags": ["grundschule", "berlin", "lid"],
+      "explanation": "In Berlin geht die Grundschule von Klasse 1 bis Klasse 6. In den meisten anderen Bundesländern geht sie nur bis Klasse 4.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-ex3",
+      "type": "mcq",
+      "question": "Was braucht man, um an einer deutschen Universität zu studieren?",
+      "options": ["Einen Führerschein", "Das Abitur", "Eine Anmeldung", "Einen Handyvertrag"],
+      "correctIndex": 1,
+      "tags": ["abitur", "universität", "lid"],
+      "explanation": "Das Abitur ist die Abschlussprüfung am Gymnasium und berechtigt zum Studium an einer Universität.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-ex4",
+      "type": "mcq",
+      "question": "Welche Schulform gibt es NICHT im deutschen Schulsystem?",
+      "options": ["Gymnasium", "Realschule", "Highschool", "Hauptschule"],
+      "correctIndex": 2,
+      "tags": ["schulsystem", "schulformen", "lid"],
+      "explanation": "Im deutschen Schulsystem gibt es Gymnasium, Realschule und Hauptschule (oder Gesamtschule), aber keine Highschool.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-ex5",
+      "type": "fill-blank",
+      "sentence": "In Deutschland müssen alle Kinder in die Schule gehen. Das nennt man ___.",
+      "answer": "Schulpflicht",
+      "acceptAlternatives": ["schulpflicht", "die Schulpflicht"],
+      "hint": "Es ist eine Pflicht, die mit Schule zu tun hat.",
+      "tags": ["schulpflicht", "lid"],
+      "explanation": "Die Schulpflicht bedeutet, dass alle Kinder in Deutschland die Schule besuchen müssen. In Berlin sind es zehn Jahre.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch8-ex6",
+      "type": "fill-blank",
+      "sentence": "Das ___ macht man am Gymnasium nach der 12. oder 13. Klasse.",
+      "answer": "Abitur",
+      "acceptAlternatives": ["abitur"],
+      "hint": "Diese Prüfung braucht man für die Universität.",
+      "tags": ["abitur", "gymnasium", "lid"],
+      "explanation": "Das Abitur ist die Abschlussprüfung am Gymnasium. Mit dem Abitur kann man an der Universität studieren.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch8-ex7",
+      "type": "fill-blank",
+      "sentence": "Amara hat eine ___ als Krankenschwester gemacht.",
+      "answer": "Ausbildung",
+      "acceptAlternatives": ["ausbildung", "Berufsausbildung"],
+      "hint": "Eine praktische Berufsausbildung — eine Alternative zum Studium.",
+      "tags": ["ausbildung", "beruf", "lid"],
+      "explanation": "Eine Ausbildung ist eine praktische Berufsausbildung. Sie ist eine Alternative zum Universitätsstudium und dauert meistens drei Jahre.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch8-blitz1",
+      "type": "blitz",
+      "question": "Was bedeutet Schulpflicht?",
+      "options": ["Schule ist verboten", "Alle Kinder müssen zur Schule", "Nur Jungen gehen zur Schule", "Schule kostet Geld"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["schulpflicht", "lid"],
+      "explanation": "Schulpflicht bedeutet, dass alle Kinder in Deutschland die Schule besuchen müssen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-blitz2",
+      "type": "blitz",
+      "question": "Wo macht man das Abitur?",
+      "options": ["Grundschule", "Gymnasium", "Kita", "Ausbildung"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["abitur", "gymnasium", "lid"],
+      "explanation": "Das Abitur macht man am Gymnasium.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-blitz3",
+      "type": "blitz",
+      "question": "Bis zu welcher Klasse geht die Grundschule in den meisten Bundesländern?",
+      "options": ["Klasse 2", "Klasse 4", "Klasse 6", "Klasse 8"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["grundschule", "lid"],
+      "explanation": "In den meisten Bundesländern geht die Grundschule bis Klasse 4. In Berlin bis Klasse 6.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-blitz4",
+      "type": "blitz",
+      "question": "Was ist eine Alternative zum Studium?",
+      "options": ["Abitur", "Ausbildung", "Grundschule", "Kita"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["ausbildung", "lid"],
+      "explanation": "Die Ausbildung (Berufsausbildung) ist eine praktische Alternative zum Universitätsstudium.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch8-blitz5",
+      "type": "blitz",
+      "question": "Wofür steht 'Kita'?",
+      "options": ["Kindergarten Tag", "Kindertagesstätte", "Kinder Tierpark", "Kindertheater"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 9,
+      "tags": ["kita", "lid"],
+      "explanation": "Kita ist die Abkürzung für Kindertagesstätte.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-10"]
+}

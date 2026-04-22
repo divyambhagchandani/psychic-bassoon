@@ -1,0 +1,65 @@
+<h2>Design: Navbar</h2>
+<p class="subtitle">Section 2 of 4 — Upgraded top navbar with CivicPulse styling</p>
+
+<div class="section">
+  <h3>Navbar Mockup</h3>
+  <div class="mockup">
+    <div class="mockup-header">Top Navigation Bar</div>
+    <div class="mockup-body" style="padding: 0; background: #f7f7f3;">
+      <!-- Navbar -->
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 0 2rem; height: 72px; background: rgba(247,247,243,0.7); backdrop-filter: blur(12px); box-shadow: 0 20px 40px rgba(27,101,101,0.06);">
+        <!-- Logo -->
+        <div style="font-size: 1.4rem; font-weight: 900; color: #1b6565; letter-spacing: -0.03em; font-family: 'Arial Black', sans-serif;">
+          Berlin Leben
+        </div>
+        <!-- Nav Links -->
+        <div style="display: flex; gap: 0.25rem; align-items: center;">
+          <a style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 700; color: #1b6565; border-bottom: 2px solid #1b6565; text-decoration: none; letter-spacing: -0.01em;">Startseite</a>
+          <a style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 700; color: #2d2f2d; text-decoration: none; letter-spacing: -0.01em; opacity: 0.7;">Geschichte</a>
+          <a style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 700; color: #2d2f2d; text-decoration: none; letter-spacing: -0.01em; opacity: 0.7;">Üben</a>
+          <a style="padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 700; color: #2d2f2d; text-decoration: none; letter-spacing: -0.01em; opacity: 0.7;">Tutor</a>
+        </div>
+        <!-- Right Section -->
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <!-- Streak Pill -->
+          <div style="display: flex; align-items: center; gap: 0.4rem; background: #dcddd9; border-radius: 999px; padding: 0.4rem 0.8rem;">
+            <span style="color: #1b6565; font-size: 0.85rem;">🔥</span>
+            <span style="font-size: 0.75rem; font-weight: 700; color: #2d2f2d; letter-spacing: -0.01em;">14 TAGE</span>
+          </div>
+          <!-- Due badge -->
+          <div style="display: flex; align-items: center; gap: 0.3rem; background: #ffd709; border-radius: 999px; padding: 0.4rem 0.8rem;">
+            <span style="font-size: 0.75rem; font-weight: 700; color: #5b4b00;">5 fällig</span>
+          </div>
+          <!-- XP -->
+          <div style="display: flex; align-items: center; gap: 0.3rem; background: #a5e9e8; border-radius: 999px; padding: 0.4rem 0.8rem;">
+            <span style="font-size: 0.75rem; font-weight: 700; color: #025858;">⚡ 2,450</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h3>Key Changes from Current</h3>
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+      <p class="label" style="margin-bottom: 0.5rem;">Current</p>
+      <ul style="font-size: 0.8rem; color: #999; line-height: 1.8; list-style: none; padding: 0;">
+        <li>&#x2022; h-14 (56px), dark background</li>
+        <li>&#x2022; Plain text links, pill-style active state</li>
+        <li>&#x2022; Emoji streak/XP as plain text</li>
+        <li>&#x2022; max-w-5xl constrained</li>
+      </ul>
+    </div>
+    <div style="padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.06);">
+      <p class="label" style="margin-bottom: 0.5rem;">New</p>
+      <ul style="font-size: 0.8rem; color: #999; line-height: 1.8; list-style: none; padding: 0;">
+        <li>&#x2022; h-20 (80px), glassmorphism backdrop</li>
+        <li>&#x2022; Bold headline font links, underline active</li>
+        <li>&#x2022; Colored pills for streak, due cards, XP</li>
+        <li>&#x2022; Full-width with px-8 padding</li>
+      </ul>
+    </div>
+  </div>
+</div>

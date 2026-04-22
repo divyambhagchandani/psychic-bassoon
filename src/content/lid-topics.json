@@ -1,0 +1,22 @@
+[
+  { "id": "lid-1", "category": "Grundrechte", "topic": "Menschenwürde und Grundrechte", "topicEnglish": "Human dignity and basic rights", "berlinSpecific": false },
+  { "id": "lid-2", "category": "Grundrechte", "topic": "Meinungsfreiheit und Pressefreiheit", "topicEnglish": "Freedom of speech and press", "berlinSpecific": false },
+  { "id": "lid-3", "category": "Grundrechte", "topic": "Religionsfreiheit", "topicEnglish": "Freedom of religion", "berlinSpecific": false },
+  { "id": "lid-4", "category": "Grundrechte", "topic": "Gleichberechtigung von Mann und Frau", "topicEnglish": "Gender equality", "berlinSpecific": false },
+  { "id": "lid-5", "category": "Demokratie", "topic": "Bundestag und Bundesrat", "topicEnglish": "Parliament and Federal Council", "berlinSpecific": false },
+  { "id": "lid-6", "category": "Demokratie", "topic": "Wahlen und Wahlrecht", "topicEnglish": "Elections and voting rights", "berlinSpecific": false },
+  { "id": "lid-7", "category": "Demokratie", "topic": "Parteien in Deutschland", "topicEnglish": "Political parties in Germany", "berlinSpecific": false },
+  { "id": "lid-8", "category": "Demokratie", "topic": "Bundeskanzler und Bundespräsident", "topicEnglish": "Chancellor and President", "berlinSpecific": false },
+  { "id": "lid-9", "category": "Gesellschaft", "topic": "Sozialversicherung", "topicEnglish": "Social insurance system", "berlinSpecific": false },
+  { "id": "lid-10", "category": "Gesellschaft", "topic": "Schulsystem in Deutschland", "topicEnglish": "School system in Germany", "berlinSpecific": false },
+  { "id": "lid-11", "category": "Geschichte", "topic": "Wiedervereinigung Deutschlands", "topicEnglish": "German reunification", "berlinSpecific": true },
+  { "id": "lid-12", "category": "Geschichte", "topic": "Die Berliner Mauer", "topicEnglish": "The Berlin Wall", "berlinSpecific": true },
+  { "id": "lid-13", "category": "Geschichte", "topic": "Nationalsozialismus und Holocaust", "topicEnglish": "National Socialism and Holocaust", "berlinSpecific": false },
+  { "id": "lid-14", "category": "Berlin", "topic": "Regierender Bürgermeister von Berlin", "topicEnglish": "Governing Mayor of Berlin", "berlinSpecific": true },
+  { "id": "lid-15", "category": "Berlin", "topic": "Bezirke und Verwaltung", "topicEnglish": "Districts and administration", "berlinSpecific": true },
+  { "id": "lid-16", "category": "Berlin", "topic": "Wappen und Symbole Berlins", "topicEnglish": "Coat of arms and symbols of Berlin", "berlinSpecific": true },
+  { "id": "lid-17", "category": "Gesellschaft", "topic": "Steuern und Finanzamt", "topicEnglish": "Taxes and tax office", "berlinSpecific": false },
+  { "id": "lid-18", "category": "Grundrechte", "topic": "Versammlungsfreiheit", "topicEnglish": "Freedom of assembly", "berlinSpecific": false },
+  { "id": "lid-19", "category": "Gesellschaft", "topic": "Eheschließung und Familie", "topicEnglish": "Marriage and family", "berlinSpecific": false },
+  { "id": "lid-20", "category": "Geschichte", "topic": "Europäische Union", "topicEnglish": "European Union", "berlinSpecific": false }
+]

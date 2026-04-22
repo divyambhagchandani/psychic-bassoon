@@ -1,0 +1,220 @@
+{
+  "id": "chapter-6",
+  "number": 6,
+  "title": "Steuererklärung und Schmerz",
+  "titleEnglish": "Tax Return and Pain",
+  "description": "Es ist Steuerzeit und Jan hilft dir und Amara bei der Steuererklärung — aber das Finanzamt macht niemanden glücklich.",
+  "characters": ["jan", "amara"],
+  "story": "Es ist März und du sitzt mit Amara in ihrem Wohnzimmer in Wedding. Überall liegen Papiere auf dem Tisch. Amara schaut auf einen Brief vom Finanzamt und seufzt.\n\n\"Ich verstehe das nicht\", sagt sie. \"Lohnsteuer, Mehrwertsteuer, Steuer-ID... Warum gibt es so viele Steuern?\" Sie lacht, aber es klingt ein bisschen verzweifelt.\n\nDann klingelt es an der Tür. Es ist Jan. Er trägt einen Ordner unter dem Arm und lächelt. \"Hallo! Ich habe gehört, ihr braucht Hilfe mit der Steuererklärung? Das ist mein Lieblingsstag im Jahr.\"\n\nAmara schaut ihn ungläubig an. \"Dein Lieblingstag? Du machst Witze.\"\n\n\"Nein, wirklich\", sagt Jan und setzt sich an den Tisch. \"Steuern sind logisch. Wie Programmieren.\" Er öffnet seinen Ordner. Darin sind farbige Reiter und Tabellen. \"Also, zuerst: Habt ihr eure Steuer-ID? Jeder Mensch in Deutschland bekommt eine. Die braucht ihr für alles.\"\n\nDu zeigst ihm deine Steuer-ID. Jan nickt zufrieden. \"Gut. Die Lohnsteuer zahlt euer Arbeitgeber schon automatisch jeden Monat. Aber mit der Steuererklärung könnt ihr oft Geld zurückbekommen — eine Erstattung.\"\n\n\"Geld zurück?\" Amaras Augen werden groß. \"Okay, jetzt bin ich motiviert!\"\n\nJan erklärt weiter: \"Ihr könnt die Steuererklärung online machen. Das System heißt ELSTER. Das ist die offizielle Webseite vom Finanzamt.\" Er zeigt euch die Webseite auf seinem Laptop.\n\n\"Wisst ihr\", sagt Jan, \"die Mehrwertsteuer in Deutschland ist normalerweise neunzehn Prozent. Aber für Lebensmittel, Bücher und den öffentlichen Nahverkehr sind es nur sieben Prozent.\"\n\nAmara tippt etwas in ELSTER ein. \"Kann ich meine Fahrkarte für die BVG absetzen?\"\n\n\"Wenn du sie für die Arbeit brauchst, ja\", sagt Jan.\n\nNach zwei Stunden seid ihr fertig. Amara lehnt sich zurück und sagt: \"Das war schmerzhaft, aber Jan, du bist ein Held. Nächstes Jahr machst du das wieder, okay?\"\n\nJan lächelt. \"Natürlich. Ich trage es schon in meinen Kalender ein.\"\n\nAmara schüttelt den Kopf und lacht. \"Wer freut sich bitte auf die Steuererklärung?\" Aber dann schaut sie auf den Bildschirm und sieht die geschätzte Erstattung. \"Oh! Dreihundert Euro? Okay, vielleicht sind Steuern doch nicht so schlimm.\"\n\nJan nickt zufrieden. \"Siehst du? Das Finanzamt ist nicht dein Feind. Es ist nur sehr, sehr gründlich.\"",
+  "vocab": [
+    {
+      "german": "Steuererklärung",
+      "english": "tax return",
+      "article": "die",
+      "exampleSentence": "Ich muss meine Steuererklärung bis Ende Juli abgeben.",
+      "exampleTranslation": "I have to submit my tax return by the end of July."
+    },
+    {
+      "german": "Finanzamt",
+      "english": "tax office",
+      "article": "das",
+      "exampleSentence": "Das Finanzamt bearbeitet deine Steuererklärung.",
+      "exampleTranslation": "The tax office processes your tax return."
+    },
+    {
+      "german": "Lohnsteuer",
+      "english": "income tax (on wages)",
+      "article": "die",
+      "exampleSentence": "Die Lohnsteuer wird direkt vom Gehalt abgezogen.",
+      "exampleTranslation": "Income tax is deducted directly from your salary."
+    },
+    {
+      "german": "Mehrwertsteuer",
+      "english": "value-added tax (VAT)",
+      "article": "die",
+      "exampleSentence": "Die Mehrwertsteuer in Deutschland beträgt neunzehn Prozent.",
+      "exampleTranslation": "The VAT in Germany is nineteen percent."
+    },
+    {
+      "german": "Steuer-ID",
+      "english": "tax identification number",
+      "article": "die",
+      "exampleSentence": "Jeder Mensch in Deutschland hat eine Steuer-ID.",
+      "exampleTranslation": "Every person in Germany has a tax identification number."
+    },
+    {
+      "german": "Erstattung",
+      "english": "refund",
+      "article": "die",
+      "exampleSentence": "Nach der Steuererklärung habe ich eine Erstattung von 500 Euro bekommen.",
+      "exampleTranslation": "After the tax return I received a refund of 500 euros."
+    },
+    {
+      "german": "absetzen",
+      "english": "to deduct (from taxes)",
+      "exampleSentence": "Du kannst Fahrtkosten von der Steuer absetzen.",
+      "exampleTranslation": "You can deduct travel costs from your taxes."
+    },
+    {
+      "german": "Arbeitgeber",
+      "english": "employer",
+      "article": "der",
+      "exampleSentence": "Dein Arbeitgeber zahlt die Lohnsteuer für dich.",
+      "exampleTranslation": "Your employer pays the income tax for you."
+    },
+    {
+      "german": "abgeben",
+      "english": "to submit / hand in",
+      "exampleSentence": "Du musst das Formular beim Finanzamt abgeben.",
+      "exampleTranslation": "You have to submit the form at the tax office."
+    },
+    {
+      "german": "Lebensmittel",
+      "english": "groceries / food",
+      "article": "die",
+      "plural": "Lebensmittel",
+      "exampleSentence": "Für Lebensmittel gilt die reduzierte Mehrwertsteuer.",
+      "exampleTranslation": "The reduced VAT applies to groceries."
+    },
+    {
+      "german": "öffentlicher Nahverkehr",
+      "english": "public transport",
+      "article": "der",
+      "exampleSentence": "Der öffentliche Nahverkehr ist in Berlin gut.",
+      "exampleTranslation": "Public transport in Berlin is good."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch6-ex1",
+      "type": "mcq",
+      "question": "Was ist ELSTER?",
+      "options": ["Eine Steuerberaterin", "Das elektronische System für die Steuererklärung", "Ein Formular vom Finanzamt", "Eine Bank"],
+      "correctIndex": 1,
+      "tags": ["steuern", "elster"],
+      "explanation": "ELSTER ist die offizielle elektronische Plattform des Finanzamts, über die man seine Steuererklärung online abgeben kann.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-ex2",
+      "type": "mcq",
+      "question": "Wie hoch ist die normale Mehrwertsteuer in Deutschland?",
+      "options": ["7 Prozent", "16 Prozent", "19 Prozent", "21 Prozent"],
+      "correctIndex": 2,
+      "tags": ["steuern", "mehrwertsteuer", "lid"],
+      "explanation": "Die normale Mehrwertsteuer (MwSt) in Deutschland beträgt 19 Prozent. Für bestimmte Waren wie Lebensmittel und Bücher gilt der reduzierte Satz von 7 Prozent.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-ex3",
+      "type": "fill-blank",
+      "sentence": "Die ___ wird direkt vom Gehalt abgezogen.",
+      "answer": "Lohnsteuer",
+      "acceptAlternatives": ["lohnsteuer"],
+      "hint": "Die Steuer auf dein Arbeitseinkommen",
+      "tags": ["steuern", "lohnsteuer"],
+      "explanation": "Die Lohnsteuer ist die Einkommensteuer auf Arbeitslohn. Der Arbeitgeber zieht sie jeden Monat automatisch vom Gehalt ab.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch6-ex4",
+      "type": "mcq",
+      "question": "Was bekommt man oft nach der Steuererklärung zurück?",
+      "options": ["Einen neuen Ausweis", "Eine Erstattung", "Einen Brief vom Bürgeramt", "Eine Steuer-ID"],
+      "correctIndex": 1,
+      "tags": ["steuern", "erstattung"],
+      "explanation": "Wenn man zu viel Lohnsteuer gezahlt hat, bekommt man nach der Steuererklärung eine Erstattung — also Geld zurück vom Finanzamt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-ex5",
+      "type": "fill-blank",
+      "sentence": "Jeder Mensch in Deutschland bekommt eine ___.",
+      "answer": "Steuer-ID",
+      "acceptAlternatives": ["steuer-id", "Steuer-Id", "steuer-ID"],
+      "hint": "Deine persönliche Nummer für das Finanzamt",
+      "tags": ["steuern", "steuer-id"],
+      "explanation": "Die Steuer-ID (Steueridentifikationsnummer) ist eine einmalige Nummer, die jede Person in Deutschland bei der Anmeldung bekommt. Sie gilt ein Leben lang.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch6-ex6",
+      "type": "mcq",
+      "question": "Für welche Produkte gilt der reduzierte Mehrwertsteuersatz von 7 Prozent?",
+      "options": ["Elektronik und Kleidung", "Autos und Möbel", "Lebensmittel, Bücher und öffentlicher Nahverkehr", "Schmuck und Parfüm"],
+      "correctIndex": 2,
+      "tags": ["steuern", "mehrwertsteuer", "lid"],
+      "explanation": "Der reduzierte Mehrwertsteuersatz von 7 Prozent gilt unter anderem für Lebensmittel, Bücher und den öffentlichen Nahverkehr.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-ex7",
+      "type": "fill-blank",
+      "sentence": "Das ___ bearbeitet deine Steuererklärung.",
+      "answer": "Finanzamt",
+      "acceptAlternatives": ["finanzamt"],
+      "hint": "Das Amt für Steuern in deiner Stadt",
+      "tags": ["steuern", "finanzamt"],
+      "explanation": "Das Finanzamt ist die Behörde, die für Steuern zuständig ist. Jeder Bezirk hat ein eigenes Finanzamt.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch6-blitz1",
+      "type": "blitz",
+      "question": "Wie heißt das elektronische Steuersystem?",
+      "options": ["WISO", "ELSTER", "DATEV", "SAP"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["steuern", "elster"],
+      "explanation": "ELSTER ist das offizielle elektronische Steuersystem in Deutschland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-blitz2",
+      "type": "blitz",
+      "question": "Wie hoch ist die normale Mehrwertsteuer?",
+      "options": ["7%", "15%", "19%", "25%"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["steuern", "mehrwertsteuer"],
+      "explanation": "Die normale Mehrwertsteuer in Deutschland ist 19 Prozent.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-blitz3",
+      "type": "blitz",
+      "question": "Wer zieht die Lohnsteuer vom Gehalt ab?",
+      "options": ["Das Finanzamt", "Der Arbeitgeber", "Die Bank", "Du selbst"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["steuern", "lohnsteuer"],
+      "explanation": "Der Arbeitgeber zieht die Lohnsteuer automatisch vom Gehalt ab.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-blitz4",
+      "type": "blitz",
+      "question": "Was bekommt man oft nach der Steuererklärung?",
+      "options": ["Eine Strafe", "Eine Erstattung", "Einen Job", "Einen Ausweis"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["steuern", "erstattung"],
+      "explanation": "Nach der Steuererklärung bekommt man oft eine Erstattung (Geld zurück).",
+      "xpValue": 10
+    },
+    {
+      "id": "ch6-blitz5",
+      "type": "blitz",
+      "question": "Wie hoch ist die Mehrwertsteuer auf Lebensmittel?",
+      "options": ["0%", "7%", "12%", "19%"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 9,
+      "tags": ["steuern", "mehrwertsteuer"],
+      "explanation": "Für Lebensmittel gilt der reduzierte Mehrwertsteuersatz von 7 Prozent.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-17"]
+}

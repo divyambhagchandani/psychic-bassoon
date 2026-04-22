@@ -1,0 +1,68 @@
+[
+  {
+    "id": "elif",
+    "name": "Elif Yılmaz",
+    "age": 34,
+    "origin": "Istanbul, Türkei",
+    "neighborhood": "Kreuzberg",
+    "occupation": "Café-Besitzerin",
+    "personality": "Warmherzig, direkt, voller Geschichten über das Ankommen in Berlin",
+    "speech": "Mixes Turkish-Berlin slang, speaks with warmth and humor",
+    "emoji": "☕"
+  },
+  {
+    "id": "jan",
+    "name": "Jan Kowalski",
+    "age": 28,
+    "origin": "Warszawa, Polen",
+    "neighborhood": "Prenzlauer Berg",
+    "occupation": "Softwareentwickler",
+    "personality": "Ruhig, analytisch, hilfsbereit mit Bürokratie-Tipps",
+    "speech": "Precise and helpful, sometimes too formal",
+    "emoji": "💻"
+  },
+  {
+    "id": "amara",
+    "name": "Amara Diallo",
+    "age": 31,
+    "origin": "Dakar, Senegal",
+    "neighborhood": "Wedding",
+    "occupation": "Krankenschwester",
+    "personality": "Fröhlich, geduldig, kennt das Gesundheitssystem in- und auswendig",
+    "speech": "Patient and encouraging, uses medical analogies",
+    "emoji": "🏥"
+  },
+  {
+    "id": "lena",
+    "name": "Lena Müller",
+    "age": 42,
+    "origin": "Berlin (Ost-Berlin)",
+    "neighborhood": "Friedrichshain",
+    "occupation": "Lehrerin an einer Grundschule",
+    "personality": "Geduldig, korrigiert sanft die Grammatik, erzählt von der Wiedervereinigung",
+    "speech": "Clear, pedagogical German, gently corrects mistakes",
+    "emoji": "📚"
+  },
+  {
+    "id": "marco",
+    "name": "Marco Rossi",
+    "age": 25,
+    "origin": "Napoli, Italien",
+    "neighborhood": "Neukölln",
+    "occupation": "Koch und Fahrradkurier",
+    "personality": "Energisch, spontan, kennt jeden Winkel von Neukölln",
+    "speech": "Fast-talking, enthusiastic, mixes Italian exclamations",
+    "emoji": "🚴"
+  },
+  {
+    "id": "yuki",
+    "name": "Yuki Tanaka",
+    "age": 38,
+    "origin": "Osaka, Japan",
+    "neighborhood": "Charlottenburg",
+    "occupation": "Grafikdesignerin",
+    "personality": "Kreativ, beobachtend, findet Schönheit im Berliner Alltag",
+    "speech": "Thoughtful, artistic descriptions, sometimes struggles with Umgangssprache",
+    "emoji": "🎨"
+  }
+]

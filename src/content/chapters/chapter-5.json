@@ -1,0 +1,228 @@
+{
+  "id": "chapter-5",
+  "number": 5,
+  "title": "Demo am Samstag",
+  "titleEnglish": "Protest on Saturday",
+  "description": "Du gehst mit Elif, Marco und Yuki zu einer Demo in Kreuzberg und lernst, warum Grundrechte wie Versammlungsfreiheit so wichtig sind.",
+  "characters": ["elif", "marco", "yuki"],
+  "story": "Es ist Samstagmorgen in Kreuzberg. Du triffst Elif, Marco und Yuki vor Elifs Café. Auf der Straße laufen viele Menschen in eine Richtung. Sie tragen bunte Schilder und rufen Parolen.\n\n\"Heute ist eine große Demo\", sagt Elif und gibt dir einen Kaffee to go. \"Es geht um Menschenrechte. Komm mit, canim!\"\n\nMarco kommt mit seinem Fahrrad um die Ecke. \"Dai, dai! Wir müssen los! Die Demo startet am Oranienplatz!\" Er ist aufgeregt und fährt schon voraus.\n\nAm Oranienplatz stehen Hunderte von Menschen. Du siehst Schilder: \"Meinungsfreiheit ist Grundrecht!\", \"Vielfalt statt Hass\", \"Freiheit für alle Religionen\". Eine Frau spricht laut in ein Megafon. Die Stimmung ist friedlich, aber energisch.\n\nYuki macht Fotos mit ihrer Kamera. \"In Japan gibt es auch Demos\", sagt sie nachdenklich, \"aber hier in Deutschland ist es anders. Die Versammlungsfreiheit steht direkt im Grundgesetz — in Artikel 8. Alle Menschen dürfen sich friedlich und ohne Waffen versammeln.\"\n\n\"Genau!\", ruft Marco. \"Und Artikel 5 — Mamma mia, das ist auch wichtig! Jeder darf seine Meinung frei sagen. Meinungsfreiheit und Pressefreiheit. Keine Zensur! Das steht alles im Grundgesetz.\"\n\nElif nickt. \"Und vergiss nicht Artikel 4 — die Religionsfreiheit. In Deutschland sind Staat und Kirche getrennt. Jeder darf seine Religion frei ausüben. Oder auch keine Religion haben. Das ist ein Grundrecht.\"\n\nDie Demo zieht durch die Straßen von Kreuzberg. Menschen singen und klatschen. Du läufst neben Elif.\n\n\"Muss man eine Demo anmelden?\", fragst du.\n\n\"Ja\", antwortet Elif. \"Demos müssen bei der Polizei angemeldet werden. Aber das Recht zu demonstrieren — das kann niemand wegnehmen. Das sind unsere Grundrechte, geschützt durch das Grundgesetz.\"\n\nMarco ruft von vorne: \"Hört ihr das? Die rufen: Freiheit, Gleichheit, Menschlichkeit! Bellissimo!\" Er hebt seine Faust in die Luft und lacht.\n\nYuki lächelt und macht ein letztes Foto. \"Diese Grundrechte — Meinungsfreiheit, Religionsfreiheit, Versammlungsfreiheit — sie machen Deutschland zu dem, was es ist.\"",
+  "vocab": [
+    {
+      "german": "Versammlungsfreiheit",
+      "english": "freedom of assembly",
+      "article": "die",
+      "exampleSentence": "Die Versammlungsfreiheit steht in Artikel 8 des Grundgesetzes.",
+      "exampleTranslation": "Freedom of assembly is in Article 8 of the Basic Law."
+    },
+    {
+      "german": "Meinungsfreiheit",
+      "english": "freedom of opinion / free speech",
+      "article": "die",
+      "exampleSentence": "Die Meinungsfreiheit bedeutet: Jeder darf seine Meinung frei sagen.",
+      "exampleTranslation": "Freedom of opinion means: everyone may freely express their opinion."
+    },
+    {
+      "german": "Religionsfreiheit",
+      "english": "freedom of religion",
+      "article": "die",
+      "exampleSentence": "Die Religionsfreiheit ist ein Grundrecht in Deutschland.",
+      "exampleTranslation": "Freedom of religion is a fundamental right in Germany."
+    },
+    {
+      "german": "Demonstration",
+      "english": "demonstration / protest",
+      "article": "die",
+      "plural": "Demonstrationen",
+      "exampleSentence": "Die Demonstration war friedlich und laut.",
+      "exampleTranslation": "The demonstration was peaceful and loud."
+    },
+    {
+      "german": "Grundrecht",
+      "english": "fundamental right",
+      "article": "das",
+      "plural": "Grundrechte",
+      "exampleSentence": "Die Grundrechte stehen im Grundgesetz.",
+      "exampleTranslation": "Fundamental rights are in the Basic Law."
+    },
+    {
+      "german": "Zensur",
+      "english": "censorship",
+      "article": "die",
+      "exampleSentence": "In Deutschland gibt es keine Zensur.",
+      "exampleTranslation": "There is no censorship in Germany."
+    },
+    {
+      "german": "friedlich",
+      "english": "peaceful",
+      "exampleSentence": "Die Menschen versammeln sich friedlich auf der Straße.",
+      "exampleTranslation": "The people gather peacefully on the street."
+    },
+    {
+      "german": "Pressefreiheit",
+      "english": "freedom of the press",
+      "article": "die",
+      "exampleSentence": "Die Pressefreiheit ist in Artikel 5 geschützt.",
+      "exampleTranslation": "Freedom of the press is protected in Article 5."
+    },
+    {
+      "german": "anmelden",
+      "english": "to register / to notify",
+      "exampleSentence": "Man muss eine Demo bei der Polizei anmelden.",
+      "exampleTranslation": "You have to register a protest with the police."
+    },
+    {
+      "german": "Schild",
+      "english": "sign / placard",
+      "article": "das",
+      "plural": "Schilder",
+      "exampleSentence": "Die Demonstranten tragen bunte Schilder.",
+      "exampleTranslation": "The protesters carry colorful signs."
+    },
+    {
+      "german": "ausüben",
+      "english": "to practice / to exercise (a right or religion)",
+      "exampleSentence": "Jeder darf seine Religion frei ausüben.",
+      "exampleTranslation": "Everyone may freely practice their religion."
+    },
+    {
+      "german": "Stimmung",
+      "english": "atmosphere / mood",
+      "article": "die",
+      "exampleSentence": "Die Stimmung auf der Demo war positiv.",
+      "exampleTranslation": "The atmosphere at the protest was positive."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch5-ex1",
+      "type": "mcq",
+      "question": "In welchem Artikel des Grundgesetzes steht die Versammlungsfreiheit?",
+      "options": ["Artikel 1", "Artikel 4", "Artikel 8", "Artikel 12"],
+      "correctIndex": 2,
+      "tags": ["versammlungsfreiheit", "grundgesetz", "lid"],
+      "explanation": "Die Versammlungsfreiheit steht in Artikel 8 des Grundgesetzes. Deutsche haben das Recht, sich friedlich und ohne Waffen zu versammeln.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-ex2",
+      "type": "mcq",
+      "question": "Was schützt Artikel 5 des Grundgesetzes?",
+      "options": ["Religionsfreiheit", "Versammlungsfreiheit", "Meinungsfreiheit und Pressefreiheit", "Recht auf Arbeit"],
+      "correctIndex": 2,
+      "tags": ["meinungsfreiheit", "pressefreiheit", "grundgesetz", "lid"],
+      "explanation": "Artikel 5 GG schützt die Meinungsfreiheit, die Pressefreiheit und die Informationsfreiheit. Es gibt keine Zensur.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-ex3",
+      "type": "fill-blank",
+      "sentence": "In Deutschland sind Staat und ___ getrennt.",
+      "answer": "Kirche",
+      "acceptAlternatives": ["kirche"],
+      "hint": "Artikel 4 — Religionsfreiheit",
+      "tags": ["religionsfreiheit", "grundgesetz", "lid"],
+      "explanation": "In Deutschland sind Staat und Kirche getrennt. Jeder darf seine Religion frei ausüben — oder auch keine Religion haben. Das steht in Artikel 4 GG.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch5-ex4",
+      "type": "mcq",
+      "question": "Was muss man machen, bevor man eine Demo veranstaltet?",
+      "options": ["Nichts, man darf einfach demonstrieren", "Die Demo bei der Polizei anmelden", "Eine Erlaubnis vom Bürgermeister holen", "Alle Teilnehmer registrieren"],
+      "correctIndex": 1,
+      "tags": ["versammlungsfreiheit", "demo", "lid"],
+      "explanation": "Demonstrationen müssen in Deutschland bei der Polizei angemeldet werden. Das Recht zu demonstrieren ist aber ein Grundrecht nach Artikel 8 GG.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-ex5",
+      "type": "fill-blank",
+      "sentence": "Artikel 5 sagt: Es gibt keine ___ in Deutschland.",
+      "answer": "Zensur",
+      "acceptAlternatives": ["zensur"],
+      "hint": "Meinungsfreiheit und Pressefreiheit",
+      "tags": ["meinungsfreiheit", "pressefreiheit", "lid"],
+      "explanation": "Artikel 5 des Grundgesetzes garantiert Meinungsfreiheit, Pressefreiheit und Informationsfreiheit. Eine Zensur findet nicht statt.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch5-ex6",
+      "type": "mcq",
+      "question": "Welches Recht schützt Artikel 4 des Grundgesetzes?",
+      "options": ["Meinungsfreiheit", "Versammlungsfreiheit", "Religionsfreiheit", "Pressefreiheit"],
+      "correctIndex": 2,
+      "tags": ["religionsfreiheit", "grundgesetz", "lid"],
+      "explanation": "Artikel 4 GG schützt die Religionsfreiheit. Jeder darf seine Religion frei ausüben.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-ex7",
+      "type": "fill-blank",
+      "sentence": "Deutsche dürfen sich friedlich und ohne ___ versammeln.",
+      "answer": "Waffen",
+      "acceptAlternatives": ["waffen"],
+      "hint": "Artikel 8 des Grundgesetzes",
+      "tags": ["versammlungsfreiheit", "grundgesetz", "lid"],
+      "explanation": "Artikel 8 GG sagt: Alle Deutschen haben das Recht, sich friedlich und ohne Waffen zu versammeln.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch5-blitz1",
+      "type": "blitz",
+      "question": "In welchem Artikel steht die Meinungsfreiheit?",
+      "options": ["Artikel 1", "Artikel 5", "Artikel 8", "Artikel 12"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["meinungsfreiheit", "lid"],
+      "explanation": "Die Meinungsfreiheit steht in Artikel 5 des Grundgesetzes.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-blitz2",
+      "type": "blitz",
+      "question": "Wo muss man eine Demo anmelden?",
+      "options": ["Beim Bürgeramt", "Bei der Polizei", "Im Rathaus", "Beim Finanzamt"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["versammlungsfreiheit", "lid"],
+      "explanation": "Demonstrationen müssen bei der Polizei angemeldet werden.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-blitz3",
+      "type": "blitz",
+      "question": "Was bedeutet Religionsfreiheit?",
+      "options": ["Man muss eine Religion haben", "Jeder darf seine Religion frei ausüben", "Nur Christen haben Rechte", "Religion ist verboten"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["religionsfreiheit", "lid"],
+      "explanation": "Religionsfreiheit bedeutet: Jeder darf seine Religion frei ausüben — oder auch keine Religion haben.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-blitz4",
+      "type": "blitz",
+      "question": "Gibt es Zensur in Deutschland?",
+      "options": ["Ja, immer", "Nur für Zeitungen", "Nein, keine Zensur", "Nur im Internet"],
+      "correctIndex": 2,
+      "timeLimitSeconds": 8,
+      "tags": ["meinungsfreiheit", "pressefreiheit", "lid"],
+      "explanation": "Artikel 5 GG: Eine Zensur findet nicht statt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch5-blitz5",
+      "type": "blitz",
+      "question": "Wie müssen Versammlungen in Deutschland sein?",
+      "options": ["Laut und wild", "Friedlich und ohne Waffen", "Mit Polizeibegleitung", "Nur am Wochenende"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["versammlungsfreiheit", "lid"],
+      "explanation": "Artikel 8 GG: Deutsche haben das Recht, sich friedlich und ohne Waffen zu versammeln.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-2", "lid-3", "lid-18"]
+}

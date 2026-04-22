@@ -1,0 +1,228 @@
+{
+  "id": "chapter-10",
+  "number": 10,
+  "title": "Marcos Imbiss-Eröffnung",
+  "titleEnglish": "Marco's Food Stand Opening",
+  "description": "Marco eröffnet seinen Imbiss in Neukölln und der Bezirksbürgermeister kommt zur großen Feier.",
+  "characters": ["marco", "elif", "jan"],
+  "story": "Es ist ein sonniger Samstagmorgen in Neukölln. Vor einem kleinen Imbiss-Stand hängen bunte Girlanden und ein großes Schild: \"Marcos Cucina — Berliner Streetfood mit Amore\". Marco steht hinter der Theke und kann es kaum glauben.\n\n\"Madonna mia, es ist wirklich passiert!\" Marco strahlt. \"Mein eigener Imbiss! Hier in Neukölln!\"\n\nElif kommt mit einem großen Blumenstrauß. \"Maşallah, Marco! Der Laden sieht fantastisch aus. Ich erinnere mich noch, wie du in meinem Café von diesem Traum erzählt hast.\"\n\n\"Und jetzt ist er Realität\", sagt Jan und tippt auf sein Handy. \"Ich habe die Website schon fertig. Übrigens — wusstet ihr, dass der Bezirksbürgermeister heute kommt?\"\n\n\"Wirklich? Der Bezirksbürgermeister von Neukölln?\" Marco ist aufgeregt.\n\nJan nickt. \"Berlin hat zwölf Bezirke, und jeder Bezirk hat einen eigenen Bezirksbürgermeister. Aber über allen steht der Regierende Bürgermeister von Berlin. Der ist der Chef der Landesregierung — die heißt in Berlin der Senat.\"\n\n\"Moment mal\", sagt Elif. \"Berlin ist doch gleichzeitig eine Stadt und ein Bundesland, oder?\"\n\n\"Genau\", sagt Jan. \"Deshalb hat Berlin auch ein eigenes Landesparlament — das Abgeordnetenhaus. Der Regierende Bürgermeister wird vom Abgeordnetenhaus gewählt.\"\n\nEin Mann im Anzug kommt herein. Es ist der Bezirksbürgermeister. Er schüttelt Marco die Hand. \"Herzlichen Glückwunsch! Ein neuer Imbiss für unseren Bezirk — wunderbar.\"\n\nMarco zeigt stolz auf ein kleines Bild an der Wand — der Berliner Bär. \"Ich habe den Berliner Bären aufgehängt! Das ist doch das Wappentier von Berlin, richtig?\"\n\n\"Stimmt\", sagt der Bezirksbürgermeister. \"Der Bär ist auf dem Berliner Wappen und auf der Flagge — weiß mit einem roten Streifen und dem Berliner Bären.\"\n\nElif lacht. \"Marco, du bist jetzt ein echter Berliner! Du kennst die Symbole besser als manche Leute, die hier geboren sind.\"\n\n\"Allora, ich liebe diese Stadt!\" Marco hebt sein Glas. \"Auf Berlin — auf alle zwölf Bezirke, auf den Berliner Bären, und auf uns! Wir sind aus Neapel, Istanbul und Warschau gekommen, und jetzt sind wir Berliner.\"\n\nJan und Elif heben ihre Gläser. \"Auf Berlin!\"\n\nDer Bezirksbürgermeister lächelt. \"Genau das macht Berlin besonders.\"",
+  "vocab": [
+    {
+      "german": "Imbiss",
+      "english": "food stand / snack bar",
+      "article": "der",
+      "exampleSentence": "Marco eröffnet einen Imbiss in Neukölln.",
+      "exampleTranslation": "Marco opens a food stand in Neukölln."
+    },
+    {
+      "german": "Eröffnung",
+      "english": "opening (ceremony)",
+      "article": "die",
+      "exampleSentence": "Die Eröffnung war ein großes Fest.",
+      "exampleTranslation": "The opening was a big celebration."
+    },
+    {
+      "german": "Regierender Bürgermeister",
+      "english": "Governing Mayor",
+      "article": "der",
+      "exampleSentence": "Der Regierende Bürgermeister ist Chef des Berliner Senats.",
+      "exampleTranslation": "The Governing Mayor is the head of the Berlin Senate."
+    },
+    {
+      "german": "Senat",
+      "english": "senate (Berlin's state government)",
+      "article": "der",
+      "exampleSentence": "Der Senat ist die Landesregierung von Berlin.",
+      "exampleTranslation": "The Senate is the state government of Berlin."
+    },
+    {
+      "german": "Abgeordnetenhaus",
+      "english": "House of Representatives (Berlin's state parliament)",
+      "article": "das",
+      "exampleSentence": "Das Abgeordnetenhaus ist Berlins Landesparlament.",
+      "exampleTranslation": "The Abgeordnetenhaus is Berlin's state parliament."
+    },
+    {
+      "german": "Wappen",
+      "english": "coat of arms",
+      "article": "das",
+      "exampleSentence": "Auf dem Berliner Wappen ist ein Bär.",
+      "exampleTranslation": "There is a bear on the Berlin coat of arms."
+    },
+    {
+      "german": "Wappentier",
+      "english": "heraldic animal",
+      "article": "das",
+      "exampleSentence": "Der Bär ist das Wappentier von Berlin.",
+      "exampleTranslation": "The bear is the heraldic animal of Berlin."
+    },
+    {
+      "german": "Flagge",
+      "english": "flag",
+      "article": "die",
+      "exampleSentence": "Die Berliner Flagge ist weiß mit einem roten Streifen.",
+      "exampleTranslation": "The Berlin flag is white with a red stripe."
+    },
+    {
+      "german": "Bezirksbürgermeister",
+      "english": "district mayor",
+      "article": "der",
+      "exampleSentence": "Jeder Bezirk hat einen eigenen Bezirksbürgermeister.",
+      "exampleTranslation": "Every district has its own district mayor."
+    },
+    {
+      "german": "Landesregierung",
+      "english": "state government",
+      "article": "die",
+      "exampleSentence": "Die Landesregierung von Berlin heißt Senat.",
+      "exampleTranslation": "The state government of Berlin is called the Senate."
+    },
+    {
+      "german": "Bundesland",
+      "english": "federal state",
+      "article": "das",
+      "exampleSentence": "Berlin ist gleichzeitig eine Stadt und ein Bundesland.",
+      "exampleTranslation": "Berlin is both a city and a federal state."
+    },
+    {
+      "german": "Streifen",
+      "english": "stripe",
+      "article": "der",
+      "exampleSentence": "Die Flagge hat einen roten Streifen.",
+      "exampleTranslation": "The flag has a red stripe."
+    }
+  ],
+  "exercises": [
+    {
+      "id": "ch10-ex1",
+      "type": "mcq",
+      "question": "Wie heißt der Chef der Berliner Landesregierung?",
+      "options": ["Bundeskanzler", "Regierender Bürgermeister", "Bezirksbürgermeister", "Bundespräsident"],
+      "correctIndex": 1,
+      "tags": ["bürgermeister", "senat", "lid"],
+      "explanation": "Der Regierende Bürgermeister von Berlin ist der Chef der Landesregierung (Senat). Berlin ist gleichzeitig Stadt und Bundesland.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-ex2",
+      "type": "mcq",
+      "question": "Was ist das Wappentier von Berlin?",
+      "options": ["Ein Adler", "Ein Löwe", "Ein Bär", "Ein Pferd"],
+      "correctIndex": 2,
+      "tags": ["wappen", "symbole", "lid"],
+      "explanation": "Der Berliner Bär ist das Wappentier von Berlin. Er ist auf dem Wappen und der Flagge der Stadt zu sehen.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-ex3",
+      "type": "mcq",
+      "question": "Wie heißt Berlins Landesparlament?",
+      "options": ["Bundestag", "Bundesrat", "Abgeordnetenhaus", "Landtag"],
+      "correctIndex": 2,
+      "tags": ["parlament", "politik", "lid"],
+      "explanation": "Das Abgeordnetenhaus ist das Landesparlament von Berlin. Es wählt den Regierenden Bürgermeister.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-ex4",
+      "type": "mcq",
+      "question": "Wie sieht die Berliner Flagge aus?",
+      "options": ["Blau mit weißem Stern", "Weiß mit rotem Streifen und Berliner Bär", "Rot mit schwarzem Adler", "Grün mit goldenem Löwen"],
+      "correctIndex": 1,
+      "tags": ["flagge", "symbole", "lid"],
+      "explanation": "Die Berliner Flagge ist weiß mit einem roten Streifen und dem Berliner Bären.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-ex5",
+      "type": "fill-blank",
+      "sentence": "Der Regierende Bürgermeister wird vom ___ gewählt.",
+      "answer": "Abgeordnetenhaus",
+      "acceptAlternatives": ["abgeordnetenhaus"],
+      "hint": "Berlins Landesparlament",
+      "tags": ["parlament", "bürgermeister", "lid"],
+      "explanation": "Das Abgeordnetenhaus ist Berlins Landesparlament und wählt den Regierenden Bürgermeister.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch10-ex6",
+      "type": "fill-blank",
+      "sentence": "Der ___ ist das Wappentier von Berlin.",
+      "answer": "Bär",
+      "acceptAlternatives": ["bär", "Berliner Bär"],
+      "hint": "Ein großes Tier — es ist auch auf der Flagge",
+      "tags": ["wappen", "symbole", "lid"],
+      "explanation": "Der Berliner Bär ist das Wappentier und erscheint auf dem Wappen und der Flagge Berlins.",
+      "xpValue": 15
+    },
+    {
+      "id": "ch10-ex7",
+      "type": "fill-blank",
+      "sentence": "Die Landesregierung von Berlin heißt ___.",
+      "answer": "Senat",
+      "acceptAlternatives": ["senat", "der Senat"],
+      "hint": "Ein anderes Wort für Berlins Regierung",
+      "tags": ["senat", "politik", "lid"],
+      "explanation": "In Berlin heißt die Landesregierung 'Senat'. Der Chef des Senats ist der Regierende Bürgermeister.",
+      "xpValue": 15
+    }
+  ],
+  "blitzQuestions": [
+    {
+      "id": "ch10-blitz1",
+      "type": "blitz",
+      "question": "Wie viele Bezirke hat Berlin?",
+      "options": ["10", "12", "14", "16"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["bezirke", "lid"],
+      "explanation": "Berlin hat 12 Bezirke.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-blitz2",
+      "type": "blitz",
+      "question": "Was ist der Berliner Bär?",
+      "options": ["Ein Denkmal", "Das Wappentier", "Ein Restaurant", "Ein Park"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["wappen", "symbole", "lid"],
+      "explanation": "Der Berliner Bär ist das Wappentier von Berlin.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-blitz3",
+      "type": "blitz",
+      "question": "Wie heißt Berlins Landesregierung?",
+      "options": ["Kabinett", "Senat", "Bundestag", "Rat"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["senat", "politik", "lid"],
+      "explanation": "Berlins Landesregierung heißt Senat.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-blitz4",
+      "type": "blitz",
+      "question": "Wer wählt den Regierenden Bürgermeister?",
+      "options": ["Das Volk direkt", "Das Abgeordnetenhaus", "Der Bundestag", "Der Bundesrat"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 10,
+      "tags": ["bürgermeister", "parlament", "lid"],
+      "explanation": "Der Regierende Bürgermeister wird vom Abgeordnetenhaus gewählt.",
+      "xpValue": 10
+    },
+    {
+      "id": "ch10-blitz5",
+      "type": "blitz",
+      "question": "Welche Farben hat die Berliner Flagge?",
+      "options": ["Schwarz und Gold", "Weiß und Rot", "Blau und Weiß", "Grün und Weiß"],
+      "correctIndex": 1,
+      "timeLimitSeconds": 8,
+      "tags": ["flagge", "symbole", "lid"],
+      "explanation": "Die Berliner Flagge ist weiß mit einem roten Streifen und dem Berliner Bären.",
+      "xpValue": 10
+    }
+  ],
+  "lidTopics": ["lid-14", "lid-16"]
+}
